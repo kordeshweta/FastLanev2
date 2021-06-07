@@ -1,0 +1,18 @@
+<svg id="Component_6_1" data-name="Component 6 – 1" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #a7a7a7;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_34437" data-name="Rectangle 34437" class="cls-1" width="22" height="22"/>
+  <g id="Group_114581" data-name="Group 114581" transform="translate(5.78 5.274)">
+    <path id="Union_1" data-name="Union 1" class="cls-2" d="M2.235,10.218V4.087h1.49v6.131ZM0,4.087,2.98,0,5.96,4.087Z" transform="translate(0.22 -0.274)"/>
+    <path id="Union_2" data-name="Union 2" class="cls-2" d="M2.206,10.3V4.118H3.677V10.3ZM0,4.118,2.942,0,5.884,4.118Z" transform="translate(11.015 11.726) rotate(180)"/>
+  </g>
+</svg>

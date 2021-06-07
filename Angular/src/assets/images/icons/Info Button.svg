@@ -1,0 +1,29 @@
+<svg id="Component_170_2" data-name="Component 170 – 2" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #454545;
+      }
+
+      .cls-2 {
+        fill: #454545;
+        font-size: 13px;
+        font-family: Calibri;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Ellipse_50" data-name="Ellipse 50" class="cls-1">
+    <circle class="cls-3" cx="8.5" cy="8.5" r="8.5"/>
+    <circle class="cls-4" cx="8.5" cy="8.5" r="8"/>
+  </g>
+  <text id="i" class="cls-2" transform="translate(7 12)"><tspan x="0" y="0">i</tspan></text>
+</svg>

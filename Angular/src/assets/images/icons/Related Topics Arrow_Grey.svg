@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 7 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #aaa;
+        stroke: #aaa;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <path id="Union_12" data-name="Union 12" class="cls-1" d="M0,0,5,5ZM0,10,5,5Z" transform="translate(1 1)"/>
+</svg>

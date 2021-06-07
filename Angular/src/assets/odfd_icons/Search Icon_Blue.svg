@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1c5dd8;
+      }
+    </style>
+  </defs>
+  <path id="magnify" class="cls-1" d="M8.571,3a5.575,5.575,0,0,1,4.234,9.2l.231.231h.677L18,16.714,16.714,18l-4.286-4.286v-.677l-.231-.231A5.573,5.573,0,1,1,8.571,3m0,1.714a3.857,3.857,0,1,0,3.857,3.857A3.841,3.841,0,0,0,8.571,4.714Z" transform="translate(-3 -3)"/>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="51" viewBox="0 0 50 51">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-5, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #454545;
+      }
+
+      .cls-2, .cls-3, .cls-5, .cls-6 {
+        stroke: #454545;
+      }
+
+      .cls-3, .cls-6 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3, .cls-5, .cls-6 {
+        stroke-width: 2.5px;
+      }
+
+      .cls-5, .cls-6 {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <g id="Group_114710" data-name="Group 114710" transform="translate(0 0.5)">
+    <rect id="Rectangle_34396" data-name="Rectangle 34396" class="cls-1" width="50" height="50" transform="translate(0 0.4)"/>
+    <g id="Group_114689" data-name="Group 114689" transform="translate(2)">
+      <path id="Path_100907" data-name="Path 100907" class="cls-2" d="M531.632,2785.954a5.74,5.74,0,1,0-.734-1.267m0,15.718a5.787,5.787,0,1,0,.734-1.268m-13.585,6.912a5.761,5.761,0,1,0,1.465,0m3.564,5.725a4.3,4.3,0,1,1-4.3-4.308A4.307,4.307,0,0,1,523.075,2811.773Zm13.136-13.447a4.307,4.307,0,1,1-4.3,4.307A4.306,4.306,0,0,1,536.211,2798.326Zm0-20.175a4.307,4.307,0,1,1-4.3,4.307A4.306,4.306,0,0,1,536.211,2778.151Z" transform="translate(-495.586 -2767.546)"/>
+      <path id="Path_100908" data-name="Path 100908" class="cls-2" d="M496.415,2794.15a5.747,5.747,0,1,0,.734,1.267m0-15.718a5.785,5.785,0,1,0-.734,1.267M511,2774.055a5.761,5.761,0,1,0-1.465,0m-17.7,27.9a4.307,4.307,0,1,1,4.3-4.308A4.306,4.306,0,0,1,491.835,2801.954Zm14.137-33.623a4.3,4.3,0,1,1,4.3,4.308A4.307,4.307,0,0,1,505.972,2768.332Zm-14.136,4.833a4.307,4.307,0,1,1-4.3,4.307A4.306,4.306,0,0,1,491.836,2773.164Z" transform="translate(-486.075 -2762.559)"/>
+      <circle id="Ellipse_58" data-name="Ellipse 58" class="cls-3" cx="10.068" cy="10.068" r="10.068" transform="translate(13.172 14.932)"/>
+      <rect id="Rectangle_34461" data-name="Rectangle 34461" class="cls-4" width="2.559" height="4.307" transform="translate(24.02 39.395) rotate(180)"/>
+      <rect id="Rectangle_34462" data-name="Rectangle 34462" class="cls-4" width="2.559" height="4.307" transform="translate(25.02 14.912) rotate(180)"/>
+      <rect id="Rectangle_34463" data-name="Rectangle 34463" class="cls-4" width="2.559" height="4.307" transform="translate(33.099 21.149) rotate(-120)"/>
+      <rect id="Rectangle_34464" data-name="Rectangle 34464" class="cls-4" width="2.559" height="4.307" transform="translate(11.269 33.867) rotate(-120)"/>
+      <rect id="Rectangle_34465" data-name="Rectangle 34465" class="cls-4" width="2.559" height="4.788" transform="translate(15.065 18.527) rotate(120)"/>
+      <rect id="Rectangle_34466" data-name="Rectangle 34466" class="cls-4" width="2.559" height="4.307" transform="translate(36.671 31.188) rotate(120)"/>
+      <path id="Path_100913" data-name="Path 100913" class="cls-5" d="M0,0H5.862" transform="translate(20.532 23.058)"/>
+      <line id="Line_88013" data-name="Line 88013" class="cls-6" x2="7.798" transform="translate(19.565 27.564)"/>
+    </g>
+  </g>
+</svg>

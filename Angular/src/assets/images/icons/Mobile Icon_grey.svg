@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dbdbdb;
+        stroke: #dbdbdb;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_114894" data-name="Group 114894" transform="translate(-1610 -485)">
+    <g id="Ellipse_50" data-name="Ellipse 50" class="cls-1" transform="translate(1610 485)">
+      <circle class="cls-4" cx="17" cy="17" r="17"/>
+      <circle class="cls-5" cx="17" cy="17" r="16.5"/>
+    </g>
+    <g id="Group_50" transform="translate(1622.453 494.064)">
+      <g id="Regular_50" transform="translate(0.001)">
+        <path id="Rectangle-path_14" class="cls-2" d="M437.249,264.985a2.234,2.234,0,0,1,2.235-2.235h5.587a2.234,2.234,0,0,1,2.235,2.235v12.29a2.234,2.234,0,0,1-2.235,2.235h-5.587a2.234,2.234,0,0,1-2.235-2.235Z" transform="translate(-437.249 -262.75)"/>
+        <path id="Shape_239" class="cls-3" d="M437.249,280.75H447.3" transform="translate(-437.249 -267.343)"/>
+      </g>
+    </g>
+  </g>
+</svg>

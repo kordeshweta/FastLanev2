@@ -1,0 +1,39 @@
+{
+  "name": "fastlane",
+  "version": "1.0.0",
+  "description": "This project is a repository for reusable components, best practices and solutions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=1 && nodemon index.js",
+    "debug": "set NODE_ENV=1 && node --inspect-brk index.js",
+    "uat": "set NODE_ENV=2 && nodemon index.js",
+    "prod": "set NODE_ENV=3 && nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sheetal Shinde <Sheetal.Shinde@lntinfotech.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "express-validator": "^6.6.0",
+    "helmet": "^4.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.12"
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "moment": "^2.29.1",
+    "node-zip": "^1.1.1",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "underscore": "^1.13.1",
+    "util": "^0.12.3"
+  }
+}

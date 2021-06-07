@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Selected_Components" data-name="Selected/Components" transform="translate(1260 730)">
+    <rect id="Rectangle_33" data-name="Rectangle 33" width="40" height="40" transform="translate(-1260 -730)" fill="none"/>
+    <g id="Components_Deselected" data-name="Components/Deselected" transform="translate(-1050.547 -1168.547)">
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="10" height="10" rx="2" transform="translate(-203.453 444.547)" fill="#2b2d71"/>
+      <rect id="Rectangle_12" data-name="Rectangle 12" width="17" height="9" rx="2" transform="translate(-192.453 463.547)" fill="#2b2d71"/>
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="17" height="17" rx="2" transform="translate(-192.453 444.547)" fill="#2b2d71"/>
+      <rect id="Rectangle_11" data-name="Rectangle 11" width="10" height="17" rx="2" transform="translate(-203.453 455.547)" fill="#2b2d71"/>
+    </g>
+  </g>
+</svg>

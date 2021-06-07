@@ -1,0 +1,16 @@
+<svg id="Component_4_8" data-name="Component 4 – 8" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #a7a7a7;
+        opacity: 0.75;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_34437" data-name="Rectangle 34437" class="cls-1" width="22" height="22"/>
+  <path id="Icon_awesome-filter" data-name="Icon awesome-filter" class="cls-2" d="M11.437,0H.563a.563.563,0,0,0-.4.96L4.5,5.3v4.83a.563.563,0,0,0,.24.461L6.615,11.9a.563.563,0,0,0,.885-.461V5.3L11.835.96A.563.563,0,0,0,11.437,0Z" transform="translate(5 5.007)"/>
+</svg>

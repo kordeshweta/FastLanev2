@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="230" height="24" viewBox="0 0 230 24">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: #2b2d71;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: Avenir-Book, Avenir;
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 12px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #1c5dd8;
+      }
+
+      .cls-3 {
+        font-family: Avenir-Light, Avenir;
+        font-weight: 300;
+        opacity: 0.4;
+      }
+
+      .cls-4 {
+        opacity: 0.1;
+      }
+
+      .cls-5, .cls-6 {
+        opacity: 0.75;
+      }
+    </style>
+  </defs>
+  <g id="Group_114575" data-name="Group 114575" transform="translate(-1058 -951)">
+    <rect id="Rectangle_34435" data-name="Rectangle 34435" class="cls-1" width="24" height="24" rx="4" transform="translate(1126 951)"/>
+    <text id="_1" data-name="1" class="cls-2" transform="translate(1135 967)"><tspan x="0" y="0">1</tspan></text>
+    <text id="_2" data-name="2" class="cls-3" transform="translate(1162 967)"><tspan x="0" y="0">2</tspan></text>
+    <text id="_3" data-name="3" class="cls-3" transform="translate(1188 967)"><tspan x="0" y="0">3</tspan></text>
+    <text id="_4" data-name="4" class="cls-3" transform="translate(1214 967)"><tspan x="0" y="0">4</tspan></text>
+    <rect id="Rectangle_34432" data-name="Rectangle 34432" class="cls-4" width="24" height="24" rx="4" transform="translate(1092 951)"/>
+    <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" class="cls-5" d="M5.951,5.541l4.5-5.25a.765.765,0,0,1,1.2,0,1.121,1.121,0,0,1,0,1.4l-5.1,5.948a.764.764,0,0,1-1.173.029L.248,1.7A1.082,1.082,0,0,1,0,1,1.082,1.082,0,0,1,.248.3a.765.765,0,0,1,1.2,0Z" transform="translate(1107.932 957) rotate(90)"/>
+    <rect id="Rectangle_34432-2" data-name="Rectangle 34432" class="cls-4" width="24" height="24" rx="4" transform="translate(1230 951)"/>
+    <path id="Icon_ionic-ios-arrow-down-2" data-name="Icon ionic-ios-arrow-down" class="cls-5" d="M5.951,2.391l4.5,5.249a.765.765,0,0,0,1.2,0,1.121,1.121,0,0,0,0-1.4L6.553.289A.764.764,0,0,0,5.381.26L.248,6.232a1.118,1.118,0,0,0,0,1.4.765.765,0,0,0,1.2,0Z" transform="translate(1245.932 957) rotate(90)"/>
+    <rect id="Rectangle_34432-3" data-name="Rectangle 34432" class="cls-4" width="24" height="24" rx="4" transform="translate(1058 951)"/>
+    <g id="Group_114572" data-name="Group 114572" class="cls-6" transform="translate(33.501 -3.404)">
+      <path id="Icon_ionic-ios-arrow-down-3" data-name="Icon ionic-ios-arrow-down" class="cls-1" d="M5.951,5.541l4.5-5.25a.765.765,0,0,1,1.2,0,1.121,1.121,0,0,1,0,1.4l-5.1,5.948a.764.764,0,0,1-1.173.029L.248,1.7A1.082,1.082,0,0,1,0,1,1.082,1.082,0,0,1,.248.3a.765.765,0,0,1,1.2,0Z" transform="translate(1037.43 960.404) rotate(90)"/>
+      <path id="Icon_ionic-ios-arrow-down-4" data-name="Icon ionic-ios-arrow-down" class="cls-1" d="M5.951,5.541l4.5-5.25a.765.765,0,0,1,1.2,0,1.121,1.121,0,0,1,0,1.4l-5.1,5.948a.764.764,0,0,1-1.173.029L.248,1.7A1.082,1.082,0,0,1,0,1,1.082,1.082,0,0,1,.248.3a.765.765,0,0,1,1.2,0Z" transform="translate(1043.43 960.404) rotate(90)"/>
+    </g>
+    <rect id="Rectangle_34432-4" data-name="Rectangle 34432" class="cls-4" width="24" height="24" rx="4" transform="translate(1264 951)"/>
+    <g id="Group_114574" data-name="Group 114574" class="cls-6" transform="translate(-3.498 -3.404)">
+      <path id="Icon_ionic-ios-arrow-down-5" data-name="Icon ionic-ios-arrow-down" class="cls-1" d="M5.951,2.391l4.5,5.249a.765.765,0,0,0,1.2,0,1.121,1.121,0,0,0,0-1.4L6.553.289A.764.764,0,0,0,5.381.26L.248,6.232a1.118,1.118,0,0,0,0,1.4.765.765,0,0,0,1.2,0Z" transform="translate(1286.43 960.404) rotate(90)"/>
+      <path id="Icon_ionic-ios-arrow-down-6" data-name="Icon ionic-ios-arrow-down" class="cls-1" d="M5.951,2.391l4.5,5.249a.765.765,0,0,0,1.2,0,1.121,1.121,0,0,0,0-1.4L6.553.289A.764.764,0,0,0,5.381.26L.248,6.232a1.118,1.118,0,0,0,0,1.4.765.765,0,0,0,1.2,0Z" transform="translate(1280.43 960.404) rotate(90)"/>
+    </g>
+  </g>
+</svg>

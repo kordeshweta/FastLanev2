@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.5" height="30.5" viewBox="0 0 30.5 30.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #2b2d71;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2.5px;
+      }
+    </style>
+  </defs>
+  <g id="Components_Deselected" data-name="Components/Deselected" transform="translate(1.25 1.25)">
+    <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-1" width="8" height="10" rx="2"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" class="cls-1" width="17" height="9" rx="2" transform="translate(11 19)"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" class="cls-1" width="17" height="16" rx="2" transform="translate(11)"/>
+    <rect id="Rectangle_11" data-name="Rectangle 11" class="cls-1" width="8" height="15" rx="2" transform="translate(0 13)"/>
+  </g>
+</svg>

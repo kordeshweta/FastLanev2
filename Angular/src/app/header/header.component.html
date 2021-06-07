@@ -1,0 +1,35 @@
+<header class="header">
+    <div class="side-nav">
+        MENU
+    </div>
+
+    <div class="logo">
+        <img alt="LTI" src="../../favicon.ico" />
+    </div>
+
+    <nav class="DesktopOnly">
+        <ul class="navigationItems">
+            <li class="navigationItem">
+                <a>Link1</a>
+            </li>
+            <li class="navigationItem">
+                <a>Link2</a>
+            </li>
+            <li class="navigationItem">
+                <a>Link3</a>
+            </li>
+            <li class="navigationItem">
+                <a>Link4</a>
+            </li>
+            <li class="navigationItem">
+                <div class="profile">
+                    <mat-icon [matMenuTriggerFor]="menu">account_circle</mat-icon>
+                    <mat-menu #menu="matMenu" class="menu-Holder">
+                      <!-- <button mat-menu-item>Profile</button> -->
+                      <button mat-menu-item (click)="logout()">Logout</button>
+                    </mat-menu>
+                </div>
+            </li>
+        </ul>
+    </nav>
+</header>
