@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="165" height="24" viewBox="0 0 165 24">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #2b2d71;
+      }
+
+      .cls-1 {
+        font-size: 12px;
+        font-family: AvenirNext-Regular, Avenir Next;
+      }
+
+      .cls-2 {
+        fill: #1c5dd8;
+        opacity: 0.1;
+      }
+    </style>
+  </defs>
+  <g id="Group_114879" data-name="Group 114879" transform="translate(-133 -953)">
+    <g id="Group_114576" data-name="Group 114576" transform="translate(0 -1)">
+      <text id="Showing_1_-_10_of_30" data-name="Showing 1 - 10 of 30" class="cls-1" transform="translate(133 970)"><tspan x="0" y="0">Showing 1 - 10 of 30</tspan></text>
+      <g id="Component_133_1" data-name="Component 133 – 1" transform="translate(253 954)">
+        <rect id="Rectangle_34436" data-name="Rectangle 34436" class="cls-2" width="45" height="24" rx="4"/>
+        <g id="Group_114571" data-name="Group 114571" transform="translate(9 4)">
+          <text id="_10" data-name="10" class="cls-1" transform="translate(0 12)"><tspan x="0" y="0">10</tspan></text>
+          <path id="Path_3729" data-name="Path 3729" class="cls-3" d="M.124.161.178.11A.4.4,0,0,1,.741.123L3.974,3.49a.4.4,0,0,1,0,.553L.742,7.41a.4.4,0,0,1-.563.014L.124,7.372a.4.4,0,0,1-.013-.566L2.764,4.044a.4.4,0,0,0,0-.554L.112.728A.4.4,0,0,1,.124.161Z" transform="translate(27.534 5.915) rotate(90)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

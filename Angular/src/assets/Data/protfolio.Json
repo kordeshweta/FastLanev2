@@ -1,0 +1,28 @@
+{
+  "protfolios": [
+    {
+      "id": 1,
+      "cName":  "Repository",
+      "thumbnails": "./assets/Data/Protfolio/Repository (1).png",
+      "subCategories": ["Mobility", "WCM", "Front End UI", "ECM", "All"]
+    },
+    {
+      "id": 2,
+      "cName":  "UX Habitat",
+      "thumbnails": "./assets/Data/Protfolio/UX Habitat (1).png",
+      "subCategories": ["Mobility", "WCM", "Front End UI", "ECM", "All"]
+    },
+    {
+      "id":4,
+      "cName":  "Renaissance",
+      "thumbnails": "./assets/Data/Protfolio/Renaissance (1).png",
+      "subCategories": ["Mobility","WCM", "Front End UI", "User Experience", "ECM"]
+    },
+    {
+      "id": 5,
+      "cName":  "Estimation",
+      "thumbnails": "./assets/Data/Protfolio/Estimation (1).png",
+      "subCategories": ["PCM sheet estimation", "Screen Count estimation"]
+    }
+  ]
+}

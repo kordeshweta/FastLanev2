@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1c5dd8;
+        opacity: 0.1;
+      }
+
+      .cls-2 {
+        opacity: 0.75;
+      }
+
+      .cls-3 {
+        fill: #2b2d71;
+      }
+    </style>
+  </defs>
+  <g id="Group_114881" data-name="Group 114881" transform="translate(-1058 -951)">
+    <rect id="Rectangle_34432" data-name="Rectangle 34432" class="cls-1" width="24" height="24" rx="4" transform="translate(1058 951)"/>
+    <g id="Group_114572" data-name="Group 114572" class="cls-2" transform="translate(33.501 -3.404)">
+      <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" class="cls-3" d="M5.951,5.541l4.5-5.25a.765.765,0,0,1,1.2,0,1.121,1.121,0,0,1,0,1.4l-5.1,5.948a.764.764,0,0,1-1.173.029L.248,1.7A1.082,1.082,0,0,1,0,1,1.082,1.082,0,0,1,.248.3a.765.765,0,0,1,1.2,0Z" transform="translate(1037.43 960.404) rotate(90)"/>
+      <path id="Icon_ionic-ios-arrow-down-2" data-name="Icon ionic-ios-arrow-down" class="cls-3" d="M5.951,5.541l4.5-5.25a.765.765,0,0,1,1.2,0,1.121,1.121,0,0,1,0,1.4l-5.1,5.948a.764.764,0,0,1-1.173.029L.248,1.7A1.082,1.082,0,0,1,0,1,1.082,1.082,0,0,1,.248.3a.765.765,0,0,1,1.2,0Z" transform="translate(1043.43 960.404) rotate(90)"/>
+    </g>
+  </g>
+</svg>

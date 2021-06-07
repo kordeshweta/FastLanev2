@@ -1,0 +1,321 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1493.2" height="1208" viewBox="0 0 1493.2 1208">
+  <g id="Group_114888" data-name="Group 114888" transform="translate(-206.9 -84)">
+    <path id="Base" d="M-10,0H1483.2V1208H-10Z" transform="translate(216.9 84)" fill="#fff"/>
+    <text id="Information_Hierarchy" data-name="Information Hierarchy" transform="translate(247.381 162)" fill="#454545" font-size="35" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Information Hierarchy</tspan></text>
+    <rect id="Rectangle_16" data-name="Rectangle 16" width="16" height="14.686" rx="2" transform="translate(1463.002 156) rotate(-90)" fill="#ff7627" opacity="0.3"/>
+    <text id="Process" transform="translate(1488 151.5)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Category</tspan></text>
+    <rect id="Rectangle_18" data-name="Rectangle 18" width="16" height="15" rx="2" transform="translate(1555 156) rotate(-90)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+    <text id="Process-2" data-name="Process" transform="translate(1580 152)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Sub Category</tspan></text>
+    <text id="Process-3" data-name="Process" transform="translate(1412 151.5)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Phase</tspan></text>
+    <rect id="Rectangle_16-2" data-name="Rectangle 16" width="16" height="14.686" rx="2" transform="translate(1387 156) rotate(-90)" fill="#777"/>
+    <g id="Group_114889" data-name="Group 114889" transform="translate(-21.1)">
+      <text id="Start_End" data-name="Start/End" transform="translate(1119 222)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Single Sign On</tspan></text>
+      <rect id="Rectangle_16-3" data-name="Rectangle 16" width="155" height="33" rx="4" transform="translate(886 182)"/>
+      <text id="Problem" transform="translate(915 204)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">User Experience</tspan></text>
+      <path id="Path_2286" data-name="Path 2286" d="M646,100v69.729" transform="translate(317 115)" fill="none" stroke="#000" stroke-width="1"/>
+      <rect id="Rectangle_18-2" data-name="Rectangle 18" width="190" height="27" rx="4" transform="translate(1498.5 726.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-3" data-name="Rectangle 18" width="145" height="27" rx="4" transform="translate(1498.5 431)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-4" data-name="Rectangle 18" width="145" height="27" rx="4" transform="translate(1498 467.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-5" data-name="Rectangle 18" width="173" height="27" rx="4" transform="translate(1498.5 689.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-6" data-name="Rectangle 18" width="145" height="27" rx="4" transform="translate(1498 504.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-7" data-name="Rectangle 18" width="145" height="27" rx="4" transform="translate(1498 541.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-8" data-name="Rectangle 18" width="145" height="27" rx="4" transform="translate(1498.5 615.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-9" data-name="Rectangle 18" width="145" height="27" rx="4" transform="translate(1498.5 578.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-10" data-name="Rectangle 18" width="146" height="27" rx="4" transform="translate(1498.5 652.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-4" data-name="Process" transform="translate(1505 743.5)" fill="#070000" font-size="13" font-family="Calibri"><tspan x="0" y="0">Moderated-Unmoderated Testing</tspan></text>
+      <text id="Process-5" data-name="Process" transform="translate(1506 706.5)" fill="#070000" font-size="13" font-family="Calibri"><tspan x="0" y="0">In-person and Remote Testing</tspan></text>
+      <text id="Process-6" data-name="Process" transform="translate(1542 448)" fill="#070000" font-size="13" font-family="Calibri"><tspan x="0" y="0">A/B Testing</tspan></text>
+      <text id="Process-7" data-name="Process" transform="translate(1523 484.5)" fill="#070000" font-size="13" font-family="Calibri"><tspan x="0" y="0">Contextual Inquiry</tspan></text>
+      <text id="Process-8" data-name="Process" transform="translate(1522 521.5)" fill="#070000" font-size="13" font-family="Calibri"><tspan x="0" y="0">Benchmark Testing</tspan></text>
+      <text id="Process-9" data-name="Process" transform="translate(1538 558.5)" fill="#070000" font-size="13" font-family="Calibri"><tspan x="0" y="0">Eye Tracking</tspan></text>
+      <text id="Process-10" data-name="Process" transform="translate(1504 632.5)" fill="#070000" font-size="13" font-family="Calibri"><tspan x="0" y="0">Guerrilla Usability Testing</tspan></text>
+      <text id="Process-11" data-name="Process" transform="translate(1516 595.5)" fill="#070000" font-size="13" font-family="Calibri"><tspan x="0" y="0">Think Aloud Protocol</tspan></text>
+      <text id="Process-12" data-name="Process" transform="translate(1505 669.5)" fill="#070000" font-size="13" font-family="Calibri"><tspan x="0" y="0">Accessibility in UX Design</tspan></text>
+      <rect id="Rectangle_16-4" data-name="Rectangle 16" width="155" height="33" rx="4" transform="translate(1450 388)" fill="#ff7627" opacity="0.3"/>
+      <text id="Process-13" data-name="Process" transform="translate(1485 408)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Usability Testing</tspan></text>
+      <rect id="Rectangle_18-11" data-name="Rectangle 18" width="116" height="27" rx="4" transform="translate(1215 555)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-14" data-name="Process" transform="translate(1225 572)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Micro Interactions</tspan></text>
+      <rect id="Rectangle_18-12" data-name="Rectangle 18" width="116" height="27" rx="4" transform="translate(1215 590)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-15" data-name="Process" transform="translate(1223 607)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Macro Interactions</tspan></text>
+      <rect id="Rectangle_18-13" data-name="Rectangle 18" width="150" height="27" rx="4" transform="translate(1215 431)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-14" data-name="Rectangle 18" width="150" height="27" rx="4" transform="translate(1215.5 466)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-16" data-name="Process" transform="translate(1226 448)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Low Fidelity Prototyping</tspan></text>
+      <text id="Process-17" data-name="Process" transform="translate(1225 483)" font-size="13" font-family="Calibri"><tspan x="0" y="0">High Fidelity Prototyping</tspan></text>
+      <rect id="Rectangle_16-5" data-name="Rectangle 16" width="155" height="33" rx="4" transform="translate(1166 388)" fill="#ff7627" opacity="0.3"/>
+      <rect id="Rectangle_16-6" data-name="Rectangle 16" width="155" height="33" rx="4" transform="translate(1165 512)" fill="#ff7627" opacity="0.3"/>
+      <text id="Process-18" data-name="Process" transform="translate(1185 408)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Interactive Prototypes</tspan></text>
+      <text id="Process-19" data-name="Process" transform="translate(1190 532)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Interaction Design</tspan></text>
+      <rect id="Rectangle_18-15" data-name="Rectangle 18" width="134" height="27" rx="4" transform="translate(646.5 560)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-16" data-name="Rectangle 18" width="133" height="27" rx="4" transform="translate(647.5 597)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-20" data-name="Process" transform="translate(664 577)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Open Card Sorting</tspan></text>
+      <text id="Process-21" data-name="Process" transform="translate(661 614)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Closed Card Sorting</tspan></text>
+      <rect id="Rectangle_18-17" data-name="Rectangle 18" width="133" height="27" rx="4" transform="translate(932.5 789.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-22" data-name="Process" transform="translate(954 806.5)" fill="#070000" font-size="13" font-family="Calibri"><tspan x="0" y="0">Brand Guidelines</tspan></text>
+      <rect id="Rectangle_18-18" data-name="Rectangle 18" width="155" height="33" rx="4" transform="translate(882 388)" fill="#ff7627" opacity="0.3"/>
+      <text id="Process-23" data-name="Process" transform="translate(933 408)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Task Flow</tspan></text>
+      <rect id="Rectangle_18-19" data-name="Rectangle 18" width="155" height="33" rx="4" transform="translate(597 388)" fill="#ff7627" opacity="0.3"/>
+      <text id="Process-24" data-name="Process" transform="translate(638 408)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Brainstorming</tspan></text>
+      <rect id="Rectangle_18-20" data-name="Rectangle 18" width="180" height="27" rx="4" transform="translate(932.5 603.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-25" data-name="Process" transform="translate(946 620.5)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Low Fidelity (Quick Sketches)</tspan></text>
+      <rect id="Rectangle_18-21" data-name="Rectangle 18" width="155" height="27" rx="4" transform="translate(363.5 431.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-22" data-name="Rectangle 18" width="155" height="27" rx="4" transform="translate(363.5 606)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-23" data-name="Rectangle 18" width="133" height="27" rx="4" transform="translate(932.5 824.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-26" data-name="Process" transform="translate(966 841.5)" fill="#070000" font-size="13" font-family="Calibri"><tspan x="0" y="0">Style Guides</tspan></text>
+      <rect id="Rectangle_18-24" data-name="Rectangle 18" width="155" height="33" rx="4" transform="translate(882 431)" fill="#ff7627" opacity="0.3"/>
+      <text id="Process-27" data-name="Process" transform="translate(932 451)" font-size="13" font-family="Calibri"><tspan x="0" y="0">User Flow</tspan></text>
+      <rect id="Rectangle_18-25" data-name="Rectangle 18" width="133" height="27" rx="4" transform="translate(932 638)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-28" data-name="Process" transform="translate(966 655)" font-size="13" font-family="Calibri"><tspan x="0" y="0">High Fidelity</tspan></text>
+      <rect id="Rectangle_18-26" data-name="Rectangle 18" width="133" height="27" rx="4" transform="translate(932 673)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-27" data-name="Rectangle 18" width="133" height="27" rx="4" transform="translate(932 709)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-29" data-name="Process" transform="translate(981 690)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Layout</tspan></text>
+      <text id="Process-30" data-name="Process" transform="translate(985 726)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Grids</tspan></text>
+      <rect id="Rectangle_18-28" data-name="Rectangle 18" width="155" height="27" rx="4" transform="translate(363.5 898.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-29" data-name="Rectangle 18" width="155" height="27" rx="4" transform="translate(363.5 466)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-30" data-name="Rectangle 18" width="185" height="27" rx="4" transform="translate(932.5 1065)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-31" data-name="Process" transform="translate(949 1082)" fill="#070000" font-size="13" font-family="Calibri"><tspan x="0" y="0">Common Components Library</tspan></text>
+      <rect id="Rectangle_18-31" data-name="Rectangle 18" width="133" height="27" rx="4" transform="translate(932 858)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-32" data-name="Process" transform="translate(960 875)" fill="#070000" font-size="13" font-family="Calibri"><tspan x="0" y="0">Image Library</tspan></text>
+      <rect id="Rectangle_18-32" data-name="Rectangle 18" width="155" height="27" rx="4" transform="translate(363.5 501)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-33" data-name="Rectangle 18" width="133" height="27" rx="4" transform="translate(932 893)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-33" data-name="Process" transform="translate(963 910)" fill="#070000" font-size="13" font-family="Calibri"><tspan x="0" y="0">Iconography</tspan></text>
+      <rect id="Rectangle_18-34" data-name="Rectangle 18" width="155" height="33" rx="4" transform="translate(597 633)" fill="#ff7627" opacity="0.3"/>
+      <rect id="Rectangle_18-35" data-name="Rectangle 18" width="155" height="33" rx="4" transform="translate(597 676)" fill="#ff7627" opacity="0.3"/>
+      <text id="Process-34" data-name="Process" transform="translate(638 653)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Empathy Map</tspan></text>
+      <text id="Process-35" data-name="Process" transform="translate(642 696)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Affinity Map</tspan></text>
+      <rect id="Rectangle_18-36" data-name="Rectangle 18" width="133" height="27" rx="4" transform="translate(932 927)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-36" data-name="Process" transform="translate(966 944)" fill="#070000" font-size="13" font-family="Calibri"><tspan x="0" y="0">Illustrations</tspan></text>
+      <rect id="Rectangle_18-37" data-name="Rectangle 18" width="155" height="27" rx="4" transform="translate(363.5 536)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-38" data-name="Rectangle 18" width="155" height="27" rx="4" transform="translate(363.5 641)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-39" data-name="Rectangle 18" width="133" height="27" rx="4" transform="translate(932 962)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-37" data-name="Process" transform="translate(963 979)" fill="#070000" font-size="13" font-family="Calibri"><tspan x="0" y="0">Infographics</tspan></text>
+      <rect id="Rectangle_18-40" data-name="Rectangle 18" width="155" height="27" rx="4" transform="translate(363 935)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-41" data-name="Rectangle 18" width="155" height="27" rx="4" transform="translate(363.5 676)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-42" data-name="Rectangle 18" width="133" height="27" rx="4" transform="translate(932.5 996)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-38" data-name="Process" transform="translate(948 1013)" fill="#070000" font-size="13" font-family="Calibri"><tspan x="0" y="0">Data Visualization</tspan></text>
+      <rect id="Rectangle_18-43" data-name="Rectangle 18" width="155" height="27" rx="4" transform="translate(363 972)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-44" data-name="Rectangle 18" width="175" height="27" rx="4" transform="translate(363.5 1009)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-39" data-name="Process" transform="translate(396 915.5)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Process Mapping</tspan></text>
+      <text id="Process-40" data-name="Process" transform="translate(395 952)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Heuristic Method</tspan></text>
+      <text id="Process-41" data-name="Process" transform="translate(394 989)" font-size="13" font-family="Calibri"><tspan x="0" y="0">UX Expert Review</tspan></text>
+      <text id="Process-42" data-name="Process" transform="translate(368 1026)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Usability Evaluation Techniques</tspan></text>
+      <rect id="Rectangle_18-45" data-name="Rectangle 18" width="155" height="27" rx="4" transform="translate(363.5 571)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-43" data-name="Process" transform="translate(390 448.5)" font-size="13" font-family="Calibri"><tspan x="0" y="0">User Questionnaire</tspan></text>
+      <text id="Process-44" data-name="Process" transform="translate(393 623)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Contextual Inquiry</tspan></text>
+      <text id="Process-45" data-name="Process" transform="translate(401 483)" font-size="13" font-family="Calibri"><tspan x="0" y="0">User Interview</tspan></text>
+      <text id="Process-46" data-name="Process" transform="translate(412 518)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Case Study</tspan></text>
+      <text id="Process-47" data-name="Process" transform="translate(406 553)" font-size="13" font-family="Calibri"><tspan x="0" y="0">User Persona</tspan></text>
+      <text id="Process-48" data-name="Process" transform="translate(372 658)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Quantitative Data Analysis</tspan></text>
+      <text id="Process-49" data-name="Process" transform="translate(376 693)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Qualitative Data Analysis</tspan></text>
+      <text id="Process-50" data-name="Process" transform="translate(410 588)" font-size="13" font-family="Calibri"><tspan x="0" y="0">User Stories</tspan></text>
+      <rect id="Rectangle_18-46" data-name="Rectangle 18" width="133" height="27" rx="4" transform="translate(932.5 1031)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-51" data-name="Process" transform="translate(942 1048)" fill="#070000" font-size="13" font-family="Calibri"><tspan x="0" y="0">Fonts and Typography</tspan></text>
+      <rect id="Rectangle_16-7" data-name="Rectangle 16" width="155" height="33" rx="4" transform="translate(882 746)" fill="#ff7627" opacity="0.3"/>
+      <rect id="Rectangle_16-8" data-name="Rectangle 16" width="155" height="33" rx="4" transform="translate(882 1102)" fill="#ff7627" opacity="0.3"/>
+      <rect id="Rectangle_16-9" data-name="Rectangle 16" width="155" height="33" rx="4" transform="translate(882 1219)" fill="#ff7627" opacity="0.3"/>
+      <text id="Process-52" data-name="Process" transform="translate(925 766)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Visual Design</tspan></text>
+      <text id="Process-53" data-name="Process" transform="translate(926 1123)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Task Analysis</tspan></text>
+      <text id="Process-54" data-name="Process" transform="translate(925 1240)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Journey Map</tspan></text>
+      <rect id="Rectangle_16-10" data-name="Rectangle 16" width="155" height="33" rx="4" transform="translate(597 431)" fill="#ff7627" opacity="0.3"/>
+      <text id="Process-55" data-name="Process" transform="translate(636 451)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Mind Mapping</tspan></text>
+      <rect id="Rectangle_16-11" data-name="Rectangle 16" width="155" height="33" rx="4" transform="translate(313 855)" fill="#ff7627" opacity="0.3"/>
+      <rect id="Rectangle_16-12" data-name="Rectangle 16" width="155" height="33" rx="4" transform="translate(597 517)" fill="#ff7627" opacity="0.3"/>
+      <text id="Process-56" data-name="Process" transform="translate(345 875)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Usability Analysis</tspan></text>
+      <text id="Process-57" data-name="Process" transform="translate(642 537)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Card Sorting</tspan></text>
+      <rect id="Rectangle_16-13" data-name="Rectangle 16" width="155" height="33" rx="4" transform="translate(882 517)" fill="#ff7627" opacity="0.3"/>
+      <text id="Process-58" data-name="Process" transform="translate(934 537)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Site Map</tspan></text>
+      <rect id="Rectangle_16-14" data-name="Rectangle 16" width="155" height="33" rx="4" transform="translate(597 474)" fill="#ff7627" opacity="0.3"/>
+      <text id="Process-59" data-name="Process" transform="translate(637 494)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Storyboarding</tspan></text>
+      <rect id="Rectangle_16-15" data-name="Rectangle 16" width="155" height="33" rx="4" transform="translate(882 474)" fill="#ff7627" opacity="0.3"/>
+      <text id="Process-60" data-name="Process" transform="translate(894 494)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Information Architecture</tspan></text>
+      <rect id="Rectangle_16-16" data-name="Rectangle 16" width="155" height="33" rx="4" transform="translate(882 560)" fill="#ff7627" opacity="0.3"/>
+      <text id="Process-61" data-name="Process" transform="translate(927 580)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Wireframes</tspan></text>
+      <rect id="Rectangle_16-17" data-name="Rectangle 16" width="90" height="33" rx="4" transform="translate(261 337)" fill="#777"/>
+      <rect id="Rectangle_16-18" data-name="Rectangle 16" width="90" height="33" rx="4" transform="translate(830 337)" fill="#777"/>
+      <rect id="Rectangle_16-19" data-name="Rectangle 16" width="90" height="33" rx="4" transform="translate(545 337)" fill="#777"/>
+      <rect id="Rectangle_16-20" data-name="Rectangle 16" width="90" height="33" rx="4" transform="translate(1114 337)" fill="#777"/>
+      <rect id="Rectangle_16-21" data-name="Rectangle 16" width="90" height="33" rx="4" transform="translate(1398 337)" fill="#777"/>
+      <text id="Process-62" data-name="Process" transform="translate(276 359)" fill="#fff" font-size="13" font-family="Calibri"><tspan x="0" y="0">Empathize</tspan></text>
+      <text id="Process-63" data-name="Process" transform="translate(857 359)" fill="#fff" font-size="13" font-family="Calibri"><tspan x="0" y="0">Ideate</tspan></text>
+      <text id="Process-64" data-name="Process" transform="translate(572 359)" fill="#fff" font-size="13" font-family="Calibri"><tspan x="0" y="0">Define</tspan></text>
+      <text id="Process-65" data-name="Process" transform="translate(1131 359)" fill="#fff" font-size="13" font-family="Calibri"><tspan x="0" y="0">Prototype</tspan></text>
+      <text id="Process-66" data-name="Process" transform="translate(1432 359)" fill="#fff" font-size="13" font-family="Calibri"><tspan x="0" y="0">Test</tspan></text>
+      <rect id="Rectangle_18-47" data-name="Rectangle 18" width="155" height="27" rx="4" transform="translate(363.5 1163)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-48" data-name="Rectangle 18" width="155" height="27" rx="4" transform="translate(363.5 1089)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <rect id="Rectangle_18-49" data-name="Rectangle 18" width="155" height="27" rx="4" transform="translate(363.5 1126)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-67" data-name="Process" transform="translate(403 1180)" font-size="13" font-family="Calibri"><tspan x="0" y="0">SWOT Analysis</tspan></text>
+      <text id="Process-68" data-name="Process" transform="translate(387 1106)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Stakeholder Analysis</tspan></text>
+      <text id="Process-69" data-name="Process" transform="translate(393 1143)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Content Hierarchy</tspan></text>
+      <rect id="Rectangle_16-22" data-name="Rectangle 16" width="155" height="33" rx="4" transform="translate(313 1046)" fill="#ff7627" opacity="0.3"/>
+      <text id="Process-70" data-name="Process" transform="translate(346 1066)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Content Strategy</tspan></text>
+      <path id="Path_2167" data-name="Path 2167" d="M92,226V173.408H1229" transform="translate(214.5 111)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Path_2168" data-name="Path 2168" d="M914,173.408v53.161" transform="translate(529 111)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Path_2169" data-name="Path 2169" d="M914,173.408v53.161" transform="translate(245 111)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Path_2170" data-name="Path 2170" d="M646,173.408v52.967" transform="translate(228 111)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Path_2171" data-name="Path 2171" d="M364,173.408v53.356" transform="translate(226 111)" fill="none" stroke="#000" stroke-width="1"/>
+      <rect id="Rectangle_16-23" data-name="Rectangle 16" width="155" height="33" rx="4" transform="translate(313 388)" fill="#ff7627" opacity="0.3"/>
+      <text id="Process-71" data-name="Process" transform="translate(358 408)" font-size="13" font-family="Calibri"><tspan x="0" y="0">UX Research</tspan></text>
+      <path id="Path_25" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 308.543, 408.498)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018" data-name="Path 4018" d="M74,200.418H48.656V165.145" transform="translate(237.5 204.852)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-2" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 593.543, 408.498)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-2" data-name="Path 4018" d="M74,200.418H48.656V165.145" transform="translate(522.5 204.852)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-3" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 642.543, 577.498)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-3" data-name="Path 4018" d="M74,189.608H48.656V165.145" transform="translate(571.5 384.66)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-4" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 878.543, 408.498)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_25-5" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 1211.543, 572.498)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-4" data-name="Path 4018" d="M74,200.418H48.656V165.145" transform="translate(807.5 204.852)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-6" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 1211.543, 448.498)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4019" data-name="Path 4019" d="M74,189.416H48.656v-24.27" transform="translate(1140.5 255.855)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-7" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 1494.543, 447.998)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4019-2" data-name="Path 4019" d="M74,188.916H48.656V165.145" transform="translate(1423.5 255.854)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-8" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 1494.543, 484.689)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4019-3" data-name="Path 4019" d="M74,203.107H48.656V165.145" transform="translate(1423.5 278.355)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-9" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 1494.543, 520.689)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4019-4" data-name="Path 4019" d="M74,203.107H48.656V165.145" transform="translate(1423.5 314.355)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-10" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 1494.543, 558.689)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4019-5" data-name="Path 4019" d="M74,203.107H48.656V165.145" transform="translate(1423.5 352.355)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-11" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 1494.543, 595.689)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4019-6" data-name="Path 4019" d="M74,203.107H48.656V165.145" transform="translate(1423.5 389.355)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-12" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 1494.543, 743.521)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4019-7" data-name="Path 4019" d="M74,204.938H48.656V165.145" transform="translate(1423.5 535.354)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-13" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 1494.543, 632.689)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4019-8" data-name="Path 4019" d="M74,203.107H48.656V165.145" transform="translate(1423.5 426.355)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-14" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 1494.543, 668.689)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4019-9" data-name="Path 4019" d="M74,203.107H48.656V165.145" transform="translate(1423.5 462.355)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-15" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 1494.543, 705.689)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4019-10" data-name="Path 4019" d="M74,203.107H48.656V165.145" transform="translate(1423.5 499.354)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_4021" data-name="Path 4021" d="M74,189.416H48.656v-24.27" transform="translate(1140.5 379.855)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-16" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 878.543, 450.271)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_25-17" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 1211.543, 483.6)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_25-18" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 1211.543, 607.6)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-5" data-name="Path 4018" d="M74,208.193H48.656V165.145" transform="translate(807.5 238.852)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_4020" data-name="Path 4020" d="M74,201.52H48.656V165.145" transform="translate(1140.5 278.852)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_4022" data-name="Path 4022" d="M74,201.52H48.656V165.145" transform="translate(1140.5 402.852)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-19" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 878.543, 493.271)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-6" data-name="Path 4018" d="M74,208.193H48.656V165.145" transform="translate(807.5 281.852)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-20" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 878.543, 536.271)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-7" data-name="Path 4018" d="M74,208.193H48.656V165.145" transform="translate(807.5 324.852)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-21" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 878.543, 579.271)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-8" data-name="Path 4018" d="M74,208.193H48.656V165.145" transform="translate(807.5 367.852)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-22" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 928.543, 621.271)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_25-23" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 928.543, 807.271)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-9" data-name="Path 4018" d="M74,190.189H48.656V165.145" transform="translate(857.5 427.855)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_4023" data-name="Path 4023" d="M74,190.189H48.656V165.145" transform="translate(857.5 613.855)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-24" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 928.543, 654.64)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_25-25" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 928.543, 840.64)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-10" data-name="Path 4018" d="M74,199.994H48.656V165.145" transform="translate(857.5 451.418)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_4024" data-name="Path 4024" d="M74,199.994H48.656V165.145" transform="translate(857.5 637.418)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-26" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 928.543, 689.64)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_25-27" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 928.543, 875.64)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-11" data-name="Path 4018" d="M74,199.994H48.656V165.145" transform="translate(857.5 486.418)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_4025" data-name="Path 4025" d="M74,199.994H48.656V165.145" transform="translate(857.5 672.418)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-28" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 928.543, 726.631)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_25-29" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 928.543, 910.876)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_25-30" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 928.543, 943.876)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_25-31" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 928.543, 979.876)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_25-32" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 928.543, 1012.876)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_25-33" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 928.543, 1047.876)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_25-34" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 928.543, 1162.876)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_25-35" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 928.543, 1082.876)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_25-36" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 928.543, 1199.876)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-12" data-name="Path 4018" d="M74,202.986H48.656v-37.84" transform="translate(857.5 520.418)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_4026" data-name="Path 4026" d="M74,201.23H48.656V165.145" transform="translate(857.5 706.418)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_4027" data-name="Path 4027" d="M74,201.23H48.656V165.145" transform="translate(857.5 739.418)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_4028" data-name="Path 4028" d="M74,201.23H48.656V165.145" transform="translate(857.5 775.418)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_4029" data-name="Path 4029" d="M74,201.23H48.656V165.145" transform="translate(857.5 808.418)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_4030" data-name="Path 4030" d="M74,201.23H48.656V165.145" transform="translate(857.5 843.418)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_4031" data-name="Path 4031" d="M74,201.23H48.656V165.145" transform="translate(857.5 878.418)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <g id="Group_114894" data-name="Group 114894">
+        <path id="Path_25-37" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 1162.543, 408.498)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+        <path id="Path_4018-13" data-name="Path 4018" d="M74,200.418H48.656V165.145" transform="translate(1091.5 204.852)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <path id="Path_25-38" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 1446.543, 409.498)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-14" data-name="Path 4018" d="M74,201.415H48.656v-36.27" transform="translate(1375.5 204.855)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-39" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 359.543, 448.498)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-15" data-name="Path 4018" d="M74,189.416H48.656V165.145" transform="translate(288.5 255.855)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-40" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 593.543, 450.646)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-16" data-name="Path 4018" d="M74,207.631H48.656V165.145" transform="translate(522.5 239.789)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-41" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 643.4, 614.646)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-17" data-name="Path 4018" d="M74.859,207.631h-26.2V165.145" transform="translate(571.5 403.789)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-42" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 593.543, 493.958)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-18" data-name="Path 4018" d="M74,210.942H48.656v-45.8" transform="translate(522.5 279.789)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-43" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 593.543, 536.958)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-19" data-name="Path 4018" d="M74,210.942H48.656v-45.8" transform="translate(522.5 322.789)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-44" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 593.543, 654.958)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-20" data-name="Path 4018" d="M74,301.07H48.656V165.145" transform="translate(522.5 350.66)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-45" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 359.543, 915.498)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-21" data-name="Path 4018" d="M74,189.415H48.656v-24.27" transform="translate(288.5 722.855)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-46" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 359.543, 482.498)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-22" data-name="Path 4018" d="M74,199.322H48.656V165.145" transform="translate(288.5 279.947)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-47" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 359.543, 1106.118)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-23" data-name="Path 4018" d="M74,188.942H48.656v-23.8" transform="translate(288.5 913.947)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-48" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 359.543, 953.082)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-24" data-name="Path 4018" d="M74,202.906H48.656V165.145" transform="translate(288.5 746.947)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-49" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 359.543, 588.347)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_25-50" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 359.543, 729.347)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-25" data-name="Path 4018" d="M74,203.171H48.656V165.145" transform="translate(288.5 381.947)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_100938" data-name="Path 100938" d="M74,203.171H48.656V165.145" transform="translate(288.5 522.947)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-51" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 359.543, 554.283)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-26" data-name="Path 4018" d="M74,203.108H48.656V165.145" transform="translate(288.5 347.947)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-52" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 359.543, 1180.384)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-27" data-name="Path 4018" d="M74,209.89H48.656V165.145" transform="translate(288.5 967.265)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-53" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 359.543, 658.361)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_25-54" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 359.543, 799.361)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-28" data-name="Path 4018" d="M74,205.185H48.656v-40.04" transform="translate(288.5 449.947)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_100936" data-name="Path 100936" d="M74,205.185H48.656v-40.04" transform="translate(288.5 590.947)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-55" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 359.543, 519.375)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-29" data-name="Path 4018" d="M74,202.2H48.656V165.145" transform="translate(288.5 313.947)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-56" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 359.545, 1143.521)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-30" data-name="Path 4018" d="M74,192.345H48.656V153.057" transform="translate(288.5 947.947)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-57" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 359.543, 989.764)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_25-58" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 359.543, 1026.764)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-31" data-name="Path 4018" d="M74,205.589H48.656V165.145" transform="translate(288.5 780.947)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_100939" data-name="Path 100939" d="M74,202.145H48.656v-37" transform="translate(288.5 821.391)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-59" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 359.543, 622.971)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_25-60" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 359.543, 763.971)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-32" data-name="Path 4018" d="M74,203.8H48.656V165.15" transform="translate(288.5 415.947)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_100937" data-name="Path 100937" d="M74,203.8H48.656V165.15" transform="translate(288.5 556.947)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-61" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 359.543, 694.005)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_25-62" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 359.543, 835.005)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_4018-33" data-name="Path 4018" d="M74,206.829H48.656V165.145" transform="translate(288.5 483.947)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_100935" data-name="Path 100935" d="M74,206.829H48.656V165.145" transform="translate(288.5 624.947)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-63" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 308.543, 876.162)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_100930" data-name="Path 100930" d="M74,637.147H48.656v-472" transform="translate(237.5 235.788)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-64" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 308.543, 1067.586)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_100931" data-name="Path 100931" d="M74,362H48.656V165.145" transform="translate(237.5 702.355)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-65" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 593.543, 696.958)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_100932" data-name="Path 100932" d="M74,207.145H48.656v-42" transform="translate(522.5 486.584)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-66" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 878.545, 767.092)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_100933" data-name="Path 100933" d="M74,357.51H48.656V165.145" transform="translate(807.5 406.355)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-67" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 878.547, 1122.391)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_100934" data-name="Path 100934" d="M74.007,524.445H48.656v-359.3" transform="translate(807.5 594.72)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <g id="Group_114890" data-name="Group 114890" transform="translate(19021.5 16991)">
+        <rect id="Rectangle_18-50" data-name="Rectangle 18" width="155" height="27" rx="4" transform="translate(-18658.5 -16243)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+        <text id="Process-72" data-name="Process" transform="translate(-18639 -16226)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Shadowing Technique</tspan></text>
+      </g>
+      <g id="Group_114891" data-name="Group 114891" transform="translate(19035.5 16991)">
+        <rect id="Rectangle_18-51" data-name="Rectangle 18" width="182" height="27" rx="4" transform="translate(-18672.5 -16208)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+        <text id="Process-73" data-name="Process" transform="translate(-18664 -16191)" font-size="13" font-family="Calibri"><tspan x="0" y="0">AEIOU Observatory Framework</tspan></text>
+      </g>
+      <g id="Group_114892" data-name="Group 114892" transform="translate(19053.5 16991)">
+        <rect id="Rectangle_18-52" data-name="Rectangle 18" width="218" height="27" rx="4" transform="translate(-18690.5 -16173)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+        <text id="Process-74" data-name="Process" transform="translate(-18682 -16156)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Fly on the Wall Observation Technique</tspan></text>
+      </g>
+      <g id="Group_114893" data-name="Group 114893" transform="translate(19021.5 16991)">
+        <rect id="Rectangle_18-53" data-name="Rectangle 18" width="155" height="27" rx="4" transform="translate(-18658.5 -16278)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+        <text id="Process-75" data-name="Process" transform="translate(-18611 -16261)" font-size="13" font-family="Calibri"><tspan x="0" y="0">Diary Study</tspan></text>
+      </g>
+      <g id="Group_114895" data-name="Group 114895" transform="translate(0 34.503)">
+        <path id="Path_25-68" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 1162.543, 498.494)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+        <path id="Path_4018-34" data-name="Path 4018" d="M74,290.414H48.656V165.145" transform="translate(1091.5 204.852)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <rect id="Rectangle_18-54" data-name="Rectangle 18" width="135" height="27" rx="4" transform="translate(932.5 1145)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-76" data-name="Process" transform="translate(938 1163)" fill="#070000" font-size="13" font-family="Calibri"><tspan x="0" y="0">Cognitive Task Analysis</tspan></text>
+      <path id="Path_100940" data-name="Path 100940" d="M74,189.793H48.656V165.145" transform="translate(857.5 969.855)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <rect id="Rectangle_18-55" data-name="Rectangle 18" width="140" height="27" rx="4" transform="translate(932.5 1182)" fill="none" stroke="#707070" stroke-width="1" opacity="0.6"/>
+      <text id="Process-77" data-name="Process" transform="translate(936 1200)" fill="#070000" font-size="13" font-family="Calibri"><tspan x="0" y="0">Hierarchical Task Analysis</tspan></text>
+      <path id="Path_100941" data-name="Path 100941" d="M74,203.293H48.656V165.145" transform="translate(857.5 993.355)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_25-69" data-name="Path 25" d="M6.341,0,4.449,2.278l-.791.953a.633.633,0,0,1-.974,0L0,0" transform="matrix(-0.035, -0.999, 0.999, -0.035, 878.549, 1239.739)" fill="none" stroke="#454545" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_100942" data-name="Path 100942" d="M74.009,288.658H48.656V165.145" transform="translate(807.5 947.854)" fill="none" stroke="#454545" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

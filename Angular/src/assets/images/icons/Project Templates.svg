@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="52.5" viewBox="0 0 50 52.5">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #454545;
+        stroke-miterlimit: 10;
+        stroke-width: 2.5px;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <g id="Group_114513" data-name="Group 114513" transform="translate(-199 -688.222)">
+    <rect id="Rectangle_34396" data-name="Rectangle 34396" class="cls-1" width="50" height="50" transform="translate(199 689.472)"/>
+    <g id="Group_114644" data-name="Group 114644" transform="translate(-207.972 -2250.759)">
+      <rect id="Rectangle_34447" data-name="Rectangle 34447" class="cls-2" width="40.775" height="50" rx="3" transform="translate(411.972 2940.231)"/>
+      <rect id="Rectangle_34448" data-name="Rectangle 34448" class="cls-3" width="12.44" height="21.628" rx="1" transform="translate(419.502 2960.554)"/>
+      <rect id="Rectangle_34467" data-name="Rectangle 34467" class="cls-3" width="25.44" height="7.628" rx="1" transform="translate(419.502 2948.554)"/>
+      <rect id="Rectangle_34449" data-name="Rectangle 34449" class="cls-3" width="8.454" height="8.53" rx="1" transform="translate(436.761 2960.554)"/>
+      <rect id="Rectangle_34450" data-name="Rectangle 34450" class="cls-3" width="8.454" height="8.53" rx="1" transform="translate(436.761 2973.652)"/>
+    </g>
+  </g>
+</svg>

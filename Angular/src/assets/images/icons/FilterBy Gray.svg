@@ -1,0 +1,22 @@
+<svg id="FIlter028d2203bd4e03e9729f10b390e1bb67cd5187c4062f629eeb73bee362dad1af" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #454545;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_34493" data-name="Rectangle 34493" class="cls-1" width="24" height="24"/>
+  <rect id="Rectangle_34468" data-name="Rectangle 34468" class="cls-1" width="20" height="20" transform="translate(2 1)"/>
+  <g id="noun_filter_1594076" transform="translate(-102 -452)">
+    <g id="Group_114827" data-name="Group 114827" transform="translate(105.44 454)">
+      <g id="Group_114826" data-name="Group 114826">
+        <path id="Path_100916" data-name="Path 100916" class="cls-2" d="M43.552,40.965a1.8,1.8,0,0,1,.328-.951l5.445-7c.181-.233.1-.422-.2-.422h-13.8c-.292,0-.384.186-.2.422l5.445,7a1.8,1.8,0,0,1,.328.952v8.072a.333.333,0,0,0,.493.333l1.667-.667a.839.839,0,0,0,.493-.727Zm1.592,7.012a2.427,2.427,0,0,1-1.493,2.2l-1.667.667a1.92,1.92,0,0,1-2.675-1.811V40.966c0,.019-5.438-6.976-5.438-6.976A1.813,1.813,0,0,1,35.327,31h13.8a1.813,1.813,0,0,1,1.457,2.99l-5.445,7c.005-.013.005,6.988.005,6.988Z" transform="translate(-33.44 -31)"/>
+      </g>
+    </g>
+  </g>
+</svg>

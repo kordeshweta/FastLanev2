@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff7627;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_122" data-name="Group 122" transform="translate(-1694 -12)">
+    <path id="Path_2013" data-name="Path 2013" class="cls-1" d="M20,0A20,20,0,1,1,0,20,20,20,0,0,1,20,0Z" transform="translate(1694 12)"/>
+    <g id="Component_9_1" data-name="Component 9 – 1" transform="translate(1703.007 21.007)">
+      <path id="Union_1" data-name="Union 1" class="cls-2" d="M0,22V19.25c0-3.026,4.95-5.5,11-5.5s11,2.475,11,5.5V22ZM5.5,5.5A5.5,5.5,0,1,1,11,11,5.5,5.5,0,0,1,5.5,5.5Z" transform="translate(-0.007 -0.007)"/>
+    </g>
+  </g>
+</svg>

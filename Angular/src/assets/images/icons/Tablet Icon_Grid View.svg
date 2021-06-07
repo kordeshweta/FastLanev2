@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.916" height="21.75" viewBox="0 0 17.916 21.75">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+        stroke: #fff;
+      }
+
+      .cls-1 {
+        stroke-width: 0.75px;
+      }
+
+      .cls-2 {
+        stroke-width: 0.25px;
+      }
+    </style>
+  </defs>
+  <g id="Laag_2" data-name="Laag 2" transform="translate(0.375 0.375)">
+    <g id="Layer_1" data-name="Layer 1">
+      <path id="Path_2459" data-name="Path 2459" class="cls-1" d="M15.028,0H2.151A2.151,2.151,0,0,0,0,2.151v16.7A2.151,2.151,0,0,0,2.151,21H15.025a2.148,2.148,0,0,0,2.141-2.148V2.151A2.148,2.148,0,0,0,15.028,0ZM2.151.673H15.025a1.478,1.478,0,0,1,1.465,1.478v.542H.673v.673H16.495v13.58H.673V2.151A1.481,1.481,0,0,1,2.151.673ZM15.025,20.312H2.151A1.478,1.478,0,0,1,.673,18.847V17.62H16.495v1.232a1.478,1.478,0,0,1-1.465,1.465Z"/>
+      <circle id="Ellipse_72" data-name="Ellipse 72" class="cls-2" cx="0.643" cy="0.643" r="0.643" transform="translate(7.944 18.414)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg id="FIlter" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_34493" data-name="Rectangle 34493" width="24" height="24" fill="none"/>
+  <rect id="Rectangle_34468" data-name="Rectangle 34468" width="20" height="20" transform="translate(2 1)" fill="none"/>
+  <g id="noun_filter_1594076" transform="translate(-102 -452)">
+    <g id="Group_114827" data-name="Group 114827" transform="translate(105.44 454)">
+      <g id="Group_114826" data-name="Group 114826" transform="translate(0 0)">
+        <path id="Path_100916" data-name="Path 100916" d="M43.552,40.965a1.8,1.8,0,0,1,.328-.951l5.445-7c.181-.233.095-.422-.2-.422h-13.8c-.292,0-.384.186-.2.422l5.445,7a1.8,1.8,0,0,1,.328.952v8.072a.333.333,0,0,0,.493.333l1.667-.667a.839.839,0,0,0,.493-.727Zm1.592,7.012a2.427,2.427,0,0,1-1.493,2.2l-1.667.667a1.92,1.92,0,0,1-2.675-1.811V40.966c0,.019-5.438-6.976-5.438-6.976A1.813,1.813,0,0,1,35.327,31h13.8a1.813,1.813,0,0,1,1.457,2.99l-5.445,7C45.144,40.977,45.144,47.978,45.144,47.978Z" transform="translate(-33.44 -31)" fill="#ff7627"/>
+      </g>
+    </g>
+  </g>
+</svg>
