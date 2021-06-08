@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common'
 import { NgModule } from '@angular/core';
+import {HeaderService} from '../app/_services/header';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -59,6 +60,7 @@ export function getAdalConfig() {
   providers: [
     MsAdalAngular6Service,
     AuthenticationGuard,
+    HeaderService,
     { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
   ],
   bootstrap: [AppComponent]

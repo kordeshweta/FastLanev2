@@ -1,19 +1,22 @@
 import { Injectable } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class HeaderService{
-    border:boolean;
-    text:boolean;
+    
+    show_head:BehaviorSubject<boolean>=new BehaviorSubject(true);
+
+    Head_visible(){
+        this.show_head.next(true);
+    }
+
+    Head_invisible(){
+        this.show_head.next(false);
+    }
     constructor(){
-        this.border=false;
-        this.text=false;
+
     }
-    applyBorder(){
-        this.border=true;
-    }
-    applyText(){
-        this.text=true;
-    }
+
 }

@@ -1,11 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,OnDestroy } from '@angular/core';
+import { HeaderService } from '../_services/header';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent implements OnInit, OnDestroy {
 
   imageObject: Array<object> = [{
     image: 'https://images.unsplash.com/photo-1599394022918-6c2776530abb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1458&q=80',
@@ -32,10 +33,13 @@ export class HomeComponent implements OnInit {
 
   startIndex;
   interval;
-  constructor(){
+  constructor(private headerService:HeaderService){
     this.startIndex = 0
   }
-
+  ngOnDestroy(): void {
+    
+  }
+  
   ngOnInit() {
     this.Repeat();
   }
@@ -53,7 +57,7 @@ export class HomeComponent implements OnInit {
   }
 
   __FunctionSlide() {
-    console.log(this.startIndex)
+    // console.log(this.startIndex)
     const slides = Array.from(document.getElementsByClassName('imgs'));
     const dots = Array.from(document.getElementsByClassName('dots'));
 
