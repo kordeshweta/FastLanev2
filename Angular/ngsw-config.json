@@ -26,5 +26,26 @@
         ]
       }
     }
-  ]
+  ],
+
+  
+  "dataGroups": [{
+    "name": "APIs",
+    "urls": [
+      
+      "/api//inauguration",
+      "/api/isAdmin",
+      "/api/**"
+      
+      
+     
+    ],
+    "cacheConfig": {
+      "strategy": "performance",
+      "maxSize": 300,
+      "maxAge": "3d",
+      "timeout": "100s"
+    }
+  }
+]
 }
