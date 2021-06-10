@@ -1,0 +1,58 @@
+<div class="main-container1">
+  <div
+    *ngIf="loading"
+    class="load-spinner"
+    fxLayout="row"
+    fxLayoutAlign="center"
+  >
+    <img
+      src="../assets/images/Ring-Preloader.gif"
+      width="400"
+      alt="loading..."
+    />
+  </div>
+  <!-- <app-search-component
+  [dataType]=3
+    [title]="'BestPractices'"
+    (search)="searchComponent($event)"
+  ></app-search-component> -->
+
+  <app-search-component
+  (search)="searchComponent($event)"
+></app-search-component>
+
+  <div class="text-right col-md-12 col-xs-12 border-buffer input-width">
+    <label class="practice-label">Sub-Practices</label><br/>
+   <mat-form-field class="multi-select form-element custom-form-input" appearance="outline">
+      <mat-select placeholder="Select"
+                  name="Select"
+                  [(ngModel)]="selected"
+                  (ngModelChange)="onChange($event)"
+                  multiple
+                  class="practice-select"
+                  #selectionModel="ngModel"
+                  panelClass="myPanelClass"
+                  >
+        <!-- <app-select-all-check-box [model]="selectionModel" 
+                              [values]="options">
+        </app-select-all-check-box> -->
+        <app-select-check-all [model]="selectionModel" 
+        [values]="options">
+</app-select-check-all>
+        <mat-option *ngFor="let option of options"
+                    [value]="option">
+          {{option}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div *ngIf="!loading">
+    <tile
+      *ngIf="currentData"
+      [title]="list[2]"
+      [searchValue]="searchValue"
+      [compData]="currentData"
+      [imageUrl]="bestimages"
+    ></tile>
+  </div>
+</div>
