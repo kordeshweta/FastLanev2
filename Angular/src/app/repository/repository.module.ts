@@ -12,6 +12,12 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { AdminComponent, DownloadDetailsDialog,DialogOverviewExampleDialog } from './Admin/admin/admin.component';
 import {AddFormComponent} from './Admin/add-form/add-form.component';
+import {ComponentsComponent} from './components/components.component';
+import { SolutionsComponent} from './solutions/solutions.component';
+import {BestpracticeComponent} from './bestpractice/bestpractice.component'
+import {FormComponent} from './form/form.component';
+// import {BestpracticeComponent} from './bestpractice/bestpractice.component';
+
 //import { RepoServService } from 'src/app/_services/repo-serv.service';
 const routes: Routes = [
   {
@@ -26,6 +32,19 @@ const routes: Routes = [
   {
     path:'AddForm',
     component:AddFormComponent,
+    canActivate: [AuthenticationGuard],
+  },
+  {
+    path:'components',
+    component:ComponentsComponent
+  },
+  {
+    path:'solutions',
+    component:SolutionsComponent
+  },
+  {
+    path:'bestpractices',
+    component:BestpracticeComponent
   },
   {
     path: '**',
@@ -36,15 +55,15 @@ const routes: Routes = [
 
 
 @NgModule({
-    declarations: [RepohomeComponent,DetailsComponent,DownloadDialog,ImagedialogComponent,AdminComponent,DownloadDetailsDialog,DialogOverviewExampleDialog],
+    declarations: [RepohomeComponent,DetailsComponent,DownloadDialog,ImagedialogComponent,AdminComponent,DownloadDetailsDialog,DialogOverviewExampleDialog,ComponentsComponent,SolutionsComponent,BestpracticeComponent],
     imports: [
       CommonModule,
       FormsModule,
       ReactiveFormsModule,
-      MaterialModule,
       SharedModule,
       Ng2SearchPipeModule,
       FlexLayoutModule,
+      MaterialModule,
       RouterModule.forChild(routes),
     ],
     providers: [

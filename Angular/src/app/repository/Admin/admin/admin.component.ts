@@ -34,6 +34,7 @@ export class AdminComponent implements OnInit{
   currentData: any;
   list: any;
   itemsPerPageLabel: string;
+  searchValue: string;
   sw=false
   // dataSource: any;
   @ViewChild(MatPaginator) paginator: MatPaginator;
@@ -48,6 +49,9 @@ export class AdminComponent implements OnInit{
     private sideNavService: SideNavService,
   ) {
     this.sideNavService.show()
+  }
+  searchComponent(search) {
+    this.searchValue = search;
   }
   displayedColumns: string[] = [
     'cName',

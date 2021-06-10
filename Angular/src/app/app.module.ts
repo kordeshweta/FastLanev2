@@ -31,7 +31,9 @@ import {MaterialModule} from './material.module';
 import {SharedModule} from '../app/shared/shared.module';
 
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
-
+import { ComponentsService } from './repository/components/components.service';
+import { SolutionService } from './repository/solutions/solution.service';
+import { BestPracticeService } from './repository/bestpractice/best-practice.service';
 
 export function getAdalConfig() {
   return {
@@ -85,6 +87,9 @@ export function getAdalConfig() {
     HeaderService,
     ComponentServicesService,
     DataServiceService,
+    ComponentsService,
+    SolutionService,
+    BestPracticeService,
     { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
   ],
   bootstrap: [AppComponent],
