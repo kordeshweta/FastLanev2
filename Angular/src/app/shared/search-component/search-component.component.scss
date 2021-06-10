@@ -1,0 +1,20 @@
+input[type="image"] {
+    margin-left: -40px;
+    margin-bottom: -11px;
+    margin-top: -8px;
+    height: 40px;
+    width: 40px;
+    color: white;
+    border: 0;
+    -webkit-appearance: none;
+}
+
+input[type="image"]:focus {
+    outline: none !important;
+}
+#textToSearch{
+    vertical-align: text-top;
+}
+.input-width {
+    width: 50%;
+}

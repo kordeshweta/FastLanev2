@@ -1,0 +1,134 @@
+<div
+  fxLayout="column"
+  class="details-container"
+  fxLayoutGap.xs="10px"
+  *ngIf="detailobject"
+>
+  <div fxLayoutAlign="start center" class="componentName">
+    <span>
+      <button (click)="goToPreviousPage()">
+        <mat-icon aria-hidden="false" svgIcon="arrow-back"></mat-icon>
+      </button>
+    </span>
+    <span class="detailsHeader">{{ detailobject?.cName }}&nbsp;</span>
+    <span class="text-capitalize">| {{ detailobject?.technology }}&nbsp;</span>
+    <span class="download-icon" style="margin-right: 2%;">
+      <!-- <ng-container *ngIf="detailobject.contributors.length!=0">
+        <span class="detailsHeader">Contributors:&nbsp;</span>
+        <span ><em>{{detailobject.contributors}}</em>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      </ng-container> -->
+      <img style="height:14px; width:14px; margin-right:3px; margin-bottom: 2px;" src="assets/images/icons/Download-gray-icon.svg">{{detailobject?.downloadCount}} 
+    </span>
+  </div>
+  <div fxLayout="column" fxLayoutAlign="start" class="description-container">
+
+    <ng-container *ngIf="detailobject.contributors.length!=0">
+      <span class="descriptionHeader">Contributors: <span class="descriptionContent" style="font-weight: normal;">{{detailobject.contributors}}</span> </span>
+      
+    </ng-container> 
+
+    <span class="descriptionHeader" style="margin-top:10px;">description</span>
+    <span class="descriptionContent">
+      {{ detailobject?.longDesc }}
+    </span>
+
+
+  </div>
+  <div
+    fxLayout="row"
+    class="compDetails"
+    fxLayoutAlign="space-between"
+    fxLayout.xs="column"
+  >
+  
+    <div
+    fxLayout="column"
+    fxLayoutAlign="space-between"
+    class="code"
+    fxFlex="50"
+    fxFlex.xs="100"
+  >
+    <div class="codeHeader">Resources</div>
+    <div class="container">
+    <div *ngIf="detailobject.files.length > 0">
+      <div class="codeDetails" *ngFor="let detailData of detailobject.files" class="grid-item-1">
+        <div fxLayout="row" fxLayoutAlign="flex-start">
+          <span>{{ detailData.linkText }}</span>
+          <!-- <span>
+            <button
+              *ngIf="
+                detailData.mimeType === 'video/quicktime' ||
+                detailData.mimeType === 'video/quicktime'
+              "
+              (click)="openPreviewImgDialog('video', detailData.downloadable)" class="btn btn-primary btn-sm" style="margin-left:50%"
+            >
+              Play</button
+            ></span
+          > -->
+        </div>
+        <br />
+        <!-- <video controls id="video1" width="100%" *ngIf="detailData.linkText==='Video'||detailData.linkText==='video'">
+              <source [src]="detailData.downloadable" type="video/mp4">
+              <source [src]="detailData.downloadable" type="video/ogg">
+          </video> -->
+      </div>
+    </div>
+    <div class="grid-item-2 codeDetails" *ngIf="detailobject.files.length > 0">
+      <div><a (click)="downloadDialog(detailobject.id,detailobject.cName,detailobject.category)" style="white-space: nowrap">Download All</a></div>
+    </div>
+  </div>
+
+  </div>
+    <div
+      class="images"
+      fxLayout="column"
+      fxLayoutAlign="space-around"
+      fxFlex="50"
+      fxFlex.xs="100"
+    >
+      <div class="imagesHeader">
+        Images
+      </div>
+      <div class="imagesContent">
+        <div class="previewDiv" (click)="openPreviewImgDialog('image', '')">
+          <img
+            class="previewImg"
+            [src]="selectedImgPath"
+            alt="Image Not Found"
+            *ngIf="detailobject?.images?.length !== 0"
+          />
+          <img
+            class="previewImg"
+            src="assets/images/thumbnails/{{ compType }}.png"
+            alt=""
+            *ngIf="detailobject?.images?.length === 0"
+          />
+        </div>
+        <mat-divider></mat-divider>
+        <div class="imagesList" *ngIf="detailobject?.images?.length !== 0">
+          <div
+            [ngClass]="selectedImgIndex == i ? 'selectedDiv' : 'normalDiv'"
+            *ngFor="let img of detailobject?.images; index as i"
+            (click)="chooseImg(i)"
+          >
+            <img
+              class="smallImgs"
+              src="{{localLocation}}{{img.fileURL}}"
+              alt="thumbnails"
+            />
+          </div>
+        </div>
+        <div class="imagesList" *ngIf="detailobject?.images?.length === 0">
+          <div class="selectedDiv">
+            <img
+              class="smallImgs"
+              src="assets/images/thumbnails/{{ compType }}.png"
+              alt="Image not found"
+              *ngIf="detailobject?.Images?.length === 0"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

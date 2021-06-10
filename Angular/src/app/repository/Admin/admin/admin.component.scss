@@ -1,0 +1,140 @@
+table {
+  width: 100%;
+}
+
+.container-tbl{
+  width:98%;
+  height:300px;
+  border: 2px solid #2b2d71;
+  overflow-y:scroll;
+}
+
+.admin-subheading {
+  font-weight: 600 !important;
+  font-size: 28px;
+  margin-bottom: 0px;
+}
+.export-btn
+{
+  border: 1px solid black;
+}
+.fliter-section {
+  width: 98%;
+  margin-bottom: 10px;
+  .wd-60 {
+    width: 50%;
+  }
+  .custom-icon {
+    position: absolute;
+    right: 5px;
+    bottom: 3px;
+    font-size: 30px;
+    color: #2b2d71;
+  }
+  .filter-wrapper {
+    // .fa {
+    //   font-size: 24px;
+    //   margin-left: 10px;
+    // }
+    span {
+      font-size: 18px;
+      font-weight: 400;
+      font-family: "Roboto", sans-serif;
+    }
+    img {
+      cursor: pointer;
+    }
+    .addbutton {
+      margin-left: 28px;
+      .mat-button-base {
+        width: 40px;
+        height: 40px;
+        &::ng-deep .mat-button-wrapper {
+          padding: 0px !important;
+          display: inline-block !important;
+          line-height: 0px !important;
+          .mat-icon {
+            font-size: 34px;
+            font-weight: 200;
+            line-height: 22px;
+            margin-left: -11px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.admin-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  th {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2b2d71;
+    border-bottom: 2px solid #2b2d71;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-top: 10px;
+  }
+
+  tr {
+    td {
+      font-family: "Avenir Next";
+      border-bottom-width: 0px;
+      color: #2b2d71;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}
+.mat-form-field {
+  font-size: 14px;
+  width: 98%;
+}
+
+.ptr {
+  cursor: pointer;
+}
+.wrd{
+  word-break: break-all;
+}
+mat-icon {
+  color: white;
+}
+.wd-95 {
+  width: 98%;
+}
+.btm {
+  margin-bottom: 30px;
+}
+.f-18 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.dialog-title{
+  font-size: 20px;
+  font-weight: 500
+}
+.button-buffer{
+  margin:10px;
+}
+.hov-info{
+  // background-color: rgba(152, 153, 158,0.5);
+  // border-radius: 4px;
+  // align-items: center;
+  cursor:pointer;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background:rgba(216,216,216,1);
+  width:50px;
+}
+::-webkit-scrollbar-thumb {
+  background-color:  rgba(28,93,216,0.3);
+  border-radius: 20px;
+}

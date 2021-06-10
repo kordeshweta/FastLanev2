@@ -1,0 +1,152 @@
+<div class="main-container1 btm">
+  <h2 class="admin-heading">Components</h2>
+  <div
+    class="fliter-section"
+    fxLayout="row"
+    fxLayoutAlign="space-between center"
+  >
+    <mat-form-field class="wd-60" appearance="outline">
+      <input
+        matInput
+        (keyup)="applyFilter($event)"
+        placeholder="Ex. Search Title Name"
+      />
+      <mat-icon class="custom-icon" matSuffix>search</mat-icon>
+    </mat-form-field>
+ <!-- <button mat-raised-button (click)="exportExcel()" id="button-excel">Excel</button>-->
+   <button mat-button (click)="exporter.exportTable('xls')" class="export-btn">Export to Excel</button>
+   <button mat-button (click)="showAllDownloads()" class="export-btn">All Downloads</button>
+    <div class="filter-wrapper" fxLayout="row" fxLayoutAlign=" center center">
+      <!--<div fxLayout="row" fxLayoutGap="13px">
+        <span>Filter </span>
+        <img src="../../../../assets/images/Group 2151.svg" alt="filter" />
+      </div>-->
+
+      <div class="example-button-container addbutton">
+        <img
+          routerLink="/AddForm"
+          src="../../../../assets/images/Icon ionic-ios-add-circle.svg"
+          alt=""
+        />
+      </div>
+    </div>
+  </div>
+  <!-- <mat-form-field>
+    <mat-label>Search</mat-label>
+    <input
+      matInput
+      (keyup)="applyFilter($event)"
+      placeholder="Ex. Title Name"
+    />
+  </mat-form-field> -->
+<div class="container-tbl">
+  <table
+    mat-table
+    [dataSource]="dataSource"
+    id= "simpleTable1"
+    [hiddenColumns]= "[6]"
+    matTableExporter 
+    #exporter="matTableExporter"
+    class="mat-elevation-z8 admin-table"
+    matSort
+  >
+    <!-- Id Column -->
+    <!--
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef>ID</th>
+      <td mat-cell *matCellDef="let element; let i = index">{{ element.id }}</td>
+    </ng-container> -->
+
+    <!-- Title Column -->
+    <ng-container matColumnDef="cName" >
+      <th mat-header-cell *matHeaderCellDef mat-sort-header width="20%">Title</th>
+      <td
+        class="ptr wrd"
+        mat-cell
+        *matCellDef="let element"
+        (click)="navigate(element.category, element.id)"
+      >
+      <span *ngIf="element.cName.length<30">{{ element.cName }}</span>
+      <span matTooltip="{{element.cName}}" matTooltipPosition="right"
+      matTooltipClass="custom-tooltip" *ngIf="element.cName.length>29">{{ element.cName.substring(0,29)}}...</span>
+        
+      </td>
+
+    </ng-container>
+
+    <!-- sub practices -->
+    <ng-container matColumnDef="practices" >
+      <th mat-header-cell *matHeaderCellDef mat-sort-header width="10%">Technology</th>
+      <td mat-cell *matCellDef="let element" class="wrd">
+        <span *ngFor="let item of element.practices;let isLast=last">
+        {{item}}{{isLast ? '' : ', '}}
+      </span>
+    </td>
+    </ng-container>
+
+    <!-- Download Count -->
+    <ng-container matColumnDef="downloadCount" >
+      <th mat-header-cell *matHeaderCellDef mat-sort-header width="10%">Downloads</th>
+      <td mat-cell *matCellDef="let element" >{{ element.downloadCount }}</td>
+    </ng-container>
+
+    <!-- Contibutors Column -->
+      <ng-container matColumnDef="contributors" >
+        <th mat-header-cell *matHeaderCellDef mat-sort-header width="10%">Contributors</th>
+        <td mat-cell *matCellDef="let element" class="wrd">{{ element.contributors[0] }}</td>
+      </ng-container>
+    
+    <!-- emails (hidden column) [style.display]="'none'" -->
+      <ng-container matColumnDef="information" >
+        <th mat-header-cell *matHeaderCellDef [style.display]="'none'" >Email</th>
+        <td mat-cell *matCellDef="let element" [style.display]="'none'">
+          <span *ngFor="let item of element.downloadDetails.rows;let isLast=last">
+            {{item.email}}{{isLast ? '' : ';'}}
+          </span>
+        </td>
+      </ng-container>
+
+    <!--category -->
+    <ng-container matColumnDef="category" >
+      <th mat-header-cell *matHeaderCellDef mat-sort-header width="10%">Type</th>
+      <td mat-cell *matCellDef="let element" >{{ element.category }}</td>
+    </ng-container>
+
+    <!-- Technology Column -->
+    <ng-container matColumnDef="technology" >
+      <th mat-header-cell *matHeaderCellDef mat-sort-header width="13%">Skill Set</th>
+      <td mat-cell *matCellDef="let element" class="wrd">{{ element.technology }}</td>
+    </ng-container>
+
+    <!-- lastUpdate Column -->
+    <ng-container matColumnDef="updatedAt" >
+      <th mat-header-cell *matHeaderCellDef mat-sort-header width="12%" >Last Updated</th>
+      <td mat-cell *matCellDef="let element">
+        {{ element.updatedAt | date: 'dd-MMM-yyyy' }}
+      </td>
+    </ng-container>
+
+    <!-- Action Column -->
+    <ng-container matColumnDef="actions">
+
+      <th mat-header-cell *matHeaderCellDef width="15%">Actions</th>
+      <td mat-cell *matCellDef="let element">
+        <span style="cursor: pointer"><img width="20px" height="20px" (click)="navigateToEdit(element)" src="../../../../assets/images/Pencil.svg" alt="Edit"/></span>
+      &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span style="cursor: pointer" mat-button (click)="openDialog(element)"><img width="20px" height="20px" src="../../../../assets/images/Trash Icon.svg" alt="Delete"/></span>
+      &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span style="cursor: pointer" mat-button (click)="downloadDetails(element)"><img width="20px" height="20px" src="../../../../assets/repository/Icon ionic-md-eye.svg" alt="Download details"/></span>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns;sticky: true"></tr> 
+    <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+  </table>
+</div>
+  <div class="wd-95">
+    <mat-paginator
+      class="f-18"
+      #paginator
+      [pageSize]="5"
+      [pageSizeOptions]="[5, 10, 25, 100]"
+    ></mat-paginator>
+  </div>
+</div>

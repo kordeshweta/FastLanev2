@@ -1,0 +1,30 @@
+<h1 mat-dialog-title>
+  Preview
+  <button class="closeButton" (click)="closePreview()">
+    <mat-icon aria-hidden="false" svgIcon="close"></mat-icon>
+  </button>
+</h1>
+
+<div mat-dialog-content class="previewBox" *ngIf="data.type === 'image'">
+  <mdb-carousel
+    class="carousel slide carousel-fade"
+    [animation]="'fade'"
+    [interval]="'0'"
+  >
+    <mdb-carousel-item *ngFor="let items of data.imgArray">
+      <img
+        class="previewImg"
+        src="{{localLocation}}{{ items.fileURL }}"
+        alt="Image Not Found"
+      />
+    </mdb-carousel-item>
+  </mdb-carousel>
+  <!-- <img class="previewImg" src="{{data.img}}" alt="Image Not Found" /> -->
+
+  <div mat-dialog-content *ngIf="data.type === 'video'">
+    <video controls id="video1" width="100%" autoplay>
+      <source [src]="data.video" type="video/mp4" />
+      <source [src]="data.video" type="video/ogg" />
+    </video>
+  </div>
+</div>

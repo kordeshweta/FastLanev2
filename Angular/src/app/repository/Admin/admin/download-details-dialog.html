@@ -1,0 +1,151 @@
+<style>
+    .header{
+        display:flex;
+        justify-content:space-between;
+        margin-bottom:25px;
+    }
+    .header-title{
+        font-weight:600;
+        font-size:20px;
+    }
+    .header-counter{
+        font-weight:500;
+        font-size:18px;
+        color:rgba(0,0,0,0.7)
+    }
+    .col-names{
+        font-weight:500;
+        font-size:12px;
+        color:#666666
+    }
+    .row-text{
+       color:#000000;
+       font-weight:500;
+       font-size:11px;
+    }
+    .container{
+        width:100%;
+        border:2px solid #cccccc;
+        border-radius: 4px;
+        padding:0px;
+        height:300px;
+        overflow-y: scroll;
+        overflow-x: unset;
+    }
+    table{
+        width:100%;
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+    .cmn{
+            box-shadow: 0px 1px 3px #00000033;
+            border: 1px solid #2A2D86;
+            border-radius: 4px;
+            opacity: 1;
+            width: 134px;
+            height: 32px;
+            margin:0px 7px 0px 10px;
+    }
+    .save{
+            background: #2B2E8B 0% 0% no-repeat padding-box;
+            color:white;
+    }
+    .btn-div{
+        display:flex;
+        justify-content: flex-end; 
+        position:relative;
+        top:30px;
+    }
+    th{
+        background-color: #EEEEEE;
+    }
+    .MuiTableCell-root {
+        height: 10px !important;
+        padding: 0px !important;
+    }
+    .export-btn
+    {
+        border: 1px solid black;
+        margin-right:30px;
+    }
+    .MuiButtonBase-root{
+        height: 10px !important;
+    }
+    table tr td{
+        border-bottom: 1px solid rgba(168, 168, 168, 0.2);
+    }
+    ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+        background:rgba(216,216,216,1);
+        width:50px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color:  rgba(28,93,216,0.3);
+        border-radius: 20px;
+    }
+</style>
+
+<div>
+    <div class="header">
+        <div class="header-title">
+            {{name}}
+        </div>
+        <div class="header-counter">
+            <button mat-button (click)="importAsXlsx()" class="export-btn">Export to Excel</button>
+            Download Count: {{count}}
+        </div>
+    </div>
+    <div class="container">
+        <table mat-table [dataSource]="dataSource" matTableExporter>
+            <ng-container matColumnDef="email">
+                <th mat-header-cell *matHeaderCellDef width="25%" class="col-names"> Email ID </th>
+                <td mat-cell *matCellDef="let element" class="row-text"> {{element.email}} </td>
+            </ng-container>
+            <ng-container matColumnDef="skill_set">
+                <th mat-header-cell *matHeaderCellDef width="8%" class="col-names">Type</th>
+                <td mat-cell *matCellDef="let element" class="row-text"> {{element.skill_set}}s </td>
+            </ng-container>
+            <ng-container matColumnDef="name">
+                <th mat-header-cell *matHeaderCellDef width="10%" class="col-names">Name</th>
+                <td mat-cell *matCellDef="let element" class="row-text">
+                    <span *ngIf="element.cName && element.cName.length<30">{{ element.cName }}</span>
+                    <span matTooltip="{{element.cName}}" matTooltipPosition="right"
+                     matTooltipClass="custom-tooltip" *ngIf="element.cName && element.cName.length>29">{{ element.cName.substring(0,29)}}...</span>
+                    </td>
+            </ng-container>
+            <ng-container matColumnDef="purpose">
+                <th mat-header-cell *matHeaderCellDef width="9%" class="col-names"> Purpose</th>
+                <td mat-cell *matCellDef="let element" class="row-text"> {{element.purpose}} </td>
+            </ng-container>
+            <ng-container matColumnDef="proj_id">
+                <th mat-header-cell *matHeaderCellDef width="7%" class="col-names"> Project ID </th>
+                <td mat-cell *matCellDef="let element" class="row-text"> {{element.proj_id}} </td>
+            </ng-container>
+            <ng-container matColumnDef="customer">
+                <th mat-header-cell *matHeaderCellDef width="10%" class="col-names"> Customer Name</th>
+                <td mat-cell *matCellDef="let element" class="row-text"> {{element.customer}} </td>
+            </ng-container>
+            <ng-container matColumnDef="ddate">
+                <th mat-header-cell *matHeaderCellDef width="13%" class="col-names"> Download Date </th>
+                <td mat-cell *matCellDef="let element" class="row-text"> {{element.ddate | date: "dd MMMM yyyy"}} </td>
+            </ng-container>
+            <ng-container matColumnDef="remarks">
+                <th mat-header-cell *matHeaderCellDef width="27%" class="col-names">Remarks</th>
+                <td mat-cell *matCellDef="let element" class="row-text"> {{element.remarks}} </td>
+            </ng-container>
+
+            <tr mat-header-row *matHeaderRowDef="displayedColumns;sticky: true"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+    </div>
+    <div >
+        <mat-paginator [pageSizeOptions]="[5, 10, 20, 50]" [length]="5">
+        </mat-paginator>
+      </div>
+    <div class="btn-div">
+        <button class="cmn save" (click)="Close()">CLOSE</button>
+    </div>
+</div>

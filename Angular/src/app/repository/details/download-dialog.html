@@ -1,0 +1,121 @@
+<style>
+    .heading{
+        font-size:20px;
+        font-weight:600;
+        margin-bottom:35px;
+    }
+    .asterix{
+        color:red;
+    }
+    .inp{
+        width:200px;
+        height:36px;
+        border-bottom:2px solid rgba(168, 168, 168, 0.2);
+        background-color: rgba(168, 168, 168, 0.1);
+        outline: none;
+        /* margin-bottom:15px; */
+    }
+    .inp:focus{
+        outline: none;
+    }
+    .project{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom:35px;
+    }
+    .sub-heading{
+        text-align: left;
+        font-size:14px;
+        font-family:Roboto;
+        letter-spacing: 0px;
+        font-weight:400;
+        color: #8D8D8D;
+        opacity: 1;
+        margin-left:3px;
+    }
+    .txtarea{
+        width:100%;
+        height: 89px;
+    }
+    .cmn{
+            box-shadow: 0px 1px 3px #00000033;
+            border: 1px solid #2A2D86;
+            border-radius: 4px;
+            opacity: 1;
+            width: 134px;
+            height: 32px;
+            margin:0px 10px 0px 10px;
+    }
+    .save{
+            background: #2B2E8B 0% 0% no-repeat padding-box;
+            color:white;
+    }
+    .btn-div{
+        height:10%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .exit{
+            background-color:white;
+            color:#00078C;
+    }
+    button:disabled,
+    button[disabled]{
+        border: 1px solid #999999;
+        background-color: #cccccc;
+        color: #666666;
+    }
+</style>
+
+<div class="heading">
+    Purpose Of Download
+</div>
+
+    <div style="margin-bottom:35px;">
+        <div class="sub-heading">Purpose <span class="asterix">*</span></div>
+            <mat-select class="inp" [(value)]="drp">
+                <mat-option *ngFor="let item of dropdown" [value]="item" >
+                {{item}}
+                </mat-option>
+            </mat-select>
+    </div>
+<!-- {{drp}} -->
+<form [formGroup]="form" id="myform">
+    <div *ngIf="drp=='Project'">
+        <div class="project" >
+            <div>
+                <div class="sub-heading">Customer Name <span class="asterix">*</span></div>
+                <div><input  matInput placeholder="Type here" autocomplete="off" class="inp" formControlName="customer_name" ></div>
+            </div>
+            <div>
+                <div class="sub-heading">Project ID <span class="asterix">*</span></div>
+                <div><input  matInput placeholder="Type here" autocomplete="off" class="inp" formControlName="proj_id" ></div>
+            </div>  
+        </div>
+        <div class="sub-heading">Remarks</div>
+        <mat-form-field appearance="fill" class="txtarea" [floatLabel]="'never'">
+            <textarea matInput [maxLength]="1000" placeholder="Type here" autocomplete="off" formControlName="remarks"></textarea>
+            <mat-hint align="end" class="hint">1000 characters</mat-hint>
+        </mat-form-field>
+    </div>
+</form>
+<form [formGroup]="form1" id="myform1">
+    <div *ngIf="drp=='Learning'||drp=='Demo'">
+        <div class="sub-heading">Remarks</div>
+        <mat-form-field appearance="fill" class="txtarea" [floatLabel]="'never'">
+            <textarea matInput [maxLength]="1000" placeholder="Type here" autocomplete="off" formControlName="remarks"></textarea>
+            <mat-hint align="end" class="hint">1000 characters</mat-hint>
+        </mat-form-field>
+    </div>
+</form>
+
+<hr>
+<div class="btn-div">
+    <button class="cmn exit" (click)="Close()"> Cancel</button>
+
+    <button type="submit" form="myform" class="cmn save" 
+    [disabled]="!form.valid" (click)="onSubmit()" *ngIf="drp=='Project'">Download</button>
+
+    <button type="submit" form="myform1" class="cmn save" 
+     (click)="onSubmit()"  *ngIf="drp=='Learning'||drp=='Demo'">Download</button>
+</div>

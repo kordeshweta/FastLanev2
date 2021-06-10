@@ -1,0 +1,104 @@
+.tile {
+  width: 295px;
+  height: 346px;
+  cursor: pointer;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #A7A7A7;
+  border-radius: 8px;
+  .tile-image {
+    width: 100%;
+    height: 218px;
+    overflow-y: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+      object-fit: contain;
+      padding: 20px;
+    }
+  }
+  .name {
+    top: 527px;
+    left: 118px;
+    width: 159px;
+    height: 25px;
+    /* UI Properties */
+    text-align: left;
+    font: Bold 18px/25px Avenir Next;
+    letter-spacing: 0px;
+    color: #2b2d71;
+    opacity: 1;
+  }
+
+  .content {
+    padding: 10px;
+
+    .download-icon{
+      float:right;
+    }
+  }
+.duplicate-layer
+{
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  position: absolute;
+  background-color: transparent;
+}
+  .cName {
+    font-size: 18px;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: bold;
+    position: relative;
+  }
+  .mat-divider {
+    color: blue;
+    border-top-width: 2px;
+  }
+  &.with-protfolio
+  {
+    width: 295px;
+    height: 275px;
+    .cName
+    {
+      white-space: normal;
+    }
+  }
+}
+.sub-head {
+  margin-bottom: 10px;
+  h1 {
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+}
+.flex-row {
+  flex-wrap: wrap;
+  .tile {
+    margin-bottom: 15px;
+  }
+}
+.custom-tooltip {
+  font-size: 15px;
+}
+
+::ng-deep .mat-form-field-flex > .mat-form-field-infix {
+  padding: 1px 0px 11px !important;
+}
+::ng-deep .mat-form-field-label-wrapper {
+  top: -1.5em;
+}
+
+::ng-deep
+  .mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float
+  .mat-form-field-label {
+  transform: translateY(-1.1em) scale(0.75);
+  width: 133.33333%;
+}
+.dp {
+  display: none;
+}

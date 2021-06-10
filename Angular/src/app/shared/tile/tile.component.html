@@ -1,0 +1,111 @@
+<div
+  *ngIf="type !== 'all'"
+  fxLayout="column"
+  fxLayoutAlign="space-around center"
+  class="search-wrapper"
+>
+  <!-- <span class="searchHeader">What are you looking for?</span> -->
+  <mat-form-field appearance="outline" class="dp">
+    <input
+      matInput
+      placeholder="Type here to search {{ title }}"
+      [(ngModel)]="comp"
+      #ctrl="ngModel"
+    />
+    <mat-icon matSuffix>search</mat-icon>
+  </mat-form-field>
+</div>
+<div
+  class="sub-head"
+  fxLayout="row"
+  fxLayoutAlign="space-between center"
+  fxLayout.xs="row"
+  fxLayoutAlign.xs="space-between center"
+>
+  <!-- <h1>Components</h1> -->
+  <h1 class="text-capitalize" *ngIf="dataType!==1 && dataType!==2">
+    {{ title === "bestPractices" ? "Best Practices And Guidelines" : title }}
+  </h1>
+  <a *ngIf="type == 'all'&& (dataType!==1 && dataType!==2) && components.length" (click)="getLink(title)">See All</a>
+</div>
+<div *ngIf="components | filter: comp as result">
+  <div
+    fxLayout="row"
+    fxLayout.xs="column"
+    fxLayoutGap.xs="10px"
+    fxLayoutAlign="start center"
+    fxLayoutAlign.xs="center center"
+    fxLayoutGap="15px"
+    class="flex-row"
+  >
+    <!-- {{ components.length }} -->
+
+    <div
+      (click)="navigate(title, data.id, i, data)"
+      *ngFor="let data of result; index as i"
+    >
+      <div class="tile" [class]="dataType===1 || dataType===2? 'with-protfolio':''" *ngIf="(type == 'all' && i < 8) || type != 'all'">
+        <div class="tile-image">
+          <img
+            src="{{localLocation}}{{ data.images[0].fileURL }}"
+            alt="{{ data.images[0].fileName }}"
+            *ngIf="data.images?.length > 0"
+          />
+          <img 
+          [src]="data.thumbnails" *ngIf="dataType ==1 || dataType ==2">
+          <img
+            src="assets/images/thumbnails/{{ title }}.png"
+            alt=""
+            *ngIf="data.images?.length === 0"
+          />
+        </div>
+        <mat-divider></mat-divider>
+        <div class="content" fxLayout="column" fxLayoutGap="2px">
+          <span class="text-capitalize">{{ data.technology }}
+            <span class="download-icon" *ngIf="data.technology">
+              <img style="height:14px; width:14px; margin-right:3px; margin-bottom: 2px;" src="assets/images/icons/Download-gray-icon.svg">{{ data.downloadCount}}
+            </span>
+           </span>
+          <span class="cName text-overflow" *ngIf="dataType!==2">{{ data.cName }}</span>
+          <div class="cName text-overflow" *ngIf="dataType===2">
+            <section class="example-section">
+              <mat-checkbox  class="example-margin" #triggerCheckBox [color]="'primary'" (click)="tileCheckboxCheck($event, data)" checked *ngIf="checkBox === 1">{{ data.cName }}</mat-checkbox>
+              <mat-radio-button class="example-margin" [color]="'primary'" *ngIf="checkBox === 0">{{ data.cName }}</mat-radio-button>
+             </section>
+             <div class="duplicate-layer">
+             </div>
+            </div>
+          <div class="text-overflow title-tooltip-wrapper" *ngIf="data.shortDesc && data.longDesc">
+            <span [matTooltip]="data.longDesc" matTooltipPosition="below" matTooltipClass="custom-tooltip">
+              {{
+                data.shortDesc.length > 65
+                  ? data.shortDesc.slice(0, 66) + "..."
+                  : data.shortDesc
+              }}
+            </span>
+            
+            <!-- <div class="title-tooltip">
+              {{ data.longDesc }}
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="!result.length">
+      No Match Found
+    </div>
+  </div>
+
+  <!-- <div
+    *ngIf="components.length === 0"
+    class="load-spinner"
+    fxLayout="row"
+    fxLayoutAlign="center"
+  >
+    <img
+      src="../assets/images/Ring-Preloader.gif"
+      width="400"
+      alt="loading..."
+    />
+  </div> -->
+</div>

@@ -1,0 +1,96 @@
+<div class="main-container1">
+  <div
+    *ngIf="loading"
+    class="load-spinner"
+    fxLayout="row"
+    fxLayoutAlign="center"
+  >
+    <img
+      src="../assets/images/Ring-Preloader.gif"
+      width="700"
+      alt="loading..."
+    />
+  </div>
+  <!-- <div
+    fxLayout="column"
+    fxLayoutAlign="space-around center"
+    class="search-wrapper"
+  >
+    <span class="searchHeader">What are you looking for?</span>
+    <mat-form-field appearance="outline">
+      <input
+        matInput
+        placeholder=" Type here to Search"
+        [(ngModel)]="searchValue"
+      />
+      <mat-icon matSuffix>search</mat-icon>
+    </mat-form-field>
+  </div> -->
+  
+  <app-search-component
+    (search)="searchComponent($event)"
+  ></app-search-component>
+
+  <!--<form
+      [formGroup]="formGroup"
+      autocomplete="off"
+      class="form"
+    >
+  <div class="text-right col-md-12 col-xs-12 border-buffer input-width">
+    <label class="margin-right">Sub-Practices</label><br/>
+    <mat-form-field class="multi-select form-element custom-form-input" appearance="outline">
+      <mat-select formControlName="practice" multiple>
+        <mat-option (click)="submitSearch(practice)" *ngFor="let practice of practiceList" [value]="practice" checked>{{practice}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  </form>-->
+  <div class="text-right col-md-12 col-xs-12 border-buffer input-width">
+    <label class="practice-label">Sub-Practices</label><br/>
+   <mat-form-field class="multi-select form-element custom-form-input" appearance="outline">
+      <mat-select placeholder="Select"
+                  name="Select"
+                  [(ngModel)]="selected"
+                  (ngModelChange)="onChange($event)"
+                  multiple
+                  class="practice-select"
+                  #selectionModel="ngModel"
+                  panelClass="myPanelClass"
+                  >
+        <app-select-check-all [model]="selectionModel" 
+                              [values]="options">
+        </app-select-check-all>
+        <mat-option *ngFor="let option of options"
+                    [value]="option">
+          {{option}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div *ngIf="!loading">
+    <tile
+      *ngIf="components && ifComponents === true"
+      [title]="list[0]"
+      [type]="'all'"
+      [compData]="components"
+      [searchValue]="searchValue"
+      [imageUrl]="compimages"
+    ></tile>
+    <tile
+      *ngIf="solutions && ifSolutions === true"
+      [title]="list[1]"
+      [type]="'all'"
+      [compData]="solutions"
+      [searchValue]="searchValue"
+      [imageUrl]="solimages"
+    ></tile>
+    <tile
+      *ngIf="bestPractices && ifBestPractices === true"
+      [type]="'all'"
+      [title]="list[2]"
+      [compData]="bestPractices"
+      [searchValue]="searchValue"
+      [imageUrl]="bestimages"
+    ></tile>
+  </div>
+</div>

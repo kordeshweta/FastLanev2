@@ -1,0 +1,21 @@
+<div
+  fxLayout="column"
+  fxLayoutAlign="space-around center"
+  class="search-wrapper"
+>
+  <span class="searchHeader" *ngIf="dataType!==2">Explore.Create.Inspire.</span>
+  <span class="searchHeader" *ngIf="dataType===2">Please Select Sub-PU</span>
+  <mat-form-field appearance="outline" *ngIf="dataType!==1 && dataType!==2">
+    <input
+      #textToSearch
+      id="textToSearch"
+      matInput
+      placeholder="Type here to search"
+      (keyup)="keyup($event.target.value)"
+      (click)="keyup($event.target.value)"
+    />
+    <input type="image" alt="Start" id="image" src="assets/mic.gif" (click)="voiceSearch()"> 
+    <mat-icon matPrefix>search</mat-icon>
+  </mat-form-field>
+</div>
+

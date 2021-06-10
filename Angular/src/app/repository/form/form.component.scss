@@ -1,0 +1,263 @@
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
+.fill-remaining-space {
+  /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+.multi-select{
+  width: 95%;
+  // margin-top: 6%;
+}
+
+.container {
+  align-items: center;
+  padding: 10px;
+}
+.backdrop {
+  position: relative;
+  &::before {
+    content: "";
+    z-index: 999999;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #000, $alpha: 0.5);
+  }
+}
+.success-messages {
+  padding: 30px;
+  text-align: center;
+  background: rgb(0, 255, 0, 0.2);
+  border-radius: 9px;
+}
+.button-group
+{
+  width: 100% !important;
+  display: flex;
+  justify-content: space-between;
+  .button{
+    width: 45% !important;
+  }
+}
+.cancel-button
+{
+  border: 1px solid #000;
+  margin-left: 5px;
+  span 
+  {
+    color: #000 !important;
+  }
+  &.disabled
+  {
+    border-color: transparent ;
+    span 
+    {
+      color: #ffffff !important;
+    }
+  }
+}
+.disabled
+{
+  cursor: not-allowed !important;
+}
+.form {
+  width: 100%;
+}
+label {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.form-element {
+  padding: 5px 0px 15px 2px;
+  width: 100%;
+}
+
+.button {
+  font-size: 18px;
+  color: blueviolet;
+  text-transform: uppercase;
+  height: 60px;
+  width: 504px;
+  border-radius: 4px;
+  span {
+    color: white;
+  }
+}
+.pd-l {
+  padding-left: 6px;
+}
+.width {
+  width: 100%;
+}
+.end {
+  justify-content: flex-end;
+  display: flex;
+}
+.w-90 {
+  width: 90%;
+}
+mat-icon {
+  cursor: pointer;
+}
+//Upload styles
+.uploadfilecontainer {
+  background-image: url(../../../assets/images/upload.PNG);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center;
+  height: 200px;
+  margin: 20px auto;
+  border: 2px dashed #1c8adb;
+}
+
+.uploadfilecontainer:hover {
+  cursor: pointer;
+  background-color: #9ecbec !important;
+  opacity: 0.8;
+}
+
+.files-list {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 10px auto;
+  background: #ffffff;
+  border: 1px dashed;
+  border-radius: 12px;
+  padding: 5px;
+  color: #1c8adb;
+  line-height: 10px;
+  span {
+    line-height: 32px;
+    padding-left: 6px;
+  }
+}
+.files-list .delete-file {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.files-list .delete-file img {
+  width: 30px;
+}
+.diasbledDiv {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba($color: #dddddd, $alpha: 0.5);
+  cursor: not-allowed;
+  p {
+    color: red;
+    text-align: center;
+    margin-top: 14px;
+    font-weight: bold;
+    display: none;
+  }
+  &:hover {
+    p {
+      display: block;
+    }
+  }
+}
+.disabledDocument {
+  .disable-Wrapper {
+    position: relative;
+  }
+  .diasbledDiv {
+    display: block;
+  }
+}
+.w-100 {
+  width: 100%;
+}
+.custom-form-input {
+  ::ng-deep .mat-form-field-flex > .mat-form-field-infix {
+    border-top-width: 2.6px !important;
+    padding: 1.25em 0 1.25em 0 !important;
+    color: #333333 !important;
+    font-size: 16px !important;
+    font-family: "Roboto", sans-serif;
+  }
+  ::ng-deep .mat-select-arrow-wrapper {
+    transform: translateY(0%);
+  }
+  ::ng-deep .ng-star-inserted {
+    font-family: "Roboto", sans-serif;
+  }
+  ::ngdeep .mat-input-element {
+    font-family: "Roboto", sans-serif;
+  }
+}
+.document-warning
+{
+  color: #f44336;
+  margin: 0px;
+  margin-top: -20px;
+}
+.description-Input {
+  ::ng-deep .mat-form-field-flex > .mat-form-field-infix {
+    height: 102px !important;
+    border-top-width: 2.6px !important;
+    padding: 14px 0px !important;
+    color: #333333 !important;
+    font-size: 16px !important;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    textarea {
+      height: 100% !important ;
+      min-height: auto !important;
+      max-height: auto !important;
+    }
+  }
+  ::ng-deep .ng-star-inserted {
+    font-family: "Roboto", sans-serif;
+  }
+}
+.position-hint {
+  font-size: 14px;
+  position: absolute;
+  bottom: -12px;
+  right: -4px;
+}
+.fs-18 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.custom-button {
+  &.disabled {
+    ::ng-deep .mat-button-wrapper {
+      color: white;
+    }
+  }
+  &.active {
+    background-color: darkblue;
+    ::ng-deep .mat-button-wrapper {
+      color: white;
+    }
+  }
+}
+.required-field{
+  color: rgb(255,0,0);
+}
+// .nopdb {
+//   ::ng-deep .mat-form-field-wrapper {
+//     padding-bottom: 0px !important;
+//   }
+// }
+// ::ng-deep .mat-form-field-label-wrapper {
+//   top: -1.5em;
+// }
+
+// ::ng-deep
+//   .mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float
+//   .mat-form-field-label {
+//   transform: translateY(-1.1em) scale(0.75);
+//   width: 133.33333%;
+// }

@@ -1,0 +1,15 @@
+.multi-select{
+    width: 22%;
+    margin-right: 4px;
+}
+.practice-label{
+    width: 22%;
+    text-align: left;
+    margin-right: 4px;
+}
+.practice-select{
+   ::ng-deep .mat-select-arrow
+    {
+        margin-top: 10px;
+    }
+}

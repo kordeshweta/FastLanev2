@@ -12,6 +12,7 @@ export class AppComponent {
   head_obj:any;
   show_head:boolean;
 
+
   constructor(updates: SwUpdate,private headerService:HeaderService)
   {
     this.head_obj={
