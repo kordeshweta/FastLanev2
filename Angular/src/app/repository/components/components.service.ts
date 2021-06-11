@@ -15,7 +15,7 @@ export class ComponentsService {
   }*/
   getComponentData(practices) {
     console.log("environment.apiUrl",environment.apiUrl)
-    return this.http.post(`${environment.apiUrl}components`,{practices});
+    return this.http.get(`${environment.apiUrl}components`);
     // return this.http.get('../assets/Data/data.Json');
   }
 }

@@ -33,21 +33,21 @@ const router = express.Router();
 router.get('/isAdmin', authJwt.verifyToken, authJwt.isAdmin, authJwt.checkAdmin);
 
 // Copmponent routes
-router.post('/components/', authJwt.verifyToken, Component.findAll);
+router.get('/components/', authJwt.verifyToken, Component.findAll);
 router.get('/components/:id', authJwt.verifyToken, Component.findOne);
 router.post('/components/add', [authJwt.verifyToken, authJwt.isAdmin, validator.entityFields], Component.create);
 router.put('/components/:id', [authJwt.verifyToken, authJwt.isAdmin, validator.entityFields], Component.update);
 router.delete('/components/:id', authJwt.verifyToken, authJwt.isAdmin, Component.delete);
 
 // Best Practice routes
-router.post('/bestPractices/', authJwt.verifyToken, BestPractice.findAll);
+router.get('/bestPractices/', authJwt.verifyToken, BestPractice.findAll);
 router.get('/bestPractices/:id', authJwt.verifyToken, BestPractice.findOne);
 router.post('/bestPractices/add', [authJwt.verifyToken, authJwt.isAdmin, validator.entityFields], BestPractice.create);
 router.put('/bestPractices/:id', [authJwt.verifyToken, authJwt.isAdmin, validator.entityFields], BestPractice.update);
 router.delete('/bestPractices/:id', authJwt.verifyToken, authJwt.isAdmin, BestPractice.delete);
 
 // Solution routes
-router.post('/solutions/', authJwt.verifyToken, Solution.findAll);
+router.get('/solutions/', authJwt.verifyToken, Solution.findAll);
 router.get('/solutions/:id', authJwt.verifyToken, Solution.findOne);
 router.post('/solutions/add', [authJwt.verifyToken, authJwt.isAdmin, validator.entityFields], Solution.create);
 router.put('/solutions/:id', [authJwt.verifyToken, authJwt.isAdmin, validator.entityFields], Solution.update);

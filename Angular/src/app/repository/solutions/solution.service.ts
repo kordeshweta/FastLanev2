@@ -9,7 +9,7 @@ export class SolutionService {
   constructor(private http: HttpClient) {}
 
   getComponentData(practices) {
-    return this.http.post(`${environment.apiUrl}solutions`,{practices});
+    return this.http.get(`${environment.apiUrl}solutions`);
     // return this.http.get('../assets/Data/data.Json');
   }
 }
