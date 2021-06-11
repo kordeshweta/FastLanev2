@@ -8,6 +8,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 //components and directives
 import {SearchComponentComponent} from './search-component/search-component.component';
 import {TileComponent} from './tile/tile.component';
+import {SelectAllCheckBoxComponent} from './select-all-check-box';
 
 import { SelectCheckAllComponent } from '../shared/custom-material/select-check-all/select-check-all.component';
 import { DragDropDirective } from './drag-drop.directive';
@@ -29,6 +30,7 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     MostPopularPipe,
     FilterArtifactPipe,
     DragDropDirective,
+    SelectAllCheckBoxComponent
   ],
   imports: [
     CommonModule,
@@ -38,7 +40,7 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     FormsModule,
     ReactiveFormsModule
   ],
-  exports: [SearchComponentComponent,TileComponent,SelectCheckAllComponent,MostPopularPipe,FilterArtifactPipe],
+  exports: [SearchComponentComponent,TileComponent,SelectCheckAllComponent,MostPopularPipe,FilterArtifactPipe,SelectAllCheckBoxComponent],
 
 })
 export class SharedModule {}

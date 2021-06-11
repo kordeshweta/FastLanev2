@@ -29,9 +29,12 @@
                   #selectionModel="ngModel"
                   panelClass="myPanelClass"
                   >
-        <!-- <app-select-all-check-box [model]="selectionModel" 
+        <app-select-all-check-box [model]="selectionModel" 
                               [values]="options">
-        </app-select-all-check-box> -->
+        </app-select-all-check-box>
+        <!-- <app-select-check-all [model]="selectionModel" 
+        [values]="options">
+</app-select-check-all> -->
         <mat-option *ngFor="let option of options"
                     [value]="option">
           {{option}}
