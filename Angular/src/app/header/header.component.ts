@@ -28,7 +28,15 @@ export class HeaderComponent implements OnInit,AfterViewInit{
   }
 
   ngAfterViewInit() {
-    document.querySelector('#home').classList.add('underline');
+    // document.querySelector('#home').classList.add('underline');
+    
+    
+    window.addEventListener('resize', function(event) {
+      var element1=document.getElementsByClassName('container-1'),
+      element2=document.getElementsByClassName('container-1')[0].nextElementSibling.getBoundingClientRect()
+      
+      console.log();
+    }, true);
   }
   
   logout() {

@@ -3,10 +3,13 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component'
 import { RouterModule, Routes } from '@angular/router';
 
-
 import { MaterialModule } from '../material.module';
+
+//components
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { IntroductionComponent } from './components/introduction/introduction.component';
+import { SlantSectionComponent } from './components/slant-section/slant-section.component';
+import { VideoComponent } from './components/video/video.component';
 
 const routes: Routes = [
   {
@@ -23,11 +26,10 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     HomeComponent,
-
     CarouselComponent,
-
     IntroductionComponent,
-
+    SlantSectionComponent,
+    VideoComponent
   ],
   imports: [
     CommonModule,

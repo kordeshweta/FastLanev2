@@ -1,8 +1,8 @@
 <header class="header">
     <div class="side-nav">
-        MENU
+        <img src="../../assets/Header/hamburger.svg" alt="MENU">
     </div>
-    <div class="container-main">   
+    <div class="container-main DesktopOnly">   
         <div class="container-1">
             <div class="logo">
                 <img alt="LTI" src="../../favicon.ico" routerLink="/home"/>
@@ -12,7 +12,7 @@
                     <em>Fastlane</em> 
                 </div>
             </div>
-            <div id="home" class="options home-option" (click)="underlineOption()" >
+            <div id="home" class="options home-option">
                 <div class="option">
                     Home
                 </div>
@@ -20,7 +20,7 @@
             <div *ngFor="let dda of dropdownArray" class="options" appFader>
                 <div class="option">
                     {{dda.name}} 
-                    <img width="10px" height="10px" src="../../assets/Header/down-arrow.svg" alt="">
+                    <!-- <img width="10px" height="10px" src="../../assets/Header/down-arrow.svg" alt=""> -->
                 </div>
                 <div class="menu">
                     <div appHover *ngFor="let list_items of dda.dropdown_list" class="menu-items">

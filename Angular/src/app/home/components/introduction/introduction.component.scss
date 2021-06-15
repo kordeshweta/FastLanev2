@@ -1,14 +1,15 @@
-.container {
+.container-main {
 	background: url("../../../../assets/home/back.jpg");
 	height: 550px;
     position: relative;
 }
 .slide {
-    margin-top: 180px;
+    // margin-top: 180px;
     position: absolute;
 	left: 0px;
-	width: 1120px;
-	height: 300px;
+	bottom:50px;
+	width: 60%;
+	height: 50%;
 	background: linear-gradient(rgba(42,46,125,.4), rgba(42,46,125,.4)) 0% 0% no-repeat padding-box;
 	span {
 		text-align: left;

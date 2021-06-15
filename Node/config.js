@@ -9,8 +9,8 @@ if (environment == 1) {
     TANENT: '02aa9fc1-18bc-4798-a020-e01c854dd434',
     APPID: '6a09f0e8-559b-4189-ab90-b8c75059fa2b',
     DB_HOST: 'localhost',
-    DB_USER: 'fastlane',
-    DB_PASS: 'f@s4L@n3',
+    DB_USER: 'root',
+    DB_PASS: '1234',
     DB_NAME: 'fastlane',
     isUAT:false,
     PYTHON:'http://127.0.0.1:6000'

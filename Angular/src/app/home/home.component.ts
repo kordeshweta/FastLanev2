@@ -37,19 +37,13 @@ export class HomeComponent implements OnInit, OnDestroy,AfterViewInit {
     this.startIndex = 0
   }
   ngAfterViewInit(): void {
-    document.getElementById("one").addEventListener("mouseover",()=>{
-      document.getElementById("two").style.display="inline";
-    });
-    document.getElementById("one").addEventListener("mouseout",()=>{
-      document.getElementById("two").style.display="none";
-    });
   }
   ngOnDestroy(): void {
     
   }
   
   ngOnInit() {
-    this.Repeat();
+    // this.Repeat();
   }
 
   Repeat() {
