@@ -1,0 +1,18 @@
+<section class="accelerators">
+    <h1>Move ahead with our <span>Accelerators</span></h1>
+    <div class="carousel">
+      <div class="content" *ngFor="let item of imageObject;">
+          <img src="{{item.image}}" class="svg_img">
+          <h2>{{item.alt}}</h2>
+          <p>FastLane is a solution-based approach 
+            and methodology for fast-tracking web and mobile</p>
+          <button>Learn More</button>
+          <img src="{{item.dot}}" class="dots"/>
+      </div>
+
+      <div class="buttons-container">
+        <img class="btn-left" (click)="left()" src="../../assets/home/Mobile carousel (1).svg "/>
+        <img class="btn-right" (click)="right()" src="../../assets/home/Mobile carousel.svg "/>
+      </div>
+    </div>
+  </section> 
