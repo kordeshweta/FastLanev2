@@ -77,7 +77,7 @@ app.use(express.static(path.join(__dirname, 'public', 'dist')));
 
 // Serve the Frontend routes
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, './public/dist/index.html'));
+  res.sendFile(path.join(__dirname, './Angular/dist/index.html'));
 });
 
 const httpServer = http.createServer(app);
