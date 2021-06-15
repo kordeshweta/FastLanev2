@@ -6,6 +6,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { MaterialModule } from '../material.module';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { IntroductionComponent } from './components/introduction/introduction.component';
 
 const routes: Routes = [
   {
@@ -22,7 +23,11 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     HomeComponent,
+
     CarouselComponent,
+
+    IntroductionComponent,
+
   ],
   imports: [
     CommonModule,
