@@ -19,7 +19,90 @@
     z-index: 90;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
+.underline{
+    border-bottom: 5px solid orange;
+}
 
+//buttons
+button:disabled,
+button[disabled]{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+.cmn{
+    box-shadow: 0px 1px 3px #00000033;
+    border: 1px solid #2A2D86;
+    border-radius: 4px;
+    opacity: 1;
+    width: 134px;
+    height: 32px;
+    margin:0px 10px 0px 10px;
+    cursor:pointer;
+}
+.exit{
+    background-color:white;
+    color:#00078C;
+}
+.save{
+    background: #2B2E8B 0% 0% no-repeat padding-box;
+    color:white;
+}
+
+.container-main{
+    display: flex;
+    height:100%;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
+    .container-1{
+        display: flex;
+        height:100%;
+        align-items: center;
+        .home-option{
+            width: 50px !important;
+
+        }
+        .options{
+            height:100%;
+            padding:0em 1em;
+            width:100px;
+            // min-width:70px;
+
+            cursor:pointer;
+            .menu{
+                .menu-items{
+                    padding:7px 15px;
+                    border: 4px solid transparent;
+                }
+                display: none;
+                position:relative;
+                top:65%;
+                left:-30%;
+                width:180%;
+                height:130px;
+                background-color: white;
+                border: 1px solid rgba(102, 102, 102,0.3);
+                border-radius:2px;
+                overflow-y: auto;
+            }
+            .option{
+                position: relative;
+                top:32%;
+            }
+        }
+    }
+
+    .container-2{
+        display: flex;
+        height:100%;
+        align-items: center;
+    }
+}
+
+.no-pointer{
+    cursor: auto;
+}
 .logo{
     background-color: white;
     padding: 8px;

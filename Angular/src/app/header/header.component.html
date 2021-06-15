@@ -2,12 +2,47 @@
     <div class="side-nav">
         MENU
     </div>
-
-    <div class="logo">
-        <img alt="LTI" src="../../favicon.ico" routerLink="/home"/>
+    <div class="container-main">   
+        <div class="container-1">
+            <div class="logo">
+                <img alt="LTI" src="../../favicon.ico" routerLink="/home"/>
+            </div>
+            <div class="options">
+                <div class="option no-pointer">
+                    <em>Fastlane</em> 
+                </div>
+            </div>
+            <div id="home" class="options home-option" (click)="underlineOption()" >
+                <div class="option">
+                    Home
+                </div>
+            </div>
+            <div *ngFor="let dda of dropdownArray" class="options" appFader>
+                <div class="option">
+                    {{dda.name}} 
+                    <img width="10px" height="10px" src="../../assets/Header/down-arrow.svg" alt="">
+                </div>
+                <div class="menu">
+                    <div appHover *ngFor="let list_items of dda.dropdown_list" class="menu-items">
+                        {{list_items.name}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-2">
+            <button class="cmn save">Start Assessment</button>
+            <div class="profile">
+                <mat-icon [matMenuTriggerFor]="menu">account_circle</mat-icon>
+                <mat-menu #menu="matMenu" class="menu-Holder">
+                  <button mat-menu-item (click)="logout()">Logout</button>
+                </mat-menu>
+            </div>
+        </div>
     </div>
 
-    <nav class="DesktopOnly">
+
+    
+    <!-- <nav class="DesktopOnly">
         <ul class="navigationItems">
             <li class="navigationItem">
                 <a routerLink="/repository">Repo</a>
@@ -25,11 +60,10 @@
                 <div class="profile">
                     <mat-icon [matMenuTriggerFor]="menu">account_circle</mat-icon>
                     <mat-menu #menu="matMenu" class="menu-Holder">
-                      <!-- <button mat-menu-item>Profile</button> -->
                       <button mat-menu-item (click)="logout()">Logout</button>
                     </mat-menu>
                 </div>
             </li>
         </ul>
-    </nav>
+    </nav> -->
 </header>

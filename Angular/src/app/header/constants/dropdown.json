@@ -1,0 +1,20 @@
+{
+    "menu":[
+        {
+            "name":"Assessments",
+            "menu_item":[
+                {"id":0,"name":"Conduct Assessment"},
+                {"id":1,"name":"Experience Design"},
+                {"id":2,"name":"View Archives"}
+            ]
+        },
+        {
+            "name":"Accelerators",
+            "menu_item":[
+                {"id":0,"name":"Estimation"},
+                {"id":1,"name":"Repository"},
+                {"id":2,"name":"UX Habitat"}
+            ]   
+        }
+    ]
+}

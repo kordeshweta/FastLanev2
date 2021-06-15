@@ -1,4 +1,4 @@
-import { Component, OnInit,OnDestroy } from '@angular/core';
+import { Component, OnInit,OnDestroy, AfterViewInit } from '@angular/core';
 import { HeaderService } from '../_services/header';
 
 @Component({
@@ -6,7 +6,7 @@ import { HeaderService } from '../_services/header';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit, OnDestroy {
+export class HomeComponent implements OnInit, OnDestroy,AfterViewInit {
 
   imageObject: Array<object> = [{
     image: 'https://images.unsplash.com/photo-1599394022918-6c2776530abb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1458&q=80',
@@ -35,6 +35,14 @@ export class HomeComponent implements OnInit, OnDestroy {
   interval;
   constructor(private headerService:HeaderService){
     this.startIndex = 0
+  }
+  ngAfterViewInit(): void {
+    document.getElementById("one").addEventListener("mouseover",()=>{
+      document.getElementById("two").style.display="inline";
+    });
+    document.getElementById("one").addEventListener("mouseout",()=>{
+      document.getElementById("two").style.display="none";
+    });
   }
   ngOnDestroy(): void {
     

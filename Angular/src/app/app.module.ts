@@ -22,6 +22,8 @@ import { HeaderComponent } from '../app/header/header.component';
 import { FooterComponent } from '../app/footer/footer.component';
 import {FormComponent} from '../app/repository/form/form.component';
 import { AddFormComponent } from '../app/repository/Admin/add-form/add-form.component';
+import { FaderDirective } from '../app/header/directives/fader.directive';
+import { HoverDirective } from '../app/header/directives/hover.directive';
 //repository
 // import { RepohomeComponent } from '../app/repository/repohome/repohome.component';
 // import { DetailsComponent,DownloadDialog } from '../app/repository/details/details.component';
@@ -54,8 +56,9 @@ export function getAdalConfig() {
     HeaderComponent,
     FooterComponent,
     FormComponent,
-    AddFormComponent
-    // RepohomeComponent,
+    AddFormComponent,
+    FaderDirective,
+    HoverDirective 
     // DetailsComponent,
     // DownloadDialog,
     // ImagedialogComponent,
