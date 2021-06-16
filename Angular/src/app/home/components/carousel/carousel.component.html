@@ -11,8 +11,10 @@
       </div>
 
       <div class="buttons-container">
-        <img class="btn-left" (click)="left()" src="../../assets/home/Mobile carousel (1).svg "/>
-        <img class="btn-right" (click)="right()" src="../../assets/home/Mobile carousel.svg "/>
+        <img class="btn-left" (click)="left()" src="../../assets/home/Mobile carousel (1).svg " *ngIf="!disableLeft"/>
+        <img class="btn-right" (click)="right()" src="../../assets/home/Mobile carousel.svg " *ngIf="!disableRight"/>
+        <img class="btn-right" src="../../assets/home/DisableL.svg" *ngIf="disableRight" />
+        <img class="btn-left" src="../../assets/home/DisableR.svg" *ngIf="disableLeft" />
       </div>
     </div>
   </section> 

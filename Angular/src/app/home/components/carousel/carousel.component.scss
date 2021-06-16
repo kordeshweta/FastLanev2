@@ -26,6 +26,7 @@
 	position: relative;
 	margin-top: 32px;
 	opacity: 1;
+	box-sizing: border-box;
 }
 .content {
 	display: flex;
@@ -57,7 +58,7 @@
 		margin-right: auto;
 	}
 	p {
-		width: 388px;
+		//width: 388px;
 		height: auto;
 		left: 206px;
 		text-align: center;
@@ -69,6 +70,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 18px;
+		box-sizing: border-box;
 	}
 	button {
 		width: 161px;
@@ -109,7 +111,15 @@
 	position: absolute;
 	top: 30%;
 }
-@media (min-width: 499px) {
+
+@media (min-width: 600px) and (max-width: 780px){
+	.content{
+		.svg_img{
+			margin-top: 1rem;
+		}
+	}
+}
+@media (min-width: 780px) {
 	.accelerators {
 		flex-direction: column;
 		margin-bottom: 20px;
