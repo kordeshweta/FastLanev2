@@ -30,9 +30,14 @@ button[disabled]{
     font-family: Bw Modelica;
     // background-color: green;
 
+    background-image: url("../../../../assets/home/LTI\ background\ left.svg");
+    background-repeat: no-repeat;
+    background-size: 70% 70%;
+    background-position: -80% 100%;
+
     padding:70px 20px;
     clip-path:polygon(0 70px, 100% 0, 100% calc(100% - 70px), 0 100%);
-    margin-top:-70px;
+    margin:-70px 0px;
 
     display: flex;
     align-items: center;
@@ -44,6 +49,7 @@ button[disabled]{
     .container-1{
         line-height: 1;
         margin-right:20px;
+
         .image-head{
             color:white;
             font-size:1.5rem;
@@ -83,6 +89,7 @@ button[disabled]{
 @media (max-width: 800px) {
     .container-main{
         flex-direction: column;
+        background-position: -80% 30%;
         .container-1,.container-2{
             width:80%;
         }
@@ -90,6 +97,9 @@ button[disabled]{
             // margin-top:-50px;
             .container-desc{
                 margin-top:-80px;
+                width:100%;
+            }
+            button{
                 width:100%;
             }
         }

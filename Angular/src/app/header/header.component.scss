@@ -73,15 +73,16 @@ button[disabled]{
             cursor:pointer;
             .menu{
                 .menu-items{
-                    padding:7px 15px;
+                    padding:4px 15px;
                     border: 4px solid transparent;
                 }
                 display: none;
                 position:relative;
                 top:65%;
                 left:-30%;
-                width:150px;
-                height:130px;
+                width:fit-content;
+                min-width:180px;
+                height:auto;
                 background-color: white;
                 border: 1px solid rgba(102, 102, 102,0.3);
                 border-radius:2px;
