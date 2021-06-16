@@ -1,7 +1,8 @@
 .container-main {
-	background: url("../../../../assets/home/back.jpg");
+	background: url("../../../../assets/home/section-1.png");
 	height: 550px;
     position: relative;
+	background-size:100% 100%;
 }
 .slide {
     // margin-top: 180px;
@@ -18,6 +19,7 @@
 	.resp-text{
 		font-family:Bw Modelica LTI;
 		font-size:max(3vw,1.4rem);
+		white-space: nowrap;
 	}
 	.resp-text-1{
 		font-family:Bw Modelica LTI;

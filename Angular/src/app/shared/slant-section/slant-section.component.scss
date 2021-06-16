@@ -23,21 +23,35 @@ button[disabled]{
     color:white;
 }
 
+.first-div{
+    order:1;
+    margin-left: auto;
+    margin-right:auto;
+}
+.second-div{
+    order:2;
+}
 
+.slant-rl{
+    clip-path:polygon(0 0, 100% 0, 100% calc(100% - 70px), 0 100%);
+    margin-bottom:-70px;
+    position: relative;
+}
+
+.slant-lr{
+    clip-path:polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 70px));
+    margin-bottom:-70px;
+    position: relative;
+}
+.gradient-color{
+    background-image:linear-gradient(#0670BA, #2A2E7D);
+}
 .container-main{
     width:100%;
     height:100vh;
     font-family: Bw Modelica;
-    // background-color: green;
-
-    background-image: url("../../../assets/home/LTI\ background\ left.svg");
-    background-repeat: no-repeat;
-    background-size: 70% 70%;
-    background-position: -80% 100%;
 
     padding:70px 20px;
-    clip-path:polygon(0 70px, 100% 0, 100% calc(100% - 70px), 0 100%);
-    margin:-70px 0px;
 
     display: flex;
     align-items: center;
@@ -51,8 +65,8 @@ button[disabled]{
         margin-right:20px;
 
         .image-head{
-            color:white;
             font-size:1.5rem;
+            // white-space: nowrap;
             .image-head-1{
                 font-size:1.7rem;
             }
@@ -65,12 +79,40 @@ button[disabled]{
             max-width: 600px;
             min-width: 250px;
             width:100%;
+            position: relative;
+            z-index:10;
+        }
+        .background-image-left{
+            display: block;
+            // margin-left: auto;
+            // margin-right:auto;
+            height:auto;
+            max-width: 600px;
+            min-width: 250px;
+            width:100%;
+            position: relative;
+            z-index:5;
+            margin-top:-250px;
+            margin-left:-150px;
+        }
+        .background-image-right{
+            display: block;
+            // margin-left: auto;
+            // margin-right:auto;
+            height:auto;
+            max-width: 600px;
+            min-width: 250px;
+            width:100%;
+            position: relative;
+            z-index:5;
+            top:-250px;
+            right:-200px;
+
         }
     }
     .container-2{
         .text-decorator{
             font-size:1.1rem;
-            color:white;
         }
         .container-desc{
             position: relative;
@@ -103,6 +145,9 @@ button[disabled]{
                 width:100%;
             }
         }
+    }
+    .container-main-reverse{
+        flex-direction: column-reverse;
     }
 
 }

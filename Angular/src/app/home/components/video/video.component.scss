@@ -1,7 +1,52 @@
 .container-main{
-    height:80vh;
+    height:100vh;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;    
+    clip-path:polygon(0 0, 100% 0, 100% calc(100% - 70px), 0 100%);
+    margin-bottom:-70px;
+    background-color: white;
+    position: relative;
+    z-index:10;
+    
+    h1{
+        text-align: center;
+        color: #2A2E7D;
+        font-family: "Bw Modelica LTI";
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+
+    
+    p{
+        padding: 20px;
+        position: relative;
+        text-align: center;
+        text-align-last: center;
+        font-size: 24px;
+        color: #2E2E2E;
+        font-family: "Bw Modelica";
+
+    }
+
+
+    .front{
+        width: 100%;
+        height: auto;
+        z-index: 10;
+        max-width: 500px;
+    }
+
+
+    button{
+        background-color: #2A2E7D;
+        border: none;
+        color: #FFFFFF;
+        border-radius: 4px;
+        text-align: center;
+        display: inline-block;
+        padding-top: 18px ;
+        padding-bottom: 16px ;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
 }

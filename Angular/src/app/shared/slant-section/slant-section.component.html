@@ -1,28 +1,30 @@
 <div 
     class="container-main"
     id="container-main-id"
+    #container_main
 >
-    <div class="container-1">
+    <div class="container-1" id="container-in-1" #container_in_1>
         <div class="primary-image image-head">
             <p>
-                Assess Your
+                {{heading}}
             </p>
             <p class="image-head-1">
                 <strong>
-                    Mobile And Web Apps
+                    {{sub_heading}}
                 </strong>
             </p>
 
         </div>
-        <img src="../../../assets/home/laptops.jpg" alt="" class="primary-image">
+        
+        <img src="{{image}}" alt="section_image" class="primary-image">
+        <img *ngIf="left" src="../../../assets/home/LTI background left.svg" alt="" class="background-image-left">
+        <img *ngIf="right" src="../../../assets/home/LTI background right.svg" alt="" class="background-image-right">
     </div>
-    <div class="container-2">
+    <div class="container-2" id="container-in-2" #container_in_2>
         <div class="container-desc text-decorator">
-            A cross-functional team of designers, developers and 
-            business experts constantly challenge themselves 
-            to achieve breakthrough results in the shortest time.
-            <button class="cmn exit">
-                Get Started
+           {{description}}
+            <button #btn>
+                {{button}}
             </button>
         </div>
     </div>
