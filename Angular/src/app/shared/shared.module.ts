@@ -13,6 +13,8 @@ import {SelectAllCheckBoxComponent} from './select-all-check-box';
 import { SelectCheckAllComponent } from '../shared/custom-material/select-check-all/select-check-all.component';
 import { DragDropDirective } from './drag-drop.directive';
 
+import { SlantSectionComponent } from './slant-section/slant-section.component'
+
 //pipes
 import { MostPopularPipe } from './pipes/most-popular.pipe';
 import { FilterArtifactPipe } from './filter-artifact.pipe';
@@ -30,7 +32,8 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     MostPopularPipe,
     FilterArtifactPipe,
     DragDropDirective,
-    SelectAllCheckBoxComponent
+    SelectAllCheckBoxComponent,
+    SlantSectionComponent
   ],
   imports: [
     CommonModule,
@@ -40,7 +43,7 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     FormsModule,
     ReactiveFormsModule
   ],
-  exports: [SearchComponentComponent,TileComponent,SelectCheckAllComponent,MostPopularPipe,FilterArtifactPipe,SelectAllCheckBoxComponent],
+  exports: [SearchComponentComponent,TileComponent,SelectCheckAllComponent,MostPopularPipe,FilterArtifactPipe,SelectAllCheckBoxComponent,SlantSectionComponent],
 
 })
 export class SharedModule {}
