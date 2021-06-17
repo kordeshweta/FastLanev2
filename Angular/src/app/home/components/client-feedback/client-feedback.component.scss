@@ -1,107 +1,105 @@
-.client-feedback{
-    width:100%;
-    height:100vh;
-    font-family: Bw Modelica;
+.client_container {
+    // background-color: rgb(212, 88, 39);
+    background: url('../../../../assets/home/Rectangle\ 3013.svg');
+    height: 80vh;
+    width: 100%;
     display: flex;
     align-items: center;
-    flex-direction: column-reverse;
-    background-color: burlywood;
-    margin-bottom: -100px;
-    
+    /* justify-content: center; */
 }
 
-.feedback{
-    background-color: rgb(212, 88, 39);
-    clip-path:polygon(0 0px, 100% 10%, 100% 100%, 0 100%);
-    transform: translate(0, -20%);
-   // transform: translate(0, -10vh);
-    height:60%;
-    width:100%;
-    //background: url('../../../../assets/home/Group 168.svg');
-}
-
-.image{
-    height: 40%;
-    width:100%;
- }
-
-.image img{
+.client_left{
+    width: 40%;
     height: 100%;
+    /* background-color: rgb(212, 88, 39); */
+    /* clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%); */
+    /* margin-right: 100px; */
+    /* transform: scaleX(1); */
+    /* transform: translate(10%,0); */
+    background: url('../../../../assets/home/Group\ 116495.svg') no-repeat center / cover;
+    background-size: 100% 100%;
+}
+
+.client_right{
+    width: 60%;
+    height: 100%;
+    background: url('../../../../assets/home/Mask\ Group\ 16.png') no-repeat center / cover;
+    background-size: 100% 100%;
+}
+
+.client_right img{
     width: 100%;
+    height: 100%;
     object-fit: cover;
-    
 }
 
-.image_desk{
-    display: none;
-}
-
-
-.feedback_content{
-    top:10%; 
-    width: 100%;
+.client_left-content{
+    background: #FFFBF5 0% 0% no-repeat padding-box;
     height: auto;
-   // background: #FFE8C8 0% 0% no-repeat padding-box;
-    opacity: 1;
-    //margin-right: -12%;
-    //clip-path:polygon(0 0px, 100% 13%, 100% 100%, 0 100%);
-    transform: translate(0, 25%);  
-}
-
-.content{
+    width: 100%;
+    margin-top: 30%;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
     display: flex;
     flex-direction: column;
+    
 }
 
 .feedback1{
-    margin-top : 30px;
+    margin-top : 40px;
     opacity: 1;
     text-align: left;
-    padding-left: 32px;
-    font: normal normal normal 32px/46px Bw Modelica;
+    padding-left: 70px;
+    font: normal normal normal 36px/52px Bw Modelica;
     letter-spacing: 0px;
-    color: #FFF;
-    //box-sizing: border-box; 
-    width: 312px;
+    color: #2E2E2E;
+   // position: absolute; 
+   width: auto;
+   height: auto;
+
    span{
     text-align: left;
-    font: normal normal bold 32px/46px Bw Modelica;
     letter-spacing: 0px;
-    color: #FFF;
-    width: 111px;
+    font: normal normal bold 36px/52px Bw Modelica;
+    color: #2E2E2E;
    }
 }
 
 .actual_feedback{
     text-align: left;
     box-sizing: border-box;
-    width: 300px;
-    padding-left: 32px;
-    font: italic normal medium 18px/36px Bw Modelica;
+   width: 70%;
+    // margin-top: 40px;
+    padding-left: 70px;
+    //position: absolute; 
+    font: italic normal medium 24px/42px Bw Modelica;
     letter-spacing: 0px;
-    color: #FFF;
+    color: #2E2E2E;
     opacity: 1;
 }
 
 .client{
-    font: normal normal normal 16px/28px Bw Modelica;
+    font: normal normal normal 20px/28px Bw Modelica;
     letter-spacing: 0px;
     opacity: 1;
-    color: #FFF;
-    padding-left: 32px;
+    color: #2E2E2E;
+    padding-left: 70px;
 }
 
+
+
+
 .dots{
-    margin-left: 32px;
-    margin-top: 10px;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 .dot1{
-  margin: 0 2px;  
+  margin: 0 2px; 
   cursor: pointer;
   display: inline-block;
   width: 10px;
   height: 10px;
-  border: 2px solid #FFF;
+  border: 1px solid #2E2E2E;
   border-radius: 50%;
   opacity: 1;
 }
@@ -109,160 +107,11 @@
 .dot2{
     margin: 0 2px;
     display: inline-block;
+    cursor: pointer;
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #FFF 0% 0% no-repeat padding-box;
-    border: 1px solid #FFF;
+    background: #2E2E2E 0% 0% no-repeat padding-box;
+    border: 1px solid #2E2E2E;
     opacity: 1;
 }
-
-.image1{
-    width: 50%;
-    margin-top: 8rem;
-    margin-left: -20%;
-
-    img{
-        height: 10%;
-        width: 10%;
-        object-fit: cover;
-    }
-}
-
-@media (min-width: 780px){
-    .client-feedback{
-        width:100%;
-        height:80vh;
-        font-family: Bw Modelica;
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        //position: relative;
-        margin-top: 0;
-        margin-bottom: 0;
-        background: url('../../../../assets/home/Group\ 116495.svg');
-    }
-    
-    .feedback{
-        background-color: rgb(212, 88, 39);
-        width:50%;
-        height:100%;
-        margin-right: -12%;
-        clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
-        //position: relative;
-        transform: translate(0, 0);
-    }
-    
-    .image_desk_class{
-        width: 100%;
-        height: 100%;
-        //margin-top: -300px;
-        margin-top: -40%;
-        //margin-left: -60px;
-        margin-left: -8%;
-    }
-    .image_desk{
-        display: block;
-        //width:800px;
-        //height:800px;
-        width: 100%;
-        height: 100%;
-        opacity: 1;
-    }
-    .feedback_content{
-        background-color: #FFE8C8 ;
-        top:25%;
-       // position: absolute;  
-        left: 0.29296875px;
-        width: 90%;
-        height: auto;
-        background: #FFE8C8 0% 0% no-repeat padding-box;
-        opacity: 1;
-        //margin-right: -12%;
-        clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
-        transform: translate(0, 50%);  
-    }
-    
-    .content{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .feedback1{
-        margin-top : 30px;
-        opacity: 1;
-        text-align: left;
-        padding-left: 70px;
-        font: normal normal normal 36px/52px Bw Modelica;
-        letter-spacing: 0px;
-        color: #2E2E2E;
-       // position: absolute; 
-       width: auto;
-       height: auto;
-    
-       span{
-        text-align: left;
-        letter-spacing: 0px;
-        font: normal normal bold 36px/52px Bw Modelica;
-        color: #2E2E2E;
-       }
-    }
-    
-    .actual_feedback{
-        text-align: left;
-        box-sizing: border-box;
-        width: 60%;
-       // margin-top: 100px;
-        padding-left: 70px;
-        //position: absolute; 
-        font: italic normal medium 24px/42px Bw Modelica;
-        letter-spacing: 0px;
-        color: #2E2E2E;
-        opacity: 1;
-    }
-    
-    .client{
-        font: normal normal normal 20px/28px Bw Modelica;
-        letter-spacing: 0px;
-        opacity: 1;
-        color: #2E2E2E;
-        padding-left: 70px;
-    }
-    
-    .dots{
-        margin-left: 70px;
-        margin-top: 30px;
-    }
-    .dot1{
-      margin: 0 2px; 
-      cursor: pointer;
-      display: inline-block;
-      width: 10px;
-      height: 10px;
-      border: 2px solid #2E2E2E;
-      border-radius: 50%;
-      opacity: 1;
-    }
-    
-    .dot2{
-        margin: 0 2px;
-        display: inline-block;
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-        background: #2E2E2E 0% 0% no-repeat padding-box;
-        border: 1px solid #2E2E2E;
-        opacity: 1;
-    }
-    
-    .image{
-       width: 62%;
-       height:100%;
-    }
-    
-    .image img{
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-} 

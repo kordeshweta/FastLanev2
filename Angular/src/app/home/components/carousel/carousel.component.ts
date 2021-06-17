@@ -47,20 +47,19 @@ export class CarouselComponent implements OnInit {
   }
   slide(){
     const slides = Array.from(document.getElementsByClassName('content'));
-    console.log(slides.length)
-    console.log(this.startIndex)
+    
     for (const x of slides) {
       const y = x as HTMLElement;
       y.style.display = 'none';
     }
 
-    if(this.startIndex > 1 && this.startIndex <= slides.length){
+    if(this.startIndex > 1 && this.startIndex < 4){
       this.disableLeft = false;
     }else{
       this.disableLeft = true;
     }
 
-    if(this.startIndex == slides.length){
+    if(this.startIndex == 3){
       this.disableRight = true;
     }else{
       this.disableRight = false;
