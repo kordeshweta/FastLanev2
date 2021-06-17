@@ -1,130 +1,157 @@
 
-.bgcolor{
-   
-    // background-color: #2A2E7D;
-    background: transparent linear-gradient(180deg, var(--unnamed-color-0670ba) 0%, var(--main-color) 100%) 0% 0% no-repeat padding-box;
-    background: transparent linear-gradient(180deg, #0670BA 0%, #2A2E7D 100%) 0% 0% no-repeat padding-box;
-    opacity: 1;
-    margin-top: auto;
-    left: 0px;
-    bottom:0%;
-    width: 100%;
-    height: auto;
+
+* {
+  box-sizing: border-box;
+  font: normal normal normal 18px/34px Bw Modelica SS02;
+  margin: 0; 
+  padding: 0;
+  
+  
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer {
+  background: transparent linear-gradient(180deg, var(--unnamed-color-0670ba) 0%, var(--main-color) 100%) 0% 0% no-repeat ;
+  background: transparent linear-gradient(180deg, #0670BA 0%, #2A2E7D 100%) 0% 0% no-repeat ;
+  opacity: 1;
+  color: #bbb;
+  line-height: 1.5;
+}
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+a:hover {
+  text-decoration: underline;
+}
+.ft-title {
+  color: #fff;
+  font: normal normal bold 20px/36px Bw Modelica;
+  font-size: 1.375rem;
+  padding-bottom: 0.25rem;
+}
+
+.ft-title-main
+{
+  color: #fff;
+  font: normal normal bold 20px/36px Bw Modelica;
+  font-size: 2.5rem;
+  padding-bottom: 0.25rem;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  
+}
+.container {
+ 
+  flex-grow:1;   /* same as flex-grow: 1; */
+}
+
+
+.ft-main {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ft-main-item {
+  padding: 0.25rem 0.25rem;
+  min-width: 12.5rem /*200px*/;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 20.8125rem /*360px*/) {
+  .ft-main {
+      
+      justify-content: space-between;
+    }
+    .ft-subitems{
+      display:flex;
+      flex-direction: row;
+    }
+
     
     
 }
-
- .fastlaneImg{
-    
-
-     width: 100%;
-// height: 20px;
- }
-
-// .LTILogo{
-//     height: 30px;
-// }
-
-.text-large {
-    font-size: 40px;
+@media only screen and (min-width: 30.5rem /*1240px*/ ) {
+  .ft-main {
+      justify-content: space-around;
+  }
+  .right-comp{
+      display:flex;
+      flex-direction: row;
   }
 
-// .mySVG{
-//     background-image: url('/Angular/src/assets/images/Logo_fastlane.svg');
+ 
+}
+
+
+
+.ft-social {
+  padding: 0 1.875rem 1.25rem;
+}
+.ft-social-list {
+  display: flex;
+  justify-content: left;
+  border-top: 1px #777 solid; 
+  padding-top: 1.25rem;
+}
+.ft-social-list li {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
+
+img {
+  // max-width: 100%;
+  width:10rem;
+  padding-top: 1px;
+  padding-left: 2px;
+}
+
+.text-title {
+   flex-basis: 10%;
+  
+  color: #fff;
+  font: normal normal bold 20px/36px Bw Modelica;
+  font-size: 5.375rem;
+  
+}
+
+// .image {
+  
+//   padding-top: 5px;
+//   width:10rem;
 // }
 
-// .ren-footer{
-//     text-align: center;
-//     // position: fixed;
-//     bottom: 0px;
-//     width:100%;
-//     font: normal normal normal 14px/17px Roboto;
-//     letter-spacing: 0px;
-//     color: #656565;
-//     opacity: 1;
-//     padding: 0px 0 15px 0;
-//     background-color: white;
-    
-//     .ren-footer-inner{
-//         padding-top:17px; 
-//         border-top:1px solid rgba(0, 0, 0, 0.1)
-//     }
+.facebook-icon{
+  background-image: url('../../assets/images/Icon-awesome-linkedin-in.svg');
+}
+// .container-title {
+//   display: flex;
+//   align-items: left;
+//   justify-content: left;
+//   bottom:50px;
+//   padding-left: 2px;
 // }
 
-// .footer{
-//     margin-top: 10px;
-//     background-color: #dadada;
-//     padding: 5px;
-//     //width: 100%;
-//     height: auto;
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//     box-sizing: border-box;
-//     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-// }
 
-// .navigationItems{
-//     margin: 0;
-//     padding: 0;
-//     list-style: none;
-//     display: flex;
-//     align-items: center;
-//     flex-flow: column;
-//     height: 100%;
-// }
 
-// .navigationItem{
-//     margin: 10px 0;
-//     width: 100%;
-//     box-sizing: border-box;
-//     display: block;
-// }
+span {
+  justify-content: left;
+  // text-align: left;
+  font: normal normal 100 30px/45px Bw Modelica LTI;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  padding-left: 0px;
+}
+b {
 
-// .navigationItem a{
-//     color: #8F5C2C;
-//     text-decoration: none;
-//     width: 100%;
-//     display: block;
-//     box-sizing: border-box;
-// }
-
-// .navigationItem a:hover,
-// .navigationItem a:active,
-// .navigationItem a.active{
-//     color: #40A4C8;
-// }
-
-// @media (min-width: 500px){
-//     .navigationItem{
-//         margin: 0;
-//         width: auto;
-//         height: 100%;
-//         box-sizing: border-box;
-//         display: flex;
-//         align-items: center;
-//     }
-    
-//     .navigationItem a{
-//         color: gray;
-//         height: 100%;
-//         padding: 16px 10px;
-//         border-bottom: 4px solid transparent;
-//     }
-    
-//     .navigationItem a:hover,
-//     .navigationItem a:active,
-//     .navigationItem a.active{
-//         //background-color: #8F5C2C;
-//         //border-bottom: 4px solid #40A4C8;
-//         background-color: gray;
-//         border-bottom: 4px solid gray;
-//         color: white;
-//     }
-// }
-
-// @media (min-width: 500px){
-//     .navigationItems{
-//         flex-flow: row;
-//     }
-// }
+ justify-content: left;
+  font: bold italic normal normal 56px/88px Gotham;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}

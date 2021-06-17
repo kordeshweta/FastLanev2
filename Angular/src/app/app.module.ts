@@ -36,6 +36,7 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { ComponentsService } from './repository/components/components.service';
 import { SolutionService } from './repository/solutions/solution.service';
 import { BestPracticeService } from './repository/bestpractice/best-practice.service';
+import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
 
 export function getAdalConfig() {
   return {
@@ -58,7 +59,8 @@ export function getAdalConfig() {
     FormComponent,
     AddFormComponent,
     FaderDirective,
-    HoverDirective 
+    HoverDirective,
+    ScrollToTopComponent 
     // DetailsComponent,
     // DownloadDialog,
     // ImagedialogComponent,

@@ -1,0 +1,23 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 185px;
+    right: 15px;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+    
+   }
+   .show-scrollTop {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+   
+   }
+
+.btn{
+    border: 0cm;
+    width: 48px;
+    height: 48px;
+    opacity:1;
+    // background-image:url('../../assets/images/Footer_top_arrow_desktop.svg') ;
+    background: transparent url('../../assets/images/Footer-top-arrow-desktop/Footer-top-arrow-desktop.png') 0% 0% no-repeat padding-box;
+
+}
