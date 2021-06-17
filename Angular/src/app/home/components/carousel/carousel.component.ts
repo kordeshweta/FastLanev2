@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-carousel',
@@ -12,17 +13,20 @@ export class CarouselComponent implements OnInit {
     {
     image: '../../assets/home/Group 116407.svg',
     alt: 'Repository',
+    link:'/repository',
     content : 'FastLane is a solution-based approach and methodology for fast-tracking web and mobile',
     dot: '../../assets/home/Group 116335.svg'
   }, 
   {
     image: '../../assets/home/Group 116406.svg',
     alt: 'UX Habitat',
+    link:'/',
     content : 'FastLane is a solution-based approach and methodology for fast-tracking web and mobile',
     dot: '../../assets/home/Group 116329.svg'
   }, {
     image: '../../assets/home/Group 116405.svg',
     alt: 'Estimation',
+    link:'/',
     content : 'FastLane is a solution-based approach and methodology for fast-tracking web and mobile',
     dot: '../../assets/home/Group 116330.svg'
   }];
@@ -30,7 +34,7 @@ export class CarouselComponent implements OnInit {
   startIndex;
   disableLeft;
   disableRight;
-  constructor(){
+  constructor(private router:Router){
     this.startIndex = 1;
   }
 
@@ -38,6 +42,9 @@ export class CarouselComponent implements OnInit {
     this.disableLeft = true;
   }
 
+  redirect(url){
+    this.router.navigate([url]);
+  }
   slide(){
     const slides = Array.from(document.getElementsByClassName('content'));
     console.log(slides.length)

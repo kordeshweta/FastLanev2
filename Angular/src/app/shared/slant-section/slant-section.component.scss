@@ -71,44 +71,50 @@ button[disabled]{
                 font-size:1.7rem;
             }
         }
-        .primary-image{
-            display: block;
-            margin-left: auto;
-            margin-right:auto;
-            height:auto;
-            max-width: 600px;
-            min-width: 250px;
+        .image-container{
             width:100%;
-            position: relative;
-            z-index:10;
+            display: flex;
+            justify-content: center;
+            .primary-image{
+                // display: block;
+                // margin-left: auto;
+                // margin-right:auto;
+                height:auto;
+                max-width: 600px;
+                min-width: 250px;
+                width:100%;
+                position: relative;
+                z-index:10;
+            }
+            .background-image-left{
+                display: block;
+                // margin-left: auto;
+                // margin-right:auto;
+                height:auto;
+                max-width: 600px;
+                min-width: 250px;
+                width:100%;
+                position: relative;
+                z-index:5;
+                margin-top:-250px;
+                margin-left:-150px;
+            }
+            .background-image-right{
+                display: block;
+                // margin-left: auto;
+                // margin-right:auto;
+                height:auto;
+                max-width: 600px;
+                min-width: 250px;
+                width:100%;
+                position: relative;
+                z-index:5;
+                top:-250px;
+                right:-200px;
+    
+            }
         }
-        .background-image-left{
-            display: block;
-            // margin-left: auto;
-            // margin-right:auto;
-            height:auto;
-            max-width: 600px;
-            min-width: 250px;
-            width:100%;
-            position: relative;
-            z-index:5;
-            margin-top:-250px;
-            margin-left:-150px;
-        }
-        .background-image-right{
-            display: block;
-            // margin-left: auto;
-            // margin-right:auto;
-            height:auto;
-            max-width: 600px;
-            min-width: 250px;
-            width:100%;
-            position: relative;
-            z-index:5;
-            top:-250px;
-            right:-200px;
 
-        }
     }
     .container-2{
         .text-decorator{
@@ -132,8 +138,14 @@ button[disabled]{
     .container-main{
         flex-direction: column;
         background-position: -80% 30%;
+        
         .container-1,.container-2{
             width:80%;
+        }
+        .container-1{
+            .image-container{
+                justify-content: center;
+            }
         }
         .container-2{
             // margin-top:-50px;

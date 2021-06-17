@@ -29,7 +29,7 @@ export class HeaderComponent implements OnInit,AfterViewInit{
   }
 
   ngAfterViewInit() {
-    // document.querySelector('#home').classList.add('underline');
+    document.querySelector('#home').classList.add('underline');
     
     
     window.addEventListener('resize', function(event) {

@@ -22,9 +22,8 @@
         position: relative;
         text-align: center;
         text-align-last: center;
-        font-size: 24px;
         color: #2E2E2E;
-        font-family: "Bw Modelica";
+        font: normal normal normal 24px/40px Bw Modelica;
 
     }
 
@@ -49,4 +48,17 @@
         padding-right: 24px;
         padding-left: 24px;
     }
+}
+
+@media screen and (max-width: 900px) {
+.container-main{
+    h1 {
+        font-size: 32px;
+    }
+    
+    p{
+        font-size: 16px;
+    }
+}
+
 }
