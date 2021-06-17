@@ -1,59 +1,147 @@
 .client_container {
-    // background-color: rgb(212, 88, 39);
     background: url('../../../../assets/home/Rectangle\ 3013.svg');
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     display: flex;
+    flex-direction: column-reverse;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .client_left{
-    width: 40%;
-    height: 100%;
-    /* background-color: rgb(212, 88, 39); */
-    /* clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%); */
-    /* margin-right: 100px; */
-    /* transform: scaleX(1); */
-    /* transform: translate(10%,0); */
-    background: url('../../../../assets/home/Group\ 116495.svg') no-repeat center / cover;
-    background-size: 100% 100%;
+    width: 100%;
+    height: 60%;
+    background: url('../../../../assets/home/Mask\ Group\ 66.svg') no-repeat center / cover;
+    background-size: 90% 120%;
 }
 
 .client_right{
-    width: 60%;
-    height: 100%;
-    background: url('../../../../assets/home/Mask\ Group\ 16.png') no-repeat center / cover;
-    background-size: 100% 100%;
-}
-
-.client_right img{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: 40%;
+    background: url('../../../../assets/home/Mask\ Group\ 20.png') no-repeat center / cover;
+    background-size: 100% 100%;
 }
 
 .client_left-content{
     background: #FFFBF5 0% 0% no-repeat padding-box;
     height: auto;
-    width: 100%;
-    margin-top: 30%;
-    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+    width: 90%;
+    // margin-top: 30%;
+     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
     display: flex;
     flex-direction: column;
-    
 }
 
 .feedback1{
+    width: 280px;
+    height: 85px;
+    padding-left: 32px;
+    font: normal normal normal 32px/46px Bw Modelica;
+    letter-spacing: 0px;
+    color: #2E2E2E;
+    margin-top : 60px;
+    opacity: 1;
+   span{
+    text-align: left;
+    letter-spacing: 0px;
+    font: normal normal bold 32px/46px Bw Modelica;
+    color: #2E2E2E;
+    width: 112px;
+    height: 32px;
+   }
+}
+
+.actual_feedback{
+    width: 300px;
+   /// height: 94px;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 32px;
+    font: italic normal medium 18px/36px Bw Modelica;
+    letter-spacing: 0px;
+    color: #2E2E2E;
+    opacity: 1;
+}
+
+.client{
+    font: normal normal normal 16px/28px Bw Modelica;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #2E2E2E;
+    padding-left: 32px;
+}
+
+.dots{
+    margin-left: 32px;
+    margin-top: 20px;
+    margin-bottom: 13px;
+}
+.dot1{
+  margin: 0 2px; 
+  cursor: pointer;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #2E2E2E;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.dot2{
+    margin: 0 2px;
+    display: inline-block;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #2E2E2E 0% 0% no-repeat padding-box;
+    border: 1px solid #2E2E2E;
+    opacity: 1;
+}
+
+@media (min-width : 700px){
+    .client_container {
+        height: 80vh;
+        background: url('../../../../assets/home/Rectangle\ 3013.svg');
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .client_left{
+        width: 40%;
+        height: 100%;
+        background: url('../../../../assets/home/Group\ 116495.svg') no-repeat center / cover;
+        background-size: 100% 100%;
+    }
+
+    .client_right{
+        width: 60%;
+        height: 100%;
+        background: url('../../../../assets/home/Mask\ Group\ 16.png') no-repeat center / cover;
+        background-size: 100% 100%;
+    }
+
+    .client_left-content{
+        height: auto;
+        width: 100%;
+        margin-top: 30%;
+        clip-path: polygon(0 0, 100% 0, calc(100% - 70px) 100%, 0% 100%);
+        background: #FFFBF5 0% 0% no-repeat padding-box;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feedback1{
     margin-top : 40px;
     opacity: 1;
     text-align: left;
-    padding-left: 70px;
+    // padding-left: 70px;
     font: normal normal normal 36px/52px Bw Modelica;
     letter-spacing: 0px;
     color: #2E2E2E;
    // position: absolute; 
-   width: auto;
+   width: 80%;
    height: auto;
 
    span{
@@ -61,6 +149,8 @@
     letter-spacing: 0px;
     font: normal normal bold 36px/52px Bw Modelica;
     color: #2E2E2E;
+    width: auto;
+    height: auto;
    }
 }
 
@@ -69,12 +159,13 @@
     box-sizing: border-box;
    width: 70%;
     // margin-top: 40px;
-    padding-left: 70px;
+    //padding-left: 70px;
     //position: absolute; 
     font: italic normal medium 24px/42px Bw Modelica;
     letter-spacing: 0px;
     color: #2E2E2E;
     opacity: 1;
+    
 }
 
 .client{
@@ -82,14 +173,12 @@
     letter-spacing: 0px;
     opacity: 1;
     color: #2E2E2E;
-    padding-left: 70px;
+    //padding-left: 70px;
+    width: 80%;
 }
 
-
-
-
 .dots{
-    margin-left: 70px;
+    //margin-left: 70px;
     margin-top: 20px;
     margin-bottom: 10px;
 }
@@ -114,4 +203,5 @@
     background: #2E2E2E 0% 0% no-repeat padding-box;
     border: 1px solid #2E2E2E;
     opacity: 1;
+}
 }
