@@ -13,7 +13,7 @@
 	bottom:50px;
 	width: 62%;
 	height: 50%;
-	background: linear-gradient(rgba(42,46,125,.4), rgba(42,46,125,.4)) 0% 0% no-repeat padding-box;
+	background: linear-gradient(rgba(42, 46, 125,.7), rgba(42,46,125,.7)) 0% 0% no-repeat padding-box;
 	clip-path:polygon(0 0, 100% 0, 90% 100%, 0 100%);
 	.slide-content{
 		width:93%;
@@ -32,10 +32,18 @@
 		letter-spacing: 0px;
 		color: #FFFFFF;
 		padding-left: 40px;
+		display: inline;
+		
 	}
-	b {
+	.resp {
+		display: inline;
+        padding-left: 7px;
 		text-align: left;
-		font: bold italic normal normal 56px/88px Gotham;
+		font: italic normal normal 56px/88px Gotham;
+		// font-family: Gotham;
+	    // font-weight: Ultra Italic;
+	    // font-size: 56px;
+	    // line-height: 88px;
 		letter-spacing: 0px;
 		color: #FFFFFF;
 	}
@@ -46,6 +54,7 @@
 	letter-spacing: 0px;
 	color: #FFFFFF;
 	padding-left: 40px;
+	
 }
 .intro-mobile {
 	text-align: left;
@@ -56,7 +65,10 @@
 }
 button {
 	text-align: center;
-	font: normal normal medium 20px/30px Bw Modelica;
+	font-family: Bw Modelica-Medium;
+	font-weight: medium;
+	font-size: 14px;
+	line-height: 30px;
 	letter-spacing: 0px;
 	color: #2A2E7D;
 	background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -65,29 +77,50 @@ button {
 	height: 45px;
 	margin-left: 40px;
 }
-@media (min-width:768px) {
+@media (min-width:500px) {
 	.intro-mobile {
 		display: none;
 	}
+	
+
 }
-@media (max-width:768px) {
-	.container-main {
-		background: url("../../../../assets/home/Group\ 116457.png");
+@media(width:768px){
+	.intro-mobile {
+		display: none;
+	}
+	.intro-desktop{
+		font-size: 18px;
+	}
+	.slide{
+		width:600px;
+		height: 60%;
+	}
+}
+@media (max-width:500px) {
+	.container-main{
+		background: url("../../../../assets/home/section-1-mob.png");
 	}
 	.slide {
 		span {
 			font: normal normal 300 20px/88px Bw Modelica LTI;
 		}
-		b {
-			font: bold italic normal normal 20px/88px Gotham;
+		.resp {
+			padding-left: 3px;
+			font-family: Gotham;
+	        font-weight: Ultra Italic;
+	        font-size: 20px;
+	        line-height: 88px;
 		}
 		width: 350px;
+		height: 40%;
+		background: linear-gradient(rgba(42, 46, 125,.88), rgba(42,46,125,.88)) 0% 0% no-repeat padding-box;
 	}
 	.intro-desktop {
 		display: none;
 	}
 	.intro-mobile {
 		font: normal normal normal 13px/20px Bw Modelica;
+		
 	}
 	button {
 		width: 180px;

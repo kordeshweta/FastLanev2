@@ -64,7 +64,11 @@
     }
     .logout{
         border-top: 2px solid #f4f4f4;
-        font: normal normal normal 20px/30px Bw Modelica;;
+        // font: normal normal medium 20px/30px Bw Modelica-Medium;
+        font-family: Bw Modelica-Medium;
+	    font-weight: medium;
+	    font-size: 20px;
+	    line-height: 30px;
     }
     .home{
         border-top: 2px solid #f4f4f4;

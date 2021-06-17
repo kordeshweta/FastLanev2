@@ -35,4 +35,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     src: url("../src/assets/FastLane_Fonts/Fonts/BW_Modelica_LTI/BwModelicaLTI-Bold.ttf") format('truetype');
 }
 
+
 @import '../src/styles/common.scss';
+
+@font-face{
+    font-family: Gotham;
+    src:url("../src/assets/FastLane_Fonts/Fonts/FontsFree-Net-Gotham-UltraItalic.ttf") format('truetype');
+}
+
