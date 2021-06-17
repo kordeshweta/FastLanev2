@@ -1,3 +1,5 @@
+@import '../../styles/common.scss';
+
 .header{
     width: 100%;
     height: 56px;
@@ -19,7 +21,7 @@
     z-index: 90;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 
-    font: normal normal bold 14px/20px Bw Modelica;
+    font: $section_button_font;
     color:#2A2E7D;
 }
 .underline{
@@ -199,7 +201,13 @@ button[disabled]{
     }
     .side-nav{
         width:100%;
-        text-align:end;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .mobile-head-logo{
+            display: flex;
+            align-items: center;
+        }
     }
 }
 

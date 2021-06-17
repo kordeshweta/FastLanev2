@@ -1,6 +1,17 @@
 <header class="header">
     <div class="side-nav" (click)="nDisplay()">
-        <img src="../../assets/Header/hamburger.svg" alt="MENU" >
+        <div class="mobile-head-logo">
+            <div class="logo">
+                <img alt="LTI" src="../../assets/Header/LTI_logo.svg" width="35px" routerLink="/home"/>
+            </div>
+            <div class="option no-pointer">
+                <img src="../../assets/Header/FASTLANE.svg" width="120px">
+                <!-- <em>FASTLANE</em>  -->
+            </div>
+        </div>
+        <div>
+            <img src="../../assets/Header/hamburger.svg" alt="MENU" >
+        </div>
     </div>
     <div class="container-main DesktopOnly">   
         <div class="container-1">
@@ -21,7 +32,7 @@
             <div *ngFor="let dda of dropdownArray" class="options" appFader>
                 <div class="option">
                     {{dda.name}} 
-                    <!-- <img width="10px" height="10px" src="../../assets/Header/down-arrow.svg" alt=""> -->
+                    <img width="10px" height="10px" src="../../assets/Hamburger/arrow-down.svg" alt="">
                 </div>
                 <div class="menu">
                     <div appHover *ngFor="let list_items of dda.dropdown_list" class="menu-items">
