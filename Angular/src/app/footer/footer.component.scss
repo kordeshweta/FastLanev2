@@ -13,25 +13,26 @@ ul {
   padding-left: 0;
 }
 footer {
-  background: transparent linear-gradient(180deg, var(--unnamed-color-0670ba) 0%, var(--main-color) 100%) 0% 0% no-repeat ;
+  // background: transparent linear-gradient(180deg, var(--unnamed-color-0670ba) 0%, var(--main-color) 100%) 0% 0% no-repeat ;
   background: transparent linear-gradient(180deg, #0670BA 0%, #2A2E7D 100%) 0% 0% no-repeat ;
   opacity: 1;
   color: #bbb;
   line-height: 1.5;
+  // width: 100%;
+  
+
+  a {
+    text-decoration: none;
+    color: #eee;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 }
-footer a {
-  text-decoration: none;
-  color: #eee;
-}
-a:hover {
-  text-decoration: underline;
-}
-.ft-title {
-  color: #fff;
-  font: normal normal bold 20px/36px Bw Modelica;
-  font-size: 1.375rem;
-  padding-bottom: 0.25rem;
-}
+
+
+
 
 .ft-title-main
 {
@@ -41,51 +42,111 @@ a:hover {
   padding-bottom: 0.25rem;
 }
 
-body {
+.body-main1 {
   display: flex;
-  min-height: 100vh;
+  // width: 100%;
   flex-direction: column;
+  // flex-grow: 1;
+ 
+  
   
 }
-.container {
- 
-  flex-grow:1;   /* same as flex-grow: 1; */
-}
+
 
 
 .ft-main {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  // width:100%;
 }
+
+
 .ft-main-item {
-  padding: 0.25rem 0.25rem;
+  padding: 2.0 rem 2.25rem;
+  min-width: 12.5rem /*200px*/;
+  flex-wrap: wrap;
+
+  .ft-title {
+    color: #fff;
+    font: normal normal bold 20px/36px Bw Modelica;
+    font-size: 1.375rem;
+    padding-top: 25px;
+    // padding-bottom: 0.25rem;
+  }
+
+}
+.ft-main-top-item{
+  padding: 2.5rem 2.25rem;
   min-width: 12.5rem /*200px*/;
   flex-wrap: wrap;
 }
 
-@media only screen and (min-width: 20.8125rem /*360px*/) {
+@media only screen and (min-width: 400px /*360px*/) {
   .ft-main {
-      
-      justify-content: space-between;
+     justify-content: space-between;
     }
     .ft-subitems{
       display:flex;
       flex-direction: row;
+      justify-content: space-between;
+		  // flex-wrap: wrap;
+      flex-grow: 1;
+      // flex-shrink: 2;
+		  // align-items: center;
+		  // box-sizing: border-box;
+		  height: auto;
     }
 
+    .ft-main-item{
+      // padding: 0.25rem 2.25rem;
+      padding-left: 2.25rem;
+      padding-right: 2.25rem;
+      padding-top: 0.25rem;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 399px /*360px*/) {
+  .ft-main {
+     justify-content: space-between;
+    }
+    // .ft-subitems{
+    //   display:flex;
+    //   flex-direction: row;
+    //   justify-content: space-between;
+		//   // flex-wrap: wrap;
+    //   // flex-grow: 1;
+    //   // flex-shrink: 2;
+		//   // align-items: center;
+		//   // box-sizing: border-box;
+		//   height: auto;
+    // }
+
+    .ft-main-item{
+      // padding: 0.25rem 2.25rem;
+      justify-content: center;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      padding-top: 0.25rem;
+    }
     
     
 }
 @media only screen and (min-width: 30.5rem /*1240px*/ ) {
   .ft-main {
-      justify-content: space-around;
+      justify-content: space-between;
   }
   .right-comp{
       display:flex;
       flex-direction: row;
   }
 
+  .ft-subitems{
+      display:flex;
+      flex-direction: row;
+    }
  
 }
 
@@ -105,40 +166,36 @@ body {
   font-size: 1.25rem;
 }
 
-img {
+.fastlane-logo {
   // max-width: 100%;
-  width:10rem;
+  width: 232px;
+height: 30px;
   padding-top: 1px;
   padding-left: 2px;
 }
 
+
+
+.img-icon {
+  // max-width: 100%;
+  width: 29px;
+  height: 20px;
+  padding-top: 1px;
+  padding-left: 2px;
+}
 .text-title {
-   flex-basis: 10%;
-  
+  flex-basis: 10%;
   color: #fff;
   font: normal normal bold 20px/36px Bw Modelica;
   font-size: 5.375rem;
   
 }
 
-// .image {
-  
-//   padding-top: 5px;
-//   width:10rem;
-// }
-
-.facebook-icon{
-  background-image: url('../../assets/images/Icon-awesome-linkedin-in.svg');
+.LTI-LOGO
+{
+  width: 53px;
+height: 30px;
 }
-// .container-title {
-//   display: flex;
-//   align-items: left;
-//   justify-content: left;
-//   bottom:50px;
-//   padding-left: 2px;
-// }
-
-
 
 span {
   justify-content: left;
@@ -148,10 +205,6 @@ span {
   color: #FFFFFF;
   padding-left: 0px;
 }
-b {
-
- justify-content: left;
-  font: bold italic normal normal 56px/88px Gotham;
-  letter-spacing: 0px;
-  color: #FFFFFF;
+.container {
+  flex: 1;    /* same as flex-grow: 1; */
 }
