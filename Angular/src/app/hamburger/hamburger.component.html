@@ -1,0 +1,42 @@
+
+    <div class="container" id="container">
+        <div id="side-menu" class="side-nav" [style.width]="width">
+            <div class="cancel">
+                <img src="../../assets/Hamburger/cancel.svg" (click)="closeSlideMenu()">
+            </div>
+            
+            <div class="profile">
+               <img src="../../assets/Hamburger/Profile Icon.svg">
+               <span class="user">John Deo</span>
+            </div>
+            <a class="home">Home</a>
+            <div *ngFor="let dda of dropdownArray;let i = index; let first = first ;let last = last;">
+                <div *ngIf="first">
+                    <a class="darrow" [style.display]="displayd" [style.font]="fontAs" (click)="downMenuAs()">{{dda.name}} <img src="../../assets/Hamburger/arrow-down.svg" style="padding-top: 10px; padding-right: 15px;" ></a>
+                    <a class="uarrow" [style.display]="displayu" [style.font]="fontAsu" (click)="upMenuAs()">{{dda.name}}  <img src="../../assets/Hamburger/arrow-up.svg" style="padding-top: 10px; padding-right: 15px;"></a>
+                    <div class="inside-assessment" [style.height]="heightA" [style.display]="displayA">
+                       <div *ngFor="let list_items of dda.dropdown_list" >
+                            <a href="#">  {{list_items.name}} </a>
+                      </div>
+                   </div>
+                </div>
+                <div *ngIf="last">
+                    <a  class="darrow" [style.display]="displaydA" [style.font]="fontAc" (click)="downMenuAc()"> {{dda.name}}  <img src="../../assets/Hamburger/arrow-down.svg" style="padding-top: 10px; padding-right: 15px;" ></a>
+                    <a  class="uarrow" [style.display]="displayuA"  [style.font]="fontAcu" (click)="upMenuAc()"> {{dda.name}}  <img src="../../assets/Hamburger/arrow-up.svg" style="padding-top: 10px; padding-right: 15px;" ></a>
+                    <div class="inside-accelerator" [style.height]="heightAc" [style.display]="displayAc">
+                        <div *ngFor="let list_items of dda.dropdown_list" >
+                            <a href="#">  {{list_items.name}} </a>
+                       </div>
+                    </div>
+                </div>
+            </div>
+           <a class="logout" (click)="logout()"> Logout </a>
+          </div>
+          
+            
+          
+          
+        
+
+    </div>
+

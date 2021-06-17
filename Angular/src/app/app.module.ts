@@ -20,6 +20,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { HeaderComponent } from '../app/header/header.component';
 import { FooterComponent } from '../app/footer/footer.component';
+import {HamburgerComponent} from '../app/hamburger/hamburger.component';
 import {FormComponent} from '../app/repository/form/form.component';
 import { AddFormComponent } from '../app/repository/Admin/add-form/add-form.component';
 import { FaderDirective } from '../app/header/directives/fader.directive';
@@ -56,6 +57,7 @@ export function getAdalConfig() {
     AppComponent,
     HeaderComponent,
     FooterComponent,
+    HamburgerComponent,
     FormComponent,
     AddFormComponent,
     FaderDirective,

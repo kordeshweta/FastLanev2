@@ -1,5 +1,6 @@
 import { AfterViewInit, Component, Input, OnInit } from '@angular/core';
 import { MsAdalAngular6Service } from 'microsoft-adal-angular6';
+import { HeaderService } from '../_services/header';
 import * as dropdown_array from './constants/dropdown.json';
 
 @Component({
@@ -10,7 +11,7 @@ import * as dropdown_array from './constants/dropdown.json';
 export class HeaderComponent implements OnInit,AfterViewInit{
 
   dropdownArray;
-  constructor(private adalSvc: MsAdalAngular6Service,) { }
+  constructor(private adalSvc: MsAdalAngular6Service,private headerService:HeaderService) { }
 
   ngOnInit(): void {
     this.dropdownArray=[];
@@ -44,5 +45,9 @@ export class HeaderComponent implements OnInit,AfterViewInit{
   }
   underlineOption(){
     document.querySelector('#home').classList.add('underline');
+  }
+  
+  nDisplay(){
+      this.headerService.hDisplay();
   }
 }

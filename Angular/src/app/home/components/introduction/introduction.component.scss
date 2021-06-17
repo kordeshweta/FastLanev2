@@ -1,15 +1,17 @@
 .container-main {
+
 	background: url("../../../../assets/home/section-1.png");
 	height: 550px;
     position: relative;
 	background-size:100% 100%;
+
 }
 .slide {
     // margin-top: 180px;
     position: absolute;
 	left: 0px;
 	bottom:50px;
-	width: 60%;
+	width: 62%;
 	height: 50%;
 	background: linear-gradient(rgba(42,46,125,.4), rgba(42,46,125,.4)) 0% 0% no-repeat padding-box;
 	clip-path:polygon(0 0, 100% 0, 90% 100%, 0 100%);
@@ -21,10 +23,10 @@
 		font-size:max(3vw,1.4rem);
 		white-space: nowrap;
 	}
-	.resp-text-1{
-		font-family:Bw Modelica LTI;
-		font-size:max(1.5vw,1rem);
-	}
+	// .resp-text-1{
+	// 	font-family:Bw Modelica LTI;
+	// 	font-size:max(1.5vw,1rem);
+	// }
 	span {
 		text-align: left;
 		letter-spacing: 0px;
@@ -40,7 +42,7 @@
 }
 .intro-desktop {
 	text-align: left;
-	font: normal normal normal 24px/40px Bw Modelica;
+	font: normal normal normal 20px/40px Bw Modelica;
 	letter-spacing: 0px;
 	color: #FFFFFF;
 	padding-left: 40px;
@@ -69,14 +71,17 @@ button {
 	}
 }
 @media (max-width:768px) {
+	.container-main {
+		background: url("../../../../assets/home/Group\ 116457.png");
+	}
 	.slide {
 		span {
-			font: normal normal 300 24px/88px Bw Modelica LTI;
+			font: normal normal 300 20px/88px Bw Modelica LTI;
 		}
 		b {
-			font: bold italic normal normal 24px/88px Gotham;
+			font: bold italic normal normal 20px/88px Gotham;
 		}
-		width: 300px;
+		width: 350px;
 	}
 	.intro-desktop {
 		display: none;

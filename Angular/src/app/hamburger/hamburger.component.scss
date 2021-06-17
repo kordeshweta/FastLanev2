@@ -1,0 +1,90 @@
+.side-nav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+    z-index: 100;
+	top: 0;
+	right: 0;
+	background:#fff 0% 0% no-repeat padding-box;
+    opacity:1;
+    box-shadow: 6px 0px 6px #A3A3A329;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+    .profile{
+        padding: 10px 10px 10px 30px;
+        font: normal normal normal 24px/35px Bw Modelica;
+        letter-spacing: 0px;
+        color: #2E2E2E;
+        opacity: 1;
+        .user{
+            padding-left: 10px;
+        }
+    }
+	a {
+		padding: 10px 10px 10px 30px;
+		text-decoration: none;
+        opacity: 1;
+		color:#2A2E7D;
+		display: block;
+		transition: 0.3s;
+		
+		img{
+			float: right;
+		}
+	}
+	.cancel {
+		position: absolute;
+		top: 18px;
+        height: 20px;
+        width: 20px;
+		right: 25px;
+		margin-left: 52px;
+	}
+	.uarrow{
+         display: none;
+	}
+    .inside-assessment{
+        height: 0;
+        display: none;
+        font: normal normal normal 17px/27px Bw Modelica;
+        a{
+            padding-left: 50px;
+        }
+        
+    }
+    .inside-accelerator{
+        height: 0;
+        display: none;
+        font: normal normal normal 17px/27px Bw Modelica;
+        a{
+            padding-left: 50px;
+        }
+        
+    }
+    .logout{
+        border-top: 2px solid #f4f4f4;
+        font: normal normal normal 20px/30px Bw Modelica;;
+    }
+    .home{
+        border-top: 2px solid #f4f4f4;
+        font: normal normal normal 20px/30px Bw Modelica;
+        padding-top: 15px;
+    }
+    .darrow{
+        font: normal normal normal 20px/30px Bw Modelica;
+        letter-spacing: 0px;
+        padding-top: 20px;
+        
+    }
+    .uarrow{
+        font: normal normal normal 20px/30px Bw Modelica;
+        letter-spacing: 0px;
+        padding-top: 20px;
+    }
+}
+@media (min-width:500px) {
+   .side-nav{
+       display: none;
+   }
+}
