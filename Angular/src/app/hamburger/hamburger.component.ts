@@ -18,10 +18,10 @@ export class HamburgerComponent implements OnInit {
   displayu='none';
   displaydA='block';
   displayuA='none';
-  fontAs='normal normal normal 20px/30px Bw Modelica';
-  fontAsu='normal normal normal 20px/30px Bw Modelica';
-  fontAc='normal normal normal 20px/30px Bw Modelica';
-  fontAcu='normal normal normal 20px/30px Bw Modelica';
+  fontAs='$section_content_text_font';
+  fontAsu='$section_content_text_font';
+  fontAc='$section_content_text_font';
+  fontAcu='$section_content_text_font';
   
 
   constructor(private adalSvc: MsAdalAngular6Service,private headerService:HeaderService) { }
@@ -65,21 +65,21 @@ export class HamburgerComponent implements OnInit {
       this.displayA='block';
       this.displayd='none';
       this.displayu='block';
-      this.fontAsu='bold 20px/30px Bw Modelica';
+      this.fontAsu='bold 17px/30px Bw Modelica';
   }
   upMenuAs(){
    this.heightA='0px';
    this.displayA='none';
    this.displayd='block';
    this.displayu='none';
-   this.fontAs='normal normal normal 20px/30px Bw Modelica';
+   this.fontAs='$section_content_text_font';
   }
   downMenuAc(){
     this.heightAc='150px';
     this.displayAc='block';
     this.displaydA='none';
     this.displayuA='block';
-    this.fontAcu='bold 20px/30px Bw Modelica';
+    this.fontAcu='bold 17px/30px Bw Modelica';
    
 }
 upMenuAc(){
@@ -87,7 +87,7 @@ upMenuAc(){
  this.displayAc='none';
  this.displaydA='block';
  this.displayuA='none';
- this.fontAc='normal normal normal 20px/30px Bw Modelica';
+ this.fontAc='$section_content_text_font';
 }
 
 }
