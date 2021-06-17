@@ -19,13 +19,13 @@
     padding: 0 20px;
     box-sizing: border-box;
     z-index: 90;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    // box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 
     font: $section_button_font;
     color:#2A2E7D;
 }
 .underline{
-    border-bottom: 3px solid orange;
+    box-shadow:0px -3px 0px 0px orange inset;
 }
 
 //buttons

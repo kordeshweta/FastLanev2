@@ -1,54 +1,44 @@
 .container-main{
-    height:150vh;
+    height:100vh;
     width: 100%;
     clip-path:polygon(0 0, 100% 0, 100% calc(100% - 70px), 0 100%);
     margin-bottom:-70px;
     background-color: white;
     position: relative;
     z-index:10;
-    background-image: url("../../../../assets/home/back-image.png");
-    background-repeat: no-repeat;
-    background-size: 1292px 480px;
-    background-position: 50% 35%;
+
 
     h1{
-        position: relative;
         text-align: center;
         color: #2A2E7D;
         font-family: "Bw Modelica LTI";
         font-size: 36px;
-        line-height: 43px;
+        margin-bottom: 20px;
     }
     
     
      
-    p{  
-        font: normal normal normal 24px/40px Bw Modelica;
+    p{
+        padding: 20px;
         position: relative;
-        top: 12px;
         text-align: center;
         text-align-last: center;
+        font-size: 24px;
         color: #2E2E2E;
-        line-height: 40px;
-        max-width: 1213px;
-        max-height: 72px;
+        font-family: "Bw Modelica";
     
     }
     
     
     .front{
-        position: relative;
-        top: 15px;
         width: 100%;
         height: auto;
         z-index: 10;
-        max-width: 680px;
-        margin-bottom: 85px;
+        max-width: 500px;
     }
     
     
     button{
-        margin-top: 25px;
         background-color: #2A2E7D;
         border: none;
         color: #FFFFFF;
@@ -61,50 +51,17 @@
         padding-left: 24px;
         
     }
+    
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
 
     h1 {
-        font-size: 22px;
-        width: 82vw;
-        position: relative;
-        top: 10px;
-    
+        font-size: 32px;
     }
     
-    p{  
-        position: relative;
-        top: -10px;
-        margin-bottom: 20px;
+    p{
         font-size: 18px;
-        line-height: 28px;
-        max-width: 82vw;
-        max-height: 134px;
     }
-
-    .container-main{
-        background-image: url("../../../../assets/home/small_back-image.png");
-        background-repeat: no-repeat;
-        background-size: 150vw 220px;
-        background-position: 50% 30%;
-    }
-
-    .front{
-
-        max-width: 82vw;
-        
-    }
-    button{
-        position: relative;
-        top: 20px;
-        width: 82vw;
-        height: 44px;
-        margin-top: 20px;
-    }
-
-  
-
 }
-

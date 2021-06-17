@@ -4,30 +4,17 @@
     #container_main
 >
     <div class="container-1" id="container-in-1" #container_in_1>
-        <div class="primary-image image-head">
-            <p>
-                {{heading}}
-            </p>
-            <p class="image-head-1">
-                <strong>
-                    {{sub_heading}}
-                </strong>
-            </p>
-
-        </div>
         <div class="image-container">
             <div>
-                <img src="{{image}}" alt="section_image" class="primary-image">
+                <p class="heading-text">{{heading}}</p>
+                <p class="sub-heading-text">{{sub_heading}}</p>
             </div>
-            <!-- <img *ngIf="left" src="../../../assets/home/LTI background left.svg" alt="" class="background-image-left">
-            <img *ngIf="right" src="../../../assets/home/LTI background right.svg" alt="" class="background-image-right"> -->
+            <img src="{{image}}" alt="picture">
         </div>
-        
-
     </div>
     <div class="container-2" id="container-in-2" #container_in_2>
-        <div class="container-desc text-decorator">
-           {{description}}
+        <div class="description-container">
+            {{description}}
             <button #btn>
                 {{button}}
             </button>

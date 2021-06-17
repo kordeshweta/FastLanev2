@@ -37,7 +37,7 @@ export class SlantSectionComponent implements OnInit,AfterViewInit {
       button_style.classList.add("cmn","save");
     }
     else{
-      // cont_main.classList.add('gradient-color');
+      cont_main.classList.add('gradient-color');
       cont_main.style.color="white";
       cont_main.style.backgroundImage="linear-gradient(#0670BA, #2A2E7D)";
       button_style.classList.add("cmn","exit");
