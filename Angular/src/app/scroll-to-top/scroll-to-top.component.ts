@@ -11,10 +11,10 @@ export class ScrollToTopComponent implements OnInit {
   constructor(@Inject(DOCUMENT) private document: Document) {}
   @HostListener("window:scroll", [])
   onWindowScroll() {
-      if (window.pageYOffset>500|| document.documentElement.scrollTop >500|| document.body.scrollTop > 500) {
+      if (window.pageYOffset>1100|| document.documentElement.scrollTop>1100 || document.body.scrollTop>1100 ) {
           this.windowScrolled = true;
       } 
-     else if (this.windowScrolled && window.pageYOffset<500 || document.documentElement.scrollTop<500 || document.body.scrollTop < 500) {
+     else if (this.windowScrolled && window.pageYOffset<1100 || document.documentElement.scrollTop<1100 || document.body.scrollTop<1100) {
           this.windowScrolled = false;
       }
   }
