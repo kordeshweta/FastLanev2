@@ -41,7 +41,7 @@ export class HeaderComponent implements OnInit,AfterViewInit{
     }, true);
   }
   navigateToSection(url){
-
+    this.router.navigate(([url]));
   }
   logout() {
     this.adalSvc.logout();

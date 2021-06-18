@@ -9,7 +9,13 @@
                 <div class="heading-text">{{heading}}</div>
                 <div class="sub-heading-text">{{sub_heading}}</div>
             </div>
-            <img src="{{image}}" alt="picture">
+            <img src="{{image}}" alt="picture" class="primary-image">
+            <div class="left-back">
+                <img *ngIf="left" src="../../../assets/home/LTI background left.svg" alt="" >
+            </div>
+            <div class="right-back">
+                <img *ngIf="right" src="../../../assets/home/LTI background right.svg" alt="" >
+            </div>
         </div>
     </div>
     <div class="container-2" id="container-in-2" #container_in_2>

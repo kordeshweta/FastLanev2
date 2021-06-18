@@ -7,7 +7,10 @@
     background-color: white;
     position: relative;
     z-index:10;
-
+    background-image: url('../../../../assets/home/back-image.png');
+    background-repeat: no-repeat;
+    background-size: 60% 50%;
+    background-position: 50% 30%;
 
     h1{
         text-align: center;
@@ -57,12 +60,18 @@
 
 
 @media screen and (max-width: 900px) {
-
-    h1 {
-        font-size: 32px;
-    }
     
-    p{
-        font-size: 18px;
+    .container-main{
+        padding:30px;
+        background-size: 120% 30%;
+        h1 {
+            font-size: 32px;
+        }
+        
+        p{
+            font-size: 18px;
+        }
     }
+
+
 }
