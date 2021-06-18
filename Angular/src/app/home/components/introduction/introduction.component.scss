@@ -57,7 +57,7 @@
 	box-sizing: border-box;
 	// font: normal normal normal 20px/30px Bw Modelica;
 	font:$section_content_text_font;
-	font-size:max(1.2vw,0.8rem);
+	font-size:max(1.3vw,0.8rem);
 	letter-spacing: 0px;
 	color: #FFFFFF;
 	padding-left: 40px;
@@ -122,7 +122,7 @@ button {
 	        font-size: 20px;
 	        line-height: 88px;
 		}
-		width: 350px;
+		width: 340px;
 		height: 40%;
 		background: linear-gradient(rgba(42, 46, 125,.88), rgba(42,46,125,.88)) 0% 0% no-repeat padding-box;
 	}

@@ -15,6 +15,7 @@
     .profile{
         padding: 10px 10px 10px 30px;
         font: $section_content_text_font;
+        border-bottom: 2px solid #f4f4f4;
         letter-spacing: 0px;
         color: #2E2E2E;
         opacity: 1;
@@ -29,11 +30,13 @@
 		color:#2A2E7D;
 		display: block;
 		transition: 0.3s;
+		 a:active,a.active,a:hover{
+            background-color: rgba(102, 102, 102,0.1);;
+            border-left: 4px solid orange;
+        }
 		
-		img{
-			float: right;
-		}
 	}
+    
 	.cancel {
 		position: absolute;
 		top: 18px;
@@ -53,6 +56,8 @@
 
         a{
             padding-left: 50px;
+            padding-top: 0px;
+            
         }
         
     }
@@ -63,6 +68,7 @@
         font-size: 15px;
         a{
             padding-left: 50px;
+            padding-top: 0px;
         }
         
     }
@@ -76,23 +82,36 @@
 	    line-height: 30px;
     }
     .home{
-        border-top: 2px solid #f4f4f4;
+        
         font: $section_button_font;
         font-size: 17px;
         line-height: 30px;
         color:#2E2E2E;
-        padding-top: 15px;
+        margin-top: 15px;
+        background-color: rgba(102, 102, 102,0.1);
+        border-left: 5px solid orange;
+        
     }
     .darrow{
         font: $section_content_text_font;
         letter-spacing: 0px;
+        color:#2A2E7D;
         padding-top: 20px;
+        padding: 10px 10px 10px 30px;
+        img{
+			float: right;
+		}
         
     }
     .uarrow{
         font: $section_content_text_font;
         letter-spacing: 0px;
+        color:#2A2E7D;
         padding-top: 20px;
+        padding: 10px 10px 10px 30px;
+        img{
+			float: right;
+		}
     }
 }
 @media (min-width:500px) {
