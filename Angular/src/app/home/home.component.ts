@@ -21,14 +21,16 @@ export class HomeComponent implements OnInit{
     }
   
     const y = window.scrollY;
-    const z = window.innerHeight
-    console.log((y/z));
+    const z = window.innerHeight;
     if((y/z) >= 0.5){
       this.index = Math.ceil(y/z);
     }else{
       this.index = Math.floor(y/z);
     }
+
+    if(this.index < 7){
     parallax_designs[this.index].className += " active";
+    }
   }
 
 }

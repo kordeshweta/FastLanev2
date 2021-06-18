@@ -8,7 +8,7 @@
 	width:100%;
     height:100vh;
 	
-	padding-top:10px;
+	padding-top:.6em;
 
 	background-image: url("../../../../assets/home/LTI\ background\ right\ transparent.svg");
 	background-repeat: no-repeat;
@@ -25,7 +25,7 @@
 		font: $section_single_line_header_font;
 		opacity: 1;
 		span {
-			font-weight: bold;
+			font: $section_header_bold_text_font;
 		}
 	}
 }
@@ -68,11 +68,12 @@
 		margin-right: auto;
 	}
 	p {
-		//width: 388px;
+		width: 300px;
 		height: auto;
 		left: 206px;
 		text-align: center;
 		font: $list_item_content_text_font;
+		line-height: 20px;
 		font-weight: 100;
 		letter-spacing: 0px;
 		color: #2E2E2E;
@@ -147,6 +148,7 @@
 			//height: 2rem;
 			text-align: center;
 			letter-spacing: 0px;
+			padding-bottom: 15px;
 			font: $section_accelerator_header_font_mobile;
 			opacity: 1;
 			span {
@@ -165,6 +167,12 @@
 		transition: transform 0.5s ease-in-out;
 		margin-top: 3px;
 		width: 100%;
+
+		p{
+			width: 280px;
+			line-height: 25px;
+			padding-bottom: 12px;
+		}
 	}
 }
 
@@ -184,7 +192,7 @@
 }
 
 //For desktop
-@media (min-width: 860px) {
+@media (min-width: 920px) {
 	.accelerators {
 		flex-direction: column;
 		margin-bottom: 20px;
@@ -209,6 +217,10 @@
 			margin-left: auto;
 			margin-right: auto;
 		}
+		p{
+			width: 300px;
+			height: 81px;
+		}
 		button {
 			font: $section_button_font;
 			background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -225,6 +237,7 @@
 			display: block;
 		    margin-left: auto;
 		    margin-right: auto;
+			margin-top: 15px;
 			&:hover {
 				background: #00008C 0% 0% no-repeat padding-box;
 				// border: 1px solid #2B2F78;

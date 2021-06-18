@@ -174,6 +174,7 @@
         width: 40%;
         height: 100%;
         background: url('../../../../assets/home/Group\ 116495.svg');
+        z-index: 5;
         background-repeat: no-repeat;
         //background-size: 135% 500%;
         //background-position: 35% 50%;
@@ -204,7 +205,7 @@
     margin-top : 40px;
     opacity: 1;
     text-align: left;
-    // padding-left: 70px;
+     padding-left: 70px;
     font: $client__feedback_header_desktop;
     letter-spacing: 0px;
     color: #2E2E2E;
@@ -225,9 +226,9 @@
 .actual_feedback{
     text-align: left;
     box-sizing: border-box;
-   width: 70%;
-     margin-top: 20px;
-    //padding-left: 70px;
+   width: 90%;
+    // margin-top: 10px;
+    padding-left: 70px;
     //position: absolute; 
     font: $client__feedback_desktop;
     font-size: 16px;
@@ -251,14 +252,14 @@
     letter-spacing: 0px;
     opacity: 1;
     color: #2E2E2E;
-    //padding-left: 70px;
-    width: 80%;
-    margin-top: 10px;
+    padding-left: 70px;
+    width: 70%;
+    //margin-top: 10px;
 }
 
 .dots{
-    //margin-left: 70px;
-    margin-top: 30px;
+    margin-left: 70px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 .dot1{
