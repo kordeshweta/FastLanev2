@@ -95,6 +95,9 @@ button[disabled]{
                 border: 1px solid rgba(102, 102, 102,0.3);
                 border-radius:2px;
                 overflow-y: auto;
+                line-height: 18px;
+                padding-bottom: 8px;
+                padding-top: 8px;
             }
             .option{
                 position: relative;

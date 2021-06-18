@@ -1,3 +1,4 @@
+@import '../../../../styles/variables.scss';
 .container-main{
     height:100vh;
     width: 100%;
@@ -11,9 +12,11 @@
     h1{
         text-align: center;
         color: #2A2E7D;
-        font-family: "Bw Modelica LTI";
-        font-size: 36px;
         margin-bottom: 20px;
+        font: normal normal 300 25px/43px Bw Modelica LTI;
+        span {
+			font-weight: bold;
+		}
     }
     
     
@@ -23,10 +26,8 @@
         position: relative;
         text-align: center;
         text-align-last: center;
-        font-size: 24px;
+        font:$section_content_text_font;
         color: #2E2E2E;
-        font-family: "Bw Modelica";
-    
     }
     
     
