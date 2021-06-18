@@ -12,7 +12,7 @@
     position: absolute;
 	left: 0px;
 	bottom:50px;
-	width: 62%;
+	width: 60%;
 	// height: 50%;
 	//top: 250px;
 	height: auto;
@@ -20,6 +20,7 @@
 	clip-path:polygon(0 0, 100% 0, 90% 100%, 0 100%);
 	.slide-content{
 		width:93%;
+		padding-top: 20px;
 	}
 	.resp-text{
 		font-family:Bw Modelica LTI;
@@ -36,6 +37,7 @@
 		color: #FFFFFF;
 		padding-left: 40px;
 		display: inline;
+		padding-top: 20px;
 		
 	}
 	.resp {
@@ -89,7 +91,7 @@ button {
 	height: 40px;
 	margin-left: 40px;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 @media (min-width:500px) {
 	.intro-mobile {
@@ -119,6 +121,9 @@ button {
 			// font: normal normal 300 20px/88px Bw Modelica LTI;
 			font: $section_header_text_font;
 		}
+		.slide-content{
+			padding-top: 5px;
+		}
 		.resp {
 			padding-left: 2px;
 			// font-family: Gotham;
@@ -145,13 +150,14 @@ button {
 		font: $section_content_text_font;
 		font-size: 13px;
 		line-height: 20px;
+		padding-top: 0px;
 		// font-size:max(0.2vw,0.8rem)
 		
 	}
 	button {
 		width: 180px;
         font: $section_button_font;
-       
+        margin-bottom: 15px;
 	}
 }
 @media (max-width:350px){
