@@ -22,3 +22,16 @@ $list_item_content_text_font: normal normal normal 16px/30px Bw Modelica;
 
 $footer_link_text_font: normal normal normal 14px/30px Bw Modelica;
 
+/*For mobiles of width < 370px*/
+$section_accelerator_header_font_mobile : normal normal 300 19px/40px Bw Modelica LTI;
+
+/*client-feedback*/
+$client__feedback_header_mobile: normal normal normal 28px/40px Bw Modelica;
+$client__feedback_header_bold_mobile:  normal normal bold 28px/40px Bw Modelica;
+$client__feedback_mobile : italic normal medium 20px/32px Bw Modelica;
+$client__feedback_name_mobile : normal normal normal 14px/28px Bw Modelica;
+
+$client__feedback_header_desktop : normal normal normal 25px/40px Bw Modelica;
+$client__feedback_header_bold_desktop :  normal normal bold 27px/40px Bw Modelica;
+$client__feedback_desktop : italic normal medium 24px/42px Bw Modelica;
+$client__feedback_name_desktop : normal normal normal 18px/28px Bw Modelica;

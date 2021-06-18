@@ -1,8 +1,8 @@
-
+@import '../../../../styles/variables.scss';
 .client_container {
     background: url('../../../../assets/home/Rectangle\ 3013.svg')no-repeat center / cover;
     //background-size: 100% 90vh;
-    height: 89vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column-reverse;
@@ -21,6 +21,8 @@
     height: 40%;
     background: url('../../../../assets/home/Mask\ Group\ 20.png') no-repeat center / cover;
     background-size: 100% 100%;
+    display: flex;
+    align-items: center;
 }
 
 .client_left-content{
@@ -37,7 +39,7 @@
     width: 280px;
     height: 85px;
     padding-left: 32px;
-    font: normal normal normal 28px/40px Bw Modelica;
+    font: $client__feedback_header_mobile;
     letter-spacing: 0px;
     color: #2E2E2E;
     margin-top : 60px;
@@ -45,7 +47,7 @@
    span{
     text-align: left;
     letter-spacing: 0px;
-    font: normal normal bold 28px/40px Bw Modelica;
+    font: $client__feedback_header_bold_mobile;
     color: #2E2E2E;
     width: 112px;
     height: 32px;
@@ -58,7 +60,7 @@
     text-align: left;
     box-sizing: border-box;
     padding-left: 32px;
-    font: italic normal medium 20px/32px Bw Modelica;
+    font: $client__feedback_mobile;
     font-size: 16px;
     font-style: italic;
     font-weight: 600;
@@ -70,7 +72,7 @@
 }
 
 .client{
-    font: normal normal normal 14px/28px Bw Modelica;
+    font: $client__feedback_name_mobile;
     letter-spacing: 0px;
     opacity: 1;
     color: #2E2E2E;
@@ -107,6 +109,57 @@
     opacity: 1;
 }
 
+@media (max-height : 630px){
+    .feedback1{
+        font:normal normal normal 25px/35px Bw Modelica;
+        margin-top : 40px;
+        padding-left: 10px;
+
+        width: 250px;
+        height: auto;
+   span{
+    text-align: left;
+    letter-spacing: 0px;
+    font: normal normal bold 27px/35px Bw Modelica;
+    color: #2E2E2E;
+    width: 112px;
+    height: auto;
+   }
+    }
+
+    .actual_feedback{
+        width: 250px;
+       /// height: 94px;
+        text-align: left;
+        box-sizing: border-box;
+        padding-left: 10px;
+        font: italic normal medium 18px/28px Bw Modelica;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 27px;
+        font-family: BW Modelica;
+        letter-spacing: 0px;
+        color: #2E2E2E;
+        opacity: 1;
+    }
+
+    .client{
+        font: $client__feedback_name_mobile;
+        letter-spacing: 0px;
+        opacity: 1;
+        color: #2E2E2E;
+        padding-left: 10px;
+        margin-top: 3px;
+        font-weight: 100;
+    }
+
+    .dots{
+        margin-left: 10px;
+        margin-top: 7px;
+        margin-bottom: 10px;
+    }
+}
 @media (min-width : 700px){
     .client_container {
         height: 80vh;
@@ -126,6 +179,8 @@
         //background-position: 35% 50%;
          background-size: 120% 150%;
         background-position: center;
+        display: flex;
+        align-items: center;
     }
 
     .client_right{
@@ -138,7 +193,7 @@
     .client_left-content{
         height: auto;
         width: 100%;
-        margin-top: 30%;
+        // margin-top: 30%;
         clip-path: polygon(0 0, 100% 0, calc(100% - 70px) 100%, 0% 100%);
         background: #FFFBF5 0% 0% no-repeat padding-box;
         display: flex;
@@ -150,7 +205,7 @@
     opacity: 1;
     text-align: left;
     // padding-left: 70px;
-    font: normal normal normal 25px/40px Bw Modelica;
+    font: $client__feedback_header_desktop;
     letter-spacing: 0px;
     color: #2E2E2E;
    // position: absolute; 
@@ -160,7 +215,7 @@
    span{
     text-align: left;
     letter-spacing: 0px;
-    font: normal normal bold 27px/40px Bw Modelica;
+    font: $client__feedback_header_bold_desktop;
     color: #2E2E2E;
     width: auto;
     height: auto;
@@ -174,7 +229,7 @@
      margin-top: 20px;
     //padding-left: 70px;
     //position: absolute; 
-    font: italic normal medium 24px/42px Bw Modelica;
+    font: $client__feedback_desktop;
     font-size: 16px;
     font-style: italic;
     font-weight: 600;
@@ -187,7 +242,7 @@
 }
 
 .client{
-    font: normal normal normal 18px/28px Bw Modelica;
+    font: $client__feedback_name_desktop;
     font-size: 14px;
     font-style: normal;
     font-weight: 100;

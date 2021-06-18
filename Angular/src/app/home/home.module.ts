@@ -8,13 +8,13 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from '../material.module';
 
 //components
-import { CarouselComponent } from './components/carousel/carousel.component';
 import { IntroductionComponent } from './components/introduction/introduction.component';
 // import { SlantSectionComponent } from './components/slant-section/slant-section.component';
 import { VideoComponent } from './components/video/video.component';
 import { TestComponent } from './components/test/test.component';
 import { ClientFeedbackComponent } from './components/client-feedback/client-feedback.component';
 import { QuickTourComponent } from './components/quick-tour/quick-tour.component';
+import { AcceleratorsComponent } from './components/accelerators/accelerators.component';
 
 const routes: Routes = [
   {
@@ -31,13 +31,13 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     HomeComponent,
-    CarouselComponent,
     IntroductionComponent,
     // SlantSectionComponent,
     VideoComponent,
     TestComponent,
     ClientFeedbackComponent,
-    QuickTourComponent
+    QuickTourComponent,
+    AcceleratorsComponent
   ],
   imports: [
     CommonModule,

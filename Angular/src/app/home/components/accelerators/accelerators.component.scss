@@ -8,7 +8,7 @@
 	width:100%;
     height:100vh;
 	
-	padding-top:70px;
+	padding-top:10px;
 
 	background-image: url("../../../../assets/home/LTI\ background\ right\ transparent.svg");
 	background-repeat: no-repeat;
@@ -19,7 +19,7 @@
 		color: #2A2E7D;
 		top: 0px;
 		left: 0px;
-		height: 38px;
+		height: 2rem;
 		text-align: center;
 		letter-spacing: 0px;
 		font: $section_single_line_header_font;
@@ -31,10 +31,10 @@
 }
 .carousel {
 	display: block;
-	height: 550px;
+	height: 490px;
 	overflow: hidden;
 	position: relative;
-	margin-top: 32px;
+	margin-top: 20px;
 	opacity: 1;
 	box-sizing: border-box;
 }
@@ -73,6 +73,7 @@
 		left: 206px;
 		text-align: center;
 		font: $list_item_content_text_font;
+		font-weight: 100;
 		letter-spacing: 0px;
 		color: #2E2E2E;
 		opacity: 1;
@@ -98,6 +99,7 @@
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		// margin-top: 10px;
 	}
 	.dots {
 		display: block;
@@ -123,6 +125,49 @@
 	top: 30%;
 }
 
+// For mobile of width <370px.
+@media (max-width: 370px){
+	.accelerators{
+		display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    width:100%;
+        height:100vh;
+		padding-top:3.2rem;
+
+	    background-image: url("../../../../assets/home/LTI\ background\ right\ transparent.svg");
+	    background-repeat: no-repeat;
+	    background-size: 60% 60%;
+		background-position: 120% -60%;
+
+		h1 {
+			color: #2A2E7D;
+			top: 0px;
+			left: 0px;
+			//height: 2rem;
+			text-align: center;
+			letter-spacing: 0px;
+			font: $section_accelerator_header_font_mobile;
+			opacity: 1;
+			span {
+				font-weight: bold;
+			}
+		}
+
+	}
+
+	.content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		transform: translateX(0);
+		transition: transform 0.5s ease-in-out;
+		margin-top: 3px;
+		width: 100%;
+	}
+}
+
 @media(max-width:499px){
 	.accelerators{
 		background-size: 60% 60%;
@@ -137,7 +182,9 @@
 		}
 	}
 }
-@media (min-width: 780px) {
+
+//For desktop
+@media (min-width: 860px) {
 	.accelerators {
 		flex-direction: column;
 		margin-bottom: 20px;
@@ -175,6 +222,9 @@
 			height: 40px;
 			margin:0px 10px 0px 10px;
 			cursor:pointer;
+			display: block;
+		    margin-left: auto;
+		    margin-right: auto;
 			&:hover {
 				background: #00008C 0% 0% no-repeat padding-box;
 				// border: 1px solid #2B2F78;

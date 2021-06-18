@@ -3,9 +3,9 @@
 }
 
 @media (min-width : 499px){
-.dots{
+.parallax{
     position: absolute;
-    top: 10%;
+    top: 20%;
     position: fixed;
     right: 44px;
     z-index: 50;
@@ -13,7 +13,7 @@
     margin-top: 40px;
   }
   
-  .dot {
+  .parallax_design {
     //cursor: pointer;
     height: 30px;
     width: 5.5px;

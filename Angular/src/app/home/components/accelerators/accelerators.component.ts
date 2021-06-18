@@ -1,13 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import {fromEvent} from 'rxjs';
+import {debounceTime} from 'rxjs/operators';
 
 @Component({
-  selector: 'app-carousel',
-  templateUrl: './carousel.component.html',
-  styleUrls: ['./carousel.component.scss']
+  selector: 'app-accelerators',
+  templateUrl: './accelerators.component.html',
+  styleUrls: ['./accelerators.component.scss']
 })
-export class CarouselComponent implements OnInit {
-
+export class AcceleratorsComponent implements OnInit {
 
   imageObject: Array<object> = [
     {
@@ -40,6 +41,25 @@ export class CarouselComponent implements OnInit {
 
   ngOnInit(){
     this.disableLeft = true;
+    this.initOnWindowResize();
+  }
+
+  initOnWindowResize(){
+
+    fromEvent(window, 'resize')
+      .pipe(
+        debounceTime(500)
+      )
+      .subscribe((event: any) => {
+        // Do something here
+        if(window.innerWidth >= 780){
+          const slides = Array.from(document.getElementsByClassName('content'));
+          for (const x of slides) {
+            const y = x as HTMLElement;
+            y.style.display = 'block';
+          }
+        }
+      });
   }
 
   redirect(url){
@@ -86,4 +106,5 @@ export class CarouselComponent implements OnInit {
     this.startIndex++;
     this.slide();
   }
+
 }
