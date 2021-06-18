@@ -9,17 +9,25 @@
 }
 h4{
   font:$footer_link_text_font;
+  color: #FFFFFF;
+opacity: 0.5;
 }
 ul {
   list-style: none;
-  padding-left: 0;
-  font:$footer_link_text_font;
-  color: #bbb;
+  padding:0px;
+  margin:0px;
+  // font:$footer_link_text_font;
+  // color: #bbb;
 
+}
+.list-text{
+  font:$footer_link_text_font;
+  color: #ffffff;
+  opacity: 0.85;
 }
 footer {
   background: transparent linear-gradient(180deg, var(--unnamed-color-0670ba) 0%, var(--main-color) 100%) 0% 0% no-repeat ;
-  background: transparent linear-gradient(180deg, #0670BA 0%, #2A2E7D 100%) 0% 0% no-repeat ;
+  background: transparent linear-gradient(180deg,  #2A2E7D 100%, #0670BA 80% ) 0% 0% no-repeat ;
   opacity: 1;
   color: #bbb;
   line-height: 1.5;
@@ -73,7 +81,7 @@ footer {
 
 }
 .ft-main-top-item{
-  padding-top: 2.85rem;
+  padding-top: 3.25rem;
   padding-left:  2.25rem;
   padding-right:  2.25rem;
   min-width: 12.5rem /*200px*/;
@@ -84,12 +92,13 @@ footer {
 .ft-social-list {
   display: flex;
   justify-content: left;
-  
   padding-top: 0.025rem;
 }
 .ft-social-list li {
-  margin: 0.25rem;
+  // margin: 0.25rem;
+  // padding-left: 0.25rem;
   font-size: 1.25rem;
+  margin-left: 0.25rem;
 }
 
 .fastlane-logo {
@@ -100,14 +109,24 @@ footer {
   padding-left: 4px;
 }
 
+.img-icon-youtube {
+  // max-width: 100%;
+  width: 22px;
+  height: 30px;
+  margin-left: 7px;
+  // padding-top: 1px;
+  // margin-right: 10px;
+ 
+}
 
 
 .img-icon {
   // max-width: 100%;
-  width: 29px;
-  height: 20px;
-  padding-top: 1px;
-  padding-left: 2px;
+  width: 24px;
+  height: 18px;
+  // padding-top: 1px;
+  margin-right: 10px;
+ 
 }
 .text-title {
   flex-basis: 10%;
@@ -132,12 +151,8 @@ footer {
       display:flex;
       flex-direction: row;
       justify-content: space-between;
-		  // flex-wrap: wrap;
       flex-grow: 1;
-      // flex-shrink: 2;
-		  // align-items: center;
-		  // box-sizing: border-box;
-		  height: auto;
+      height: auto;
     }
 
     .ft-main-item{
@@ -149,17 +164,13 @@ footer {
     }
 
     .ft-main-top-item{
-      //padding: 2.5rem 2.25rem;
+     
       padding-left: 2.25rem;
       min-width: 13.0rem /*200px*/;
       flex-wrap: wrap;
     }
     
-    // .back-to-top{
-    //   right:25px;
-    //   bottom:265px;
-    //   top: -30px
-    // }
+  
     
 }
 
@@ -184,7 +195,7 @@ footer {
       justify-content: center;
       padding-left: 3rem;
       padding-right: 2rem;
-      padding-top: 0.25rem;
+      padding-top: 0rem;
     }
     
     .ft-main-top-item{
