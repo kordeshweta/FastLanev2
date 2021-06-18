@@ -6,6 +6,7 @@ import { AuthenticationGuard } from 'microsoft-adal-angular6';
 import {RepohomeComponent} from '../app/repository/repohome/repohome.component';
 import { AddFormComponent } from './repository/Admin/add-form/add-form.component';
 import { DetailsComponent } from './repository/details/details.component';
+import { QuickTourComponent } from './home/components/quick-tour/quick-tour.component';
 
 const routes: Routes = [
   {
@@ -39,6 +40,10 @@ const routes: Routes = [
     pathMatch: 'full',
     canActivate: [AuthenticationGuard],
   },
+  {
+    path: 'quickTour',
+    component:QuickTourComponent
+  },
   // {
   //   path: '',
   //   redirectTo: 'Admin',
@@ -51,6 +56,7 @@ const routes: Routes = [
     path: '**',
     redirectTo: '',
   },
+  
 ];
 
 @NgModule({

@@ -14,6 +14,7 @@ import { IntroductionComponent } from './components/introduction/introduction.co
 import { VideoComponent } from './components/video/video.component';
 import { TestComponent } from './components/test/test.component';
 import { ClientFeedbackComponent } from './components/client-feedback/client-feedback.component';
+import { QuickTourComponent } from './components/quick-tour/quick-tour.component';
 
 const routes: Routes = [
   {
@@ -35,7 +36,8 @@ const routes: Routes = [
     // SlantSectionComponent,
     VideoComponent,
     TestComponent,
-    ClientFeedbackComponent
+    ClientFeedbackComponent,
+    QuickTourComponent
   ],
   imports: [
     CommonModule,

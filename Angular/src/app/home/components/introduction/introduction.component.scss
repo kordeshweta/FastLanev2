@@ -126,8 +126,11 @@ button {
 			font: $fastlane_logo_font;
 	        font-size: 25px;
 	        line-height: 88px;
+			// font-size:max(2.0vw,1.4rem);
 		}
-		width: 340px;
+		// width: 90%;
+		// height: 43%;
+		width:340px;
 		height: 40%;
 		background: linear-gradient(rgba(42, 46, 125,.88), rgba(42,46,125,.88)) 0% 0% no-repeat padding-box;
 	}
@@ -139,6 +142,7 @@ button {
 		font: $section_content_text_font;
 		font-size: 13px;
 		line-height: 20px;
+		// font-size:max(0.2vw,0.8rem)
 		
 	}
 	button {
