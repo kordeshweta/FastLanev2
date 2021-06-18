@@ -4,17 +4,17 @@
             "name":"Assessments",
             "menu_item":[
                 {"id":0,"name":"About Assessments"},
-                {"id":0,"name":"Conduct Assessment"},
-                {"id":1,"name":"Experience Design"},
-                {"id":2,"name":"View Archives"}
+                {"id":1,"name":"Conduct Assessment"},
+                {"id":2,"name":"Experience Design"},
+                {"id":3,"name":"View Archives"}
             ]
         },
         {
             "name":"Accelerators",
             "menu_item":[
-                {"id":0,"name":"Estimation"},
-                {"id":1,"name":"Repository"},
-                {"id":2,"name":"UX Habitat"}
+                {"id":0,"name":"Repository"},
+                {"id":1,"name":"UX Habitat"},
+                {"id":2,"name":"Estimation"}
             ]   
         }
     ]

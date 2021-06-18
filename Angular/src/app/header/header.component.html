@@ -2,9 +2,9 @@
     <div class="side-nav" (click)="nDisplay()">
         <div class="mobile-head-logo">
             <div class="logo">
-                <img alt="LTI" src="../../assets/Header/LTI_logo.svg" width="35px" routerLink="/home"/>
+                <img alt="LTI" src="../../assets/Header/LTI_logo.svg" width="28px" routerLink="/home"/>
             </div>
-            <div class="option no-pointer">
+            <div class="option no-pointer" >
                 <img src="../../assets/Header/FASTLANE.svg" width="120px">
                 <!-- <em>FASTLANE</em>  -->
             </div>
@@ -16,10 +16,10 @@
     <div class="container-main DesktopOnly">   
         <div class="container-1">
             <div class="logo">
-                <img alt="LTI" src="../../assets/Header/LTI_logo.svg" width="35px" routerLink="/home"/>
+                <img alt="LTI" src="../../assets/Header/LTI_logo.svg" width="28px" routerLink="/home"/>
             </div>
-            <div class="options">
-                <div class="option no-pointer">
+            <div class="options" style="margin-top:5px">
+                <div class="option no-pointer" >
                     <img src="../../assets/Header/FASTLANE.svg" width="120px">
                     <!-- <em>FASTLANE</em>  -->
                 </div>
@@ -45,7 +45,7 @@
             <button class="cmn save">Start Assessment</button>
             <div class="profile">
                 <!-- <mat-icon [matMenuTriggerFor]="menu">account_circle</mat-icon> -->
-                <img [matMenuTriggerFor]="menu" src="../../assets/Header/Profile Icon.svg" alt="" width="20px">
+                <img [matMenuTriggerFor]="menu" src="../../assets/Header/Profile Icon.svg" alt="" width="20px" style="margin-top:5px">
                 <mat-menu #menu="matMenu" class="menu-Holder">
                   <button mat-menu-item (click)="logout()">Logout</button>
                 </mat-menu>
