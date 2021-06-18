@@ -1,6 +1,8 @@
+
 .client_container {
-    background: url('../../../../assets/home/Rectangle\ 3013.svg');
-    height: 90vh;
+    background: url('../../../../assets/home/Rectangle\ 3013.svg')no-repeat center / cover;
+    //background-size: 100% 90vh;
+    height: 89vh;
     width: 100%;
     display: flex;
     flex-direction: column-reverse;
@@ -35,7 +37,7 @@
     width: 280px;
     height: 85px;
     padding-left: 32px;
-    font: normal normal normal 32px/46px Bw Modelica;
+    font: normal normal normal 28px/40px Bw Modelica;
     letter-spacing: 0px;
     color: #2E2E2E;
     margin-top : 60px;
@@ -43,7 +45,7 @@
    span{
     text-align: left;
     letter-spacing: 0px;
-    font: normal normal bold 32px/46px Bw Modelica;
+    font: normal normal bold 28px/40px Bw Modelica;
     color: #2E2E2E;
     width: 112px;
     height: 32px;
@@ -56,31 +58,36 @@
     text-align: left;
     box-sizing: border-box;
     padding-left: 32px;
-    font: italic normal medium 18px/36px Bw Modelica;
+    font: italic normal medium 20px/32px Bw Modelica;
+    font-style: italic;
+    font-weight: 600;
+    font-family: BW Modelica;
     letter-spacing: 0px;
     color: #2E2E2E;
     opacity: 1;
 }
 
 .client{
-    font: normal normal normal 16px/28px Bw Modelica;
+    font: normal normal normal 14px/28px Bw Modelica;
     letter-spacing: 0px;
     opacity: 1;
     color: #2E2E2E;
     padding-left: 32px;
+    margin-top: 10px;
+    font-weight: 100;
 }
 
 .dots{
     margin-left: 32px;
     margin-top: 20px;
-    margin-bottom: 13px;
+    margin-bottom: 20px;
 }
 .dot1{
   margin: 0 2px; 
   cursor: pointer;
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border: 1px solid #2E2E2E;
   border-radius: 50%;
   opacity: 1;
@@ -90,8 +97,8 @@
     margin: 0 2px;
     display: inline-block;
     cursor: pointer;
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
     background: #2E2E2E 0% 0% no-repeat padding-box;
     border: 1px solid #2E2E2E;
@@ -101,7 +108,7 @@
 @media (min-width : 700px){
     .client_container {
         height: 80vh;
-        background: url('../../../../assets/home/Rectangle\ 3013.svg');
+        background: url('../../../../assets/home/Rectangle\ 3013.svg')no-repeat center / cover;
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -111,8 +118,12 @@
     .client_left{
         width: 40%;
         height: 100%;
-        background: url('../../../../assets/home/Group\ 116495.svg') no-repeat center / cover;
-        background-size: 100% 100%;
+        background: url('../../../../assets/home/Group\ 116495.svg');
+        background-repeat: no-repeat;
+        //background-size: 135% 500%;
+        //background-position: 35% 50%;
+         background-size: 120% 150%;
+        background-position: center;
     }
 
     .client_right{
@@ -137,7 +148,7 @@
     opacity: 1;
     text-align: left;
     // padding-left: 70px;
-    font: normal normal normal 36px/52px Bw Modelica;
+    font: normal normal normal 30px/40px Bw Modelica;
     letter-spacing: 0px;
     color: #2E2E2E;
    // position: absolute; 
@@ -147,7 +158,7 @@
    span{
     text-align: left;
     letter-spacing: 0px;
-    font: normal normal bold 36px/52px Bw Modelica;
+    font: normal normal bold 30px/40px Bw Modelica;
     color: #2E2E2E;
     width: auto;
     height: auto;
@@ -158,10 +169,12 @@
     text-align: left;
     box-sizing: border-box;
    width: 70%;
-    // margin-top: 40px;
+     margin-top: 20px;
     //padding-left: 70px;
     //position: absolute; 
-    font: italic normal medium 24px/42px Bw Modelica;
+    font: italic normal medium 30px/42px Bw Modelica;
+    font-style: italic;
+    font-weight: 500;
     letter-spacing: 0px;
     color: #2E2E2E;
     opacity: 1;
@@ -169,25 +182,27 @@
 }
 
 .client{
-    font: normal normal normal 20px/28px Bw Modelica;
+    font: normal normal normal 18px/28px Bw Modelica;
     letter-spacing: 0px;
     opacity: 1;
     color: #2E2E2E;
     //padding-left: 70px;
     width: 80%;
+    margin-top: 10px;
+    font-weight: 100;
 }
 
 .dots{
     //margin-left: 70px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .dot1{
   margin: 0 2px; 
   cursor: pointer;
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border: 1px solid #2E2E2E;
   border-radius: 50%;
   opacity: 1;
@@ -197,8 +212,8 @@
     margin: 0 2px;
     display: inline-block;
     cursor: pointer;
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
     background: #2E2E2E 0% 0% no-repeat padding-box;
     border: 1px solid #2E2E2E;
