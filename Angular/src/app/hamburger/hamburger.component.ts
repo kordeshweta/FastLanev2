@@ -61,7 +61,7 @@ export class HamburgerComponent implements OnInit {
     // this.headerService.hNotDisplay();
   }
   downMenuAs(){
-      this.heightA='180px';
+      this.heightA='150px';
       this.displayA='block';
       this.displayd='none';
       this.displayu='block';
@@ -75,7 +75,7 @@ export class HamburgerComponent implements OnInit {
    this.fontAs='$section_content_text_font';
   }
   downMenuAc(){
-    this.heightAc='150px';
+    this.heightAc='130px';
     this.displayAc='block';
     this.displaydA='none';
     this.displayuA='block';
