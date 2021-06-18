@@ -35,7 +35,7 @@
                     <img width="10px" height="10px" src="../../assets/Hamburger/arrow-down.svg" alt="">
                 </div>
                 <div class="menu">
-                    <div appHover *ngFor="let list_items of dda.dropdown_list" class="menu-items">
+                    <div appHover *ngFor="let list_items of dda.dropdown_list" class="menu-items" (click)="navigateToSection(list_items?.link)">
                         {{list_items.name}}
                     </div>
                 </div>

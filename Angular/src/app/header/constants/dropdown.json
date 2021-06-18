@@ -12,7 +12,7 @@
         {
             "name":"Accelerators",
             "menu_item":[
-                {"id":0,"name":"Repository"},
+                {"id":0,"name":"Repository","link":"/repository"},
                 {"id":1,"name":"UX Habitat"},
                 {"id":2,"name":"Estimation"}
             ]   

@@ -1,4 +1,5 @@
 import { AfterViewInit, Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { MsAdalAngular6Service } from 'microsoft-adal-angular6';
 import { HeaderService } from '../_services/header';
 import * as dropdown_array from './constants/dropdown.json';
@@ -11,7 +12,7 @@ import * as dropdown_array from './constants/dropdown.json';
 export class HeaderComponent implements OnInit,AfterViewInit{
 
   dropdownArray;
-  constructor(private adalSvc: MsAdalAngular6Service,private headerService:HeaderService) { }
+  constructor(private adalSvc: MsAdalAngular6Service,private headerService:HeaderService,private router:Router) { }
 
   ngOnInit(): void {
     this.dropdownArray=[];
@@ -39,7 +40,9 @@ export class HeaderComponent implements OnInit,AfterViewInit{
       console.log();
     }, true);
   }
-  
+  navigateToSection(url){
+
+  }
   logout() {
     this.adalSvc.logout();
   }

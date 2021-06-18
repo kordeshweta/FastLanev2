@@ -44,7 +44,7 @@ button[disabled]{
     height: 32px;
     margin:0px 30px 0px 10px;
     cursor:pointer;
-    font: normal normal bold 13px/20px Bw Modelica;
+    font: $section_button_font;
     font-weight: normal;
 }
 .exit{

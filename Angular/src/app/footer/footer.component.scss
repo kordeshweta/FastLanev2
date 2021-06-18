@@ -1,17 +1,21 @@
-
+@import '../../styles/common.scss';
 
 * {
   box-sizing: border-box;
-  font: normal normal normal 18px/34px Bw Modelica SS02;
+  // font: normal normal normal 18px/34px Bw Modelica SS02;
   margin: 0; 
   padding: 0;
   
 }
-
-
+h4{
+  font:$footer_link_text_font;
+}
 ul {
   list-style: none;
   padding-left: 0;
+  font:$footer_link_text_font;
+  color: #bbb;
+
 }
 footer {
   background: transparent linear-gradient(180deg, var(--unnamed-color-0670ba) 0%, var(--main-color) 100%) 0% 0% no-repeat ;
@@ -32,6 +36,16 @@ footer {
 }
 
 
+
+
+.ft-title-main
+{
+  color: #fff;
+  font: normal normal bold 20px/36px Bw Modelica;
+  // font-size: 2.5rem;
+  padding-bottom: 0.25rem;
+}
+
 .body-main1 {
   display: flex;
   flex-direction: column;  
@@ -51,8 +65,8 @@ footer {
 
   .ft-title {
     color: #fff;
-    // font: $section_footer_bold_title;
-    font-size: 1.375rem;
+    // font: normal normal bold 20px/36px Bw Modelica;
+    // font-size: 1.375rem;
     padding-top: 25px;
     // padding-bottom: 0.25rem;
   }
@@ -65,9 +79,7 @@ footer {
   min-width: 12.5rem /*200px*/;
   flex-wrap: wrap;
 }
-.list-text{
-  // font: $section_footer_text_font;
-}
+
 
 .ft-social-list {
   display: flex;
@@ -212,6 +224,6 @@ footer {
       flex-direction: row;
     }
 
- 
+
 }
 
