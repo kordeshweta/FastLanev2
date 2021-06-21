@@ -63,7 +63,6 @@ export class SlantSectionComponent implements OnInit,AfterViewInit {
     if(this.slant.includes('lr')==true){
       cont_main.classList.add('slant-lr');
     }
-    console.log(this.cont_main);
   }
 
   ngOnInit(): void {

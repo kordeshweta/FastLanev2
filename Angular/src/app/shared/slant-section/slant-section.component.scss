@@ -51,7 +51,7 @@ button[disabled]{
 
 .container-main{
     width:100%;
-    height:100vh;
+    height:auto;
     font-family: Bw Modelica;
 
     padding:70px 0px;
@@ -109,10 +109,11 @@ button[disabled]{
         flex-direction: row;
         .description-container{
             height:200px;
-            max-width:80%;
+            max-width:60%;
             padding:0px 10px;
             // background-color: cornflowerblue;
             font:$section_content_text_font;
+            font-size:max(1.1vw,13px);
             button{
                 display: block;
                 margin-left:0px;

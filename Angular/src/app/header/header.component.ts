@@ -30,7 +30,7 @@ export class HeaderComponent implements OnInit,AfterViewInit{
   }
 
   ngAfterViewInit() {
-    document.querySelector('#home').classList.add('underline');
+    document.querySelector('#home').classList.add('underline-home');
     
     
     window.addEventListener('resize', function(event) {
@@ -40,14 +40,34 @@ export class HeaderComponent implements OnInit,AfterViewInit{
       console.log();
     }, true);
   }
+
+  removeUnderline(clsName){
+    var optionsList=document.getElementsByClassName(clsName);
+
+    for(let i=0;i<optionsList.length;i++){
+      optionsList[i].classList.remove('underline');
+      optionsList[i].classList.remove('underline-home')
+    }
+  }
   navigateToSection(url){
-    this.router.navigate(([url]));
+    if(url){
+      this.removeUnderline('options');
+
+      document.querySelector('#home').classList.add('underline-home');
+      this.router.navigate(([url]));
+    }
   }
   logout() {
     this.adalSvc.logout();
   }
-  underlineOption(){
-    document.querySelector('#home').classList.add('underline');
+  underlineOption(ev){
+    var targetEleClassList=ev.srcElement.parentNode.parentNode.classList;
+    
+    if(targetEleClassList.contains('options')){
+      this.removeUnderline('options');
+      targetEleClassList.add('underline');
+    } 
+    
   }
   
   nDisplay(){

@@ -24,8 +24,25 @@
     font: $section_button_font;
     color:#2A2E7D;
 }
+.underline-home{
+    // box-shadow:0px -3px 0px 0px orange inset;
+    background-image: url("../../assets/Header/underline_header.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 26px;
+}
 .underline{
-    box-shadow:0px -3px 0px 0px orange inset;
+    // box-shadow:0px -3px 0px 0px orange inset;
+    background-image: url("../../assets/Header/underline_header.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 28px;
+}
+.options:after{
+    content: '';
+    width:100%;
+    height: 4px;
+    background-color: orange;
 }
 
 //buttons

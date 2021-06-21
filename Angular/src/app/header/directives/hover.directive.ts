@@ -15,4 +15,7 @@ export class HoverDirective {
     this.el.nativeElement.style.backgroundColor="white";
     this.el.nativeElement.style.borderLeft="4px solid transparent";
   }
+  @HostListener('click') ClickFunc(){
+    this.el.nativeElement.parentNode.style.display="none";
+  }
 }
