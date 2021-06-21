@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import {fromEvent} from 'rxjs';
 import {debounceTime} from 'rxjs/operators';
+import { HeaderService } from 'src/app/_services/header';
 
 @Component({
   selector: 'app-accelerators',
@@ -21,13 +22,13 @@ export class AcceleratorsComponent implements OnInit {
   {
     image: '../../assets/home/Group 116406.svg',
     alt: 'UX Habitat',
-    link:'/',
+    link:'/uxhabitat',
     content : 'FastLane is a solution-based approach and methodology for fast-tracking web and mobile',
     dot: '../../assets/home/Group 116329.svg'
   }, {
     image: '../../assets/home/Group 116405.svg',
     alt: 'Estimation',
-    link:'/',
+    link:'/estimation',
     content : 'FastLane is a solution-based approach and methodology for fast-tracking web and mobile',
     dot: '../../assets/home/Group 116330.svg'
   }];
@@ -35,7 +36,7 @@ export class AcceleratorsComponent implements OnInit {
   startIndex;
   disableLeft;
   disableRight;
-  constructor(private router:Router){
+  constructor(private router:Router,private headerService:HeaderService){
     this.startIndex = 1;
   }
 
@@ -63,6 +64,7 @@ export class AcceleratorsComponent implements OnInit {
   }
 
   redirect(url){
+    this.headerService.setTab("Accelerators");
     this.router.navigate([url]);
   }
   slide(){

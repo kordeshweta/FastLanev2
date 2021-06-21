@@ -12,7 +12,8 @@ import * as dropdown_array from './constants/dropdown.json';
 export class HeaderComponent implements OnInit,AfterViewInit{
 
   dropdownArray;
-  constructor(private adalSvc: MsAdalAngular6Service,private headerService:HeaderService,private router:Router) { }
+  constructor(private adalSvc: MsAdalAngular6Service,private headerService:HeaderService,private router:Router) {
+   }
 
   ngOnInit(): void {
     this.dropdownArray=[];
@@ -32,12 +33,21 @@ export class HeaderComponent implements OnInit,AfterViewInit{
   ngAfterViewInit() {
     document.querySelector('#home').classList.add('underline-home');
     
+    this.headerService.changeTab.subscribe(res=>{
+      console.log(res);
+      var targetEleClassList=document.getElementsByClassName('options');
+
+      if(res=="Accelerators")
+        this.underLine(targetEleClassList[1].classList);
+      else if(res=="Assessments"){
+        this.underLine(targetEleClassList[0].classList);
+      }
+    })
     
     window.addEventListener('resize', function(event) {
       var element1=document.getElementsByClassName('container-1'),
       element2=document.getElementsByClassName('container-1')[0].nextElementSibling.getBoundingClientRect()
       
-      console.log();
     }, true);
   }
 
@@ -46,28 +56,30 @@ export class HeaderComponent implements OnInit,AfterViewInit{
 
     for(let i=0;i<optionsList.length;i++){
       optionsList[i].classList.remove('underline');
-      optionsList[i].classList.remove('underline-home')
+      optionsList[i].classList.remove('underline-home');
     }
+  }
+  underLine(targetEleClassList){
+    if(targetEleClassList.contains('options')){
+      console.log("hi");
+      this.removeUnderline('options');
+      targetEleClassList.add('underline');
+    } 
   }
   navigateToSection(url){
     if(url){
       this.removeUnderline('options');
-
       document.querySelector('#home').classList.add('underline-home');
       this.router.navigate(([url]));
     }
   }
-  logout() {
-    this.adalSvc.logout();
-  }
   underlineOption(ev){
     var targetEleClassList=ev.srcElement.parentNode.parentNode.classList;
-    
-    if(targetEleClassList.contains('options')){
-      this.removeUnderline('options');
-      targetEleClassList.add('underline');
-    } 
-    
+    this.underLine(targetEleClassList);
+  }
+
+  logout() {
+    this.adalSvc.logout();
   }
   
   nDisplay(){

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
+import { BehaviorSubject, Subject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -9,6 +9,8 @@ export class HeaderService{
     show_head:BehaviorSubject<boolean>=new BehaviorSubject(true);
     nStatus:BehaviorSubject<boolean> = new BehaviorSubject(false);
     getntStatus = this.nStatus.asObservable();
+
+    changeTab:Subject<string> =new Subject()
     Head_visible(){
         this.show_head.next(true);
     }
@@ -21,6 +23,10 @@ export class HeaderService{
     }
     hNotDisplay(){
         this.nStatus.next(false);
+    }
+
+    setTab(str){
+        this.changeTab.next(str);
     }
     constructor(){
 
