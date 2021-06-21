@@ -19,8 +19,11 @@
         letter-spacing: 0px;
         color: #2E2E2E;
         opacity: 1;
+        display: flex;
+        align-items: center;
         .user{
             padding-left: 10px;
+            padding-bottom: 5px;
         }
     }
 	a {

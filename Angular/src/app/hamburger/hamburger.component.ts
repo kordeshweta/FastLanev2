@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MsAdalAngular6Service } from 'microsoft-adal-angular6';
 import { HeaderService } from '../_services/header';
 import * as dropdown_array from '../header/constants/dropdown.json';
+import { AppService } from '../app.service';
 @Component({
   selector: 'app-hamburger',
   templateUrl: './hamburger.component.html',
@@ -22,9 +23,13 @@ export class HamburgerComponent implements OnInit {
   fontAsu='$section_content_text_font';
   fontAc='$section_content_text_font';
   fontAcu='$section_content_text_font';
-  
+  userDetail:string;
 
-  constructor(private adalSvc: MsAdalAngular6Service,private headerService:HeaderService) { }
+  constructor(private adalSvc: MsAdalAngular6Service,private headerService:HeaderService,private appService: AppService) {
+    this.appService.isAdmin().subscribe(res=>{
+      this.userDetail=res["name"];
+    })
+   }
 
   ngOnInit(): void {
     this.dropdownArray=[];
