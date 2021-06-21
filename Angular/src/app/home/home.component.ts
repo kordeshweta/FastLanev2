@@ -1,5 +1,4 @@
 import { Component, OnInit,OnDestroy, AfterViewInit } from '@angular/core';
-import { HeaderService } from '../_services/header';
 
 @Component({
   selector: 'app-home',
@@ -9,9 +8,9 @@ import { HeaderService } from '../_services/header';
 export class HomeComponent implements OnInit{
 
   index;
+
   ngOnInit(){
-    window.addEventListener('scroll', this.scroll, true);
-    this.scroll()
+     window.addEventListener('scroll', this.scroll, true);
   }
   
   scroll(){
@@ -22,15 +21,23 @@ export class HomeComponent implements OnInit{
   
     const y = window.scrollY;
     const z = window.innerHeight;
-    if((y/z) >= 0.5){
+    const q = (y/z) - Math.floor(y/z);
+   // console.log(q)
+    if(q >= 0.7){
       this.index = Math.ceil(y/z);
     }else{
       this.index = Math.floor(y/z);
     }
-
+    //console.log(this.index)
     if(this.index < 7){
     parallax_designs[this.index].className += " active";
     }
+    if(this.index==7){
+      parallax_designs[6].className += " active";
+    }
   }
-
+  
+  ngOnDestroy(){
+    window.removeEventListener('scroll', this.scroll, true);
+ }
 }
