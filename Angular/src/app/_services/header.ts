@@ -2,12 +2,12 @@ import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+    providedIn: 'root'
 })
 export class HeaderService{
-    
-    show_head:BehaviorSubject<boolean>=new BehaviorSubject(true);
-    nStatus:BehaviorSubject<boolean> = new BehaviorSubject(false);
+
+    show_head: BehaviorSubject<boolean> = new BehaviorSubject(true);
+    nStatus: BehaviorSubject<boolean> = new BehaviorSubject(false);
     getntStatus = this.nStatus.asObservable();
     Head_visible(){
         this.show_head.next(true);

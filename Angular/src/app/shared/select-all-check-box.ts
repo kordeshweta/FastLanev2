@@ -3,8 +3,8 @@ import { NgModel } from '@angular/forms';
 import { MatCheckboxChange } from '@angular/material/checkbox';
 
 @Component({
-  selector: 'app-select-all-check-box',
-  template: `
+    selector: 'app-select-all-check-box',
+    template: `
   <mat-checkbox class="mat-option"
   [disableRipple]="true"
   [color]="'primary'"
@@ -15,33 +15,33 @@ import { MatCheckboxChange } from '@angular/material/checkbox';
 {{text}}
 </mat-checkbox>
   `,
-  styles: ['']
+    styles: ['']
 })
 export class SelectAllCheckBoxComponent implements OnInit {
-  @Input() model: NgModel;
-  @Input() values = [];
-  @Input() text = 'Select All';
+    @Input() model: NgModel;
+    @Input() values = [];
+    @Input() text = 'Select All';
 
-  constructor() { }
+    constructor() { }
 
-  ngOnInit() {
-  }
-
-  isChecked(): boolean {
-    return this.model.value && this.values.length
-      && this.model.value.length === this.values.length;
-  }
-
-  isIndeterminate(): boolean {
-    return this.model.value && this.values.length && this.model.value.length
-      && this.model.value.length < this.values.length;
-  }
-
-  toggleSelection(change: MatCheckboxChange): void {
-    if (change.checked) {
-      this.model.update.emit(this.values);
-    } else {
-      this.model.update.emit([]);
+    ngOnInit() {
     }
-  }
+
+    isChecked(): boolean {
+        return this.model.value && this.values.length
+      && this.model.value.length === this.values.length;
+    }
+
+    isIndeterminate(): boolean {
+        return this.model.value && this.values.length && this.model.value.length
+      && this.model.value.length < this.values.length;
+    }
+
+    toggleSelection(change: MatCheckboxChange): void {
+        if (change.checked) {
+            this.model.update.emit(this.values);
+        } else {
+            this.model.update.emit([]);
+        }
+    }
 }

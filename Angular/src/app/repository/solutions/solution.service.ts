@@ -3,13 +3,13 @@ import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
 
 @Injectable({
-  providedIn: 'root',
+    providedIn: 'root',
 })
 export class SolutionService {
-  constructor(private http: HttpClient) {}
+    constructor(private http: HttpClient) {}
 
-  getComponentData(practices) {
-    return this.http.get(`${environment.apiUrl}solutions`);
+    getComponentData(practices) {
+        return this.http.get(`${environment.apiUrl}solutions`);
     // return this.http.get('../assets/Data/data.Json');
-  }
+    }
 }

@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { CommonModule } from '@angular/common'
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
 import {HeaderService} from '../app/_services/header';
@@ -25,7 +25,7 @@ import {FormComponent} from '../app/repository/form/form.component';
 import { AddFormComponent } from '../app/repository/Admin/add-form/add-form.component';
 import { FaderDirective } from '../app/header/directives/fader.directive';
 import { HoverDirective } from '../app/header/directives/hover.directive';
-//repository
+// repository
 // import { RepohomeComponent } from '../app/repository/repohome/repohome.component';
 // import { DetailsComponent,DownloadDialog } from '../app/repository/details/details.component';
 // import { ImagedialogComponent } from '../app/repository/imagedialog/imagedialog.component';
@@ -40,66 +40,66 @@ import { BestPracticeService } from './repository/bestpractice/best-practice.ser
 import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
 
 export function getAdalConfig() {
-  return {
-    tenant: environment.tanent,
-    clientId: environment.clientId,
-    redirectUri: environment.redirectUri,
-    endpoints: {
-      "api": environment.clientId
-    },
-    navigateToLoginRequestUrl: false,
-    cacheLocation: 'sessionStorage'
-  };
+    return {
+        tenant: environment.tanent,
+        clientId: environment.clientId,
+        redirectUri: environment.redirectUri,
+        endpoints: {
+            api: environment.clientId
+        },
+        navigateToLoginRequestUrl: false,
+        cacheLocation: 'sessionStorage'
+    };
 }
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    FooterComponent,
-    HamburgerComponent,
-    FormComponent,
-    AddFormComponent,
-    FaderDirective,
-    HoverDirective,
-    ScrollToTopComponent 
+    declarations: [
+        AppComponent,
+        HeaderComponent,
+        FooterComponent,
+        HamburgerComponent,
+        FormComponent,
+        AddFormComponent,
+        FaderDirective,
+        HoverDirective,
+        ScrollToTopComponent
     // DetailsComponent,
     // DownloadDialog,
     // ImagedialogComponent,
-  ],
-  imports: [
-    BrowserModule,
-    CommonModule,
-    AppRoutingModule,
-    MsAdalAngular6Module,
-    HttpClientModule, 
-    FormsModule,
-    MaterialModule,
-    ReactiveFormsModule,
-    Ng2SearchPipeModule,
-    SharedModule,
-    FlexLayoutModule,
-    ServiceWorkerModule.register('ngsw-worker.js', {
-      enabled: environment.production,
-      // Register the ServiceWorker as soon as the app is stable
-      // or after 30 seconds (whichever comes first).
-      registrationStrategy: 'registerWhenStable:30000'
-    }),
-    BrowserAnimationsModule,
-    MsAdalAngular6Module.forRoot(getAdalConfig),
-  ],
-  providers: [
-    MsAdalAngular6Service,
-    AuthenticationGuard,
-    HeaderService,
-    ComponentServicesService,
-    DataServiceService,
-    ComponentsService,
-    SolutionService,
-    BestPracticeService,
-    { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
-  ],
-  bootstrap: [AppComponent],
-  entryComponents: [],
+    ],
+    imports: [
+        BrowserModule,
+        CommonModule,
+        AppRoutingModule,
+        MsAdalAngular6Module,
+        HttpClientModule,
+        FormsModule,
+        MaterialModule,
+        ReactiveFormsModule,
+        Ng2SearchPipeModule,
+        SharedModule,
+        FlexLayoutModule,
+        ServiceWorkerModule.register('ngsw-worker.js', {
+            enabled: environment.production,
+            // Register the ServiceWorker as soon as the app is stable
+            // or after 30 seconds (whichever comes first).
+            registrationStrategy: 'registerWhenStable:30000'
+        }),
+        BrowserAnimationsModule,
+        MsAdalAngular6Module.forRoot(getAdalConfig),
+    ],
+    providers: [
+        MsAdalAngular6Service,
+        AuthenticationGuard,
+        HeaderService,
+        ComponentServicesService,
+        DataServiceService,
+        ComponentsService,
+        SolutionService,
+        BestPracticeService,
+        { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
+    ],
+    bootstrap: [AppComponent],
+    entryComponents: [],
 })
 export class AppModule { }

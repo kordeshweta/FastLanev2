@@ -8,22 +8,22 @@ import { MatSelectModule } from '@angular/material/select';
 import { FormsModule } from '@angular/forms';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: BestpracticeComponent,
-  },
+    {
+        path: '',
+        component: BestpracticeComponent,
+    },
 ];
 
 @NgModule({
-  declarations: [BestpracticeComponent],
-  imports: [
-    CommonModule,
-    RouterModule.forChild(routes),
-    HttpClientModule,
-    SharedModule,
-    MatSelectModule,
-    FormsModule
-  ],
-  exports: [BestpracticeComponent],
+    declarations: [BestpracticeComponent],
+    imports: [
+        CommonModule,
+        RouterModule.forChild(routes),
+        HttpClientModule,
+        SharedModule,
+        MatSelectModule,
+        FormsModule
+    ],
+    exports: [BestpracticeComponent],
 })
 export class BestpracticeModule {}

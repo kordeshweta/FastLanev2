@@ -16,6 +16,6 @@
 //   constructor(private adal: MsAdalAngular6Service) { }
 
 //   intercept(req: HttpRequest<any>, next: HttpHandler) {
-    
+
 //   }
 // }
