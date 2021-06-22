@@ -1,6 +1,8 @@
-import { AfterViewInit, Component, Input, OnInit } from '@angular/core';
+import { AfterViewInit, Component, Input, OnDestroy, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { MsAdalAngular6Service } from 'microsoft-adal-angular6';
+import { Subject } from 'rxjs';
+import { takeUntil } from 'rxjs/operators';
 import { HeaderService } from '../_services/header';
 import * as dropdown_array from './constants/dropdown.json';
 
@@ -9,11 +11,17 @@ import * as dropdown_array from './constants/dropdown.json';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit,AfterViewInit{
+export class HeaderComponent implements OnInit,AfterViewInit,OnDestroy{
 
   dropdownArray;
+  destroy$:Subject<boolean>=new Subject<boolean>();
+
   constructor(private adalSvc: MsAdalAngular6Service,private headerService:HeaderService,private router:Router) {
    }
+  ngOnDestroy(): void {
+    this.destroy$.next(true);
+    this.destroy$.unsubscribe();
+  }
 
   ngOnInit(): void {
     this.dropdownArray=[];
@@ -33,14 +41,17 @@ export class HeaderComponent implements OnInit,AfterViewInit{
   ngAfterViewInit() {
     document.querySelector('#home').classList.add('underline-home');
     
-    this.headerService.changeTab.subscribe(res=>{
-      console.log(res);
+    this.headerService.changeTab.pipe(takeUntil(this.destroy$)).subscribe(res=>{
       var targetEleClassList=document.getElementsByClassName('options');
-
+      var n=targetEleClassList.length;
+      
       if(res=="Accelerators")
-        this.underLine(targetEleClassList[1].classList);
+        this.underLine(targetEleClassList[n-1].classList,"nh");
       else if(res=="Assessments"){
-        this.underLine(targetEleClassList[0].classList);
+        this.underLine(targetEleClassList[n-2].classList,"nh");
+      }
+      else if(res=="Home"){
+         this.underLine("#home","h");
       }
     })
     
@@ -59,23 +70,25 @@ export class HeaderComponent implements OnInit,AfterViewInit{
       optionsList[i].classList.remove('underline-home');
     }
   }
-  underLine(targetEleClassList){
-    if(targetEleClassList.contains('options')){
-      console.log("hi");
+  underLine(targetEleClassList,str){
+    if(str==="h"){
+      this.removeUnderline('options');
+      document.querySelector(targetEleClassList).classList.add('underline-home');
+    }
+    else if( str==="nh" && targetEleClassList.contains('options') ){
       this.removeUnderline('options');
       targetEleClassList.add('underline');
     } 
   }
   navigateToSection(url){
     if(url){
-      this.removeUnderline('options');
-      document.querySelector('#home').classList.add('underline-home');
+      this.underLine("#home","h");
       this.router.navigate(([url]));
     }
   }
   underlineOption(ev){
     var targetEleClassList=ev.srcElement.parentNode.parentNode.classList;
-    this.underLine(targetEleClassList);
+    this.underLine(targetEleClassList,"nh");
   }
 
   logout() {

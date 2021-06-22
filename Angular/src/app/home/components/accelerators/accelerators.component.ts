@@ -36,7 +36,7 @@ export class AcceleratorsComponent implements OnInit {
   startIndex;
   disableLeft;
   disableRight;
-  constructor(private router:Router,private headerService:HeaderService){
+  constructor(private router:Router){
     this.startIndex = 1;
   }
 
@@ -64,7 +64,6 @@ export class AcceleratorsComponent implements OnInit {
   }
 
   redirect(url){
-    this.headerService.setTab("Accelerators");
     this.router.navigate([url]);
   }
   slide(){

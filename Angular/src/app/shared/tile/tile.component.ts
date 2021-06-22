@@ -55,7 +55,6 @@ export class TileComponent implements OnInit, OnChanges {
     this.dataType = this.dataType
     this.appService.isAdmin().subscribe(res=>{
       this.isAdmin=res["status"];
-      console.log(res);
     })
 
   }
