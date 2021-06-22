@@ -1,11 +1,12 @@
 @import '../../../../styles/variables.scss';
 .container-main{
-    height:100vh;
+    height:auto;
     width: 100%;
     clip-path:polygon(0 0, 100% 0, 100% calc(100% - 70px), 0 100%);
     margin-bottom:-70px;
     background-color: white;
     position: relative;
+    display: flex;
     z-index:10;
     background-image: url('../../../../assets/home/back-image.png');
     background-repeat: no-repeat;
@@ -19,10 +20,21 @@
         font: $section_single_line_header_font;
         span {
 			font-weight: bold;
+            font: $section_header_bold_text_font;
 		}
     }
     
-    
+    .heading{
+        display: flex;
+        margin-top: 60px;
+    }
+   .description{
+       display: flex;
+       margin-top: 30px;
+   }
+   .ebutton{
+       display: flex;
+   }
      
     p{
         padding: 20px;
@@ -35,6 +47,7 @@
     
     .front-container{
         margin-bottom: 50px;
+        display: flex;
         .front{
             width: 100%;
             height: auto;
@@ -56,28 +69,68 @@
         padding-bottom: 16px ;
         padding-right: 24px;
         padding-left: 24px;
+        margin-bottom: 60px;
         
     }
     
 }
 
 
-@media screen and (max-width: 900px) {
-    
-    .container-main{
+// @media screen and (max-width: 900px) {
+    // .container-main{
+    //     padding:30px;
+    //     background-size: 120% 30%;
+    //     h1 {
+    //         font-size: 22px;
+    //         span{
+    //             font-size: 22px;
+    //             display: inline;
+    //         }
+    //     }
+        
+    //     p{
+    //         font-size: 14px;
+    //     }
+    //     // .description{
+    //     //     margin-top: 20px;
+    //     // }
+    //     .description{
+    //         margin-top: 50px;
+    //     }
+    //     button{
+    //         width:330px;
+    //     }
+       
+
+    // }
+    .mobile-device{
+        
         padding:30px;
         background-size: 120% 30%;
         h1 {
-            font-size: 32px;
+            font-size: 22px;
             span{
-                
+                font-size: 22px;
             }
         }
         
         p{
-            font-size: 18px;
+            font-size: 14px;
         }
+        // .description{
+        //     margin-top: 20px;
+        // }
+        .description{
+            margin-top: 50px;
+        }
+        button{
+            width:330px;
+        }
+       
+
+
+
     }
 
 
-}
+// }

@@ -10,7 +10,7 @@ import { MaterialModule } from '../material.module';
 //components
 import { IntroductionComponent } from './components/introduction/introduction.component';
 // import { SlantSectionComponent } from './components/slant-section/slant-section.component';
-import { VideoComponent } from './components/video/video.component';
+import { DiscoverSectionComponent } from './components/discover-section/discover-section.component';
 import { TestComponent } from './components/test/test.component';
 import { ClientFeedbackComponent } from './components/client-feedback/client-feedback.component';
 import { QuickTourComponent } from './components/quick-tour/quick-tour.component';
@@ -33,7 +33,7 @@ const routes: Routes = [
     HomeComponent,
     IntroductionComponent,
     // SlantSectionComponent,
-    VideoComponent,
+    DiscoverSectionComponent,
     TestComponent,
     ClientFeedbackComponent,
     QuickTourComponent,
