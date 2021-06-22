@@ -1,20 +1,25 @@
-<section class="accelerators">
-    <h1>Move ahead with our <span>Accelerators</span></h1>
-    <div class="carousel">
-      <div class="content" id="imgs" *ngFor="let item of imageObject;">
-          <img src="{{item.image}}" class="svg_img">
+<section class="accelerators" fxLayout="column" fxLayoutAlign="space-evenly center">
+  <div>
+    <h1 >Move ahead with our <span>Accelerators</span></h1>
+  </div>
+
+    <div class="carousel" fxLayout="column" fxLayout.gt-sm="row">
+      <div class="content" id="imgs" *ngFor="let item of imageObject;" fxFlex fxLayout="column" fxLayoutAlign=" center">
+          <div fxLayout="row" style="width: 100%;">
+            
+            <img class="btn-left" src="../../assets/home/DisableR.svg" *ngIf="disableLeft" fxShow.gt-sm="false"/>
+            <img class="btn-left" (click)="left()" src="../../assets/home/Mobile carousel (1).svg " *ngIf="!disableLeft" fxShow.gt-sm="false"/>
+            <img src="{{item.image}}" class="svg_img">
+            <img class="btn-right" (click)="right()" src="../../assets/home/Mobile carousel.svg " *ngIf="!disableRight" fxShow.gt-sm="false"/>
+            <img class="btn-right" src="../../assets/home/DisableL.svg" *ngIf="disableRight" fxShow.gt-sm="false"/>
+          </div>
           <h2>{{item.alt}}</h2>
           <p>FastLane is a solution-based approach 
             and methodology for fast-tracking web and mobile</p>
           <button (click)="redirect(item.link)">Learn More</button>
-          <img src="{{item.dot}}" class="dots"/>
-      </div>
-
-      <div class="buttons-container">
-        <img class="btn-left" (click)="left()" src="../../assets/home/Mobile carousel (1).svg " *ngIf="!disableLeft"/>
-        <img class="btn-right" (click)="right()" src="../../assets/home/Mobile carousel.svg " *ngIf="!disableRight"/>
-        <img class="btn-right" src="../../assets/home/DisableL.svg" *ngIf="disableRight" />
-        <img class="btn-left" src="../../assets/home/DisableR.svg" *ngIf="disableLeft" />
+          <div>
+          <img src="{{item.dot}}" class="dots" fxShow.gt-sm="false"/>
+          </div>
       </div>
     </div>
 </section>
