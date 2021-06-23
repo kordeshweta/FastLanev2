@@ -7,6 +7,7 @@ import {RepohomeComponent} from '../app/repository/repohome/repohome.component';
 import { AddFormComponent } from './repository/Admin/add-form/add-form.component';
 import { DetailsComponent } from './repository/details/details.component';
 import { QuickTourComponent } from './home/components/quick-tour/quick-tour.component';
+import { ExperienceDesignComponent } from './experience-design/experience-design.component';
 
 const routes: Routes = [
   {
@@ -43,6 +44,10 @@ const routes: Routes = [
   {
     path: 'quickTour',
     component:QuickTourComponent
+  },
+  {
+    path: 'experiencedesign',
+    component: ExperienceDesignComponent
   },
   // {
   //   path: '',
