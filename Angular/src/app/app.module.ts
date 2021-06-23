@@ -14,17 +14,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MsAdalAngular6Module, MsAdalAngular6Service, AuthenticationGuard } from 'microsoft-adal-angular6';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { JwtInterceptor } from './@Core';
+import { JwtInterceptor } from './Core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 
-import { HeaderComponent } from '../app/header/header.component';
-import { FooterComponent } from '../app/footer/footer.component';
-import {HamburgerComponent} from '../app/hamburger/hamburger.component';
+import { HeaderComponent } from '../app/Core/header/header.component';
+import { FooterComponent } from '../app/Core/footer/footer.component';
+import {HamburgerComponent} from '../app/Core/hamburger/hamburger.component';
 import {FormComponent} from '../app/repository/form/form.component';
 import { AddFormComponent } from '../app/repository/Admin/add-form/add-form.component';
-import { FaderDirective } from '../app/header/directives/fader.directive';
-import { HoverDirective } from '../app/header/directives/hover.directive';
+import { FaderDirective } from '../app/Core/header/directives/fader.directive';
+import { HoverDirective } from '../app/Core/header/directives/hover.directive';
 //repository
 // import { RepohomeComponent } from '../app/repository/repohome/repohome.component';
 // import { DetailsComponent,DownloadDialog } from '../app/repository/details/details.component';
@@ -37,7 +37,7 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { ComponentsService } from './repository/components/components.service';
 import { SolutionService } from './repository/solutions/solution.service';
 import { BestPracticeService } from './repository/bestpractice/best-practice.service';
-import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
+import { ScrollToTopComponent } from './Core/scroll-to-top/scroll-to-top.component';
 
 export function getAdalConfig() {
   return {
