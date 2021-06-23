@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 import { MsAdalAngular6Service } from 'microsoft-adal-angular6';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
-import { HeaderService } from '../_services/header';
+import { HeaderService } from '../../_services/header';
 import * as dropdown_array from './constants/dropdown.json';
 
 @Component({

@@ -2,12 +2,12 @@
     <div class="container" id="container">
         <div id="side-menu" class="side-nav" [style.width]="width">
             <div class="cancel">
-                <img src="../../assets/Hamburger/cancel.svg" (click)="closeSlideMenu()" alt="cancel button">
+                <img src="../../../assets/Hamburger/cancel.svg" (click)="closeSlideMenu()" alt="cancel button">
             </div>
             
             <div class="profile">
                 <div>
-                    <img src="../../assets/Hamburger/Profile Icon.svg" alt="profile icon">
+                    <img src="../../../assets/Hamburger/Profile Icon.svg" alt="profile icon">
                 </div>
                <div class="user">
                    {{userDetail}}
@@ -16,8 +16,8 @@
             <a class="home">Home</a>
             <div *ngFor="let dda of dropdownArray;let i = index; let first = first ;let last = last;">
                 <div *ngIf="first">
-                    <div class="darrow" [style.display]="displayd" [style.font]="fontAs" (click)="downMenuAs()">{{dda.name}} <img src="../../assets/Hamburger/arrow-down.svg" alt="down arrow" ></div>
-                    <div class="uarrow" [style.display]="displayu" [style.font]="fontAsu" (click)="upMenuAs()">{{dda.name}}  <img src="../../assets/Hamburger/arrow-up.svg" alt="up arrow"></div>
+                    <div class="darrow" [style.display]="displayd" [style.font]="fontAs" (click)="downMenuAs()">{{dda.name}} <img src="../../../assets/Hamburger/arrow-down.svg" alt="down arrow" ></div>
+                    <div class="uarrow" [style.display]="displayu" [style.font]="fontAsu" (click)="upMenuAs()">{{dda.name}}  <img src="../../../assets/Hamburger/arrow-up.svg" alt="up arrow"></div>
                     <div class="inside-assessment" [style.height]="heightA" [style.display]="displayA">
                        <div *ngFor="let list_items of dda.dropdown_list" >
                             <a>  {{list_items.name}} </a>
@@ -25,8 +25,8 @@
                    </div>
                 </div>
                 <div *ngIf="last">
-                    <div  class="darrow" [style.display]="displaydA" [style.font]="fontAc" (click)="downMenuAc()"> {{dda.name}}  <img src="../../assets/Hamburger/arrow-down.svg" alt="down arrow" ></div>
-                    <div  class="uarrow" [style.display]="displayuA"  [style.font]="fontAcu" (click)="upMenuAc()"> {{dda.name}}  <img src="../../assets/Hamburger/arrow-up.svg" alt="up arrow"></div>
+                    <div  class="darrow" [style.display]="displaydA" [style.font]="fontAc" (click)="downMenuAc()"> {{dda.name}}  <img src="../../../assets/Hamburger/arrow-down.svg" alt="down arrow" ></div>
+                    <div  class="uarrow" [style.display]="displayuA"  [style.font]="fontAcu" (click)="upMenuAc()"> {{dda.name}}  <img src="../../../assets/Hamburger/arrow-up.svg" alt="up arrow"></div>
                     <div class="inside-accelerator" [style.height]="heightAc" [style.display]="displayAc">
                         <div *ngFor="let list_items of dda.dropdown_list" >
                             <a>  {{list_items.name}} </a>

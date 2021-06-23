@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { MsAdalAngular6Service } from 'microsoft-adal-angular6';
-import { HeaderService } from '../_services/header';
+import { HeaderService } from '../../_services/header';
 import * as dropdown_array from '../header/constants/dropdown.json';
-import { AppService } from '../app.service';
+import { AppService } from '../../app.service';
 @Component({
   selector: 'app-hamburger',
   templateUrl: './hamburger.component.html',

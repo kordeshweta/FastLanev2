@@ -1,0 +1,112 @@
+.scroll-to-top {
+    position: relative;
+    // bottom: 235px;
+    right:20px;
+    top:-20px;
+   
+    // left:200px;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+   
+   }
+   .show-scrollTop {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+   
+   }
+
+.btn{
+    border: 0cm;
+    background-size: 32px, 32px;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    opacity:1;
+    cursor:pointer;
+    background-image:url("../../../assets/images/Footer_top_arrow_desktop.svg") ;
+   // background: transparent url('../../assets/images/Footer-top-arrow-desktop/Footer-top-arrow-desktop.png') 0% 0% no-repeat padding-box;
+
+}
+
+// @media only screen and (min-width: 400px /*360px*/) and (max-width: 599px) {
+    
+//     .scroll-to-top{
+//         // bottom: 560px;
+//         // left: 340px;
+//     }
+//     .btn{
+//         background-size: 24px, 24px;
+//         background-repeat: no-repeat;
+//         width: 24px;
+//         height: 24px;
+//          left:365px;
+//          bottom: -11px;
+//         opacity:1;
+//         background-image:  url('../../assets/images/Footer_top_arrow_desktop.svg');
+
+//     }
+//  }
+     
+
+@media only screen and (max-width: 500px /*360px*/)  {
+    
+    .scroll-to-top{
+        // bottom: 560px;
+        // left: 340px;
+        // right: -320px;
+    }
+    .btn{
+        background-size: 24px, 24px;
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 24px;
+        top:-16px;
+        //  left:365px;
+        //  bottom: 630px;
+        opacity:1;
+        cursor:pointer;
+        background-image:  url('../../../assets/images/Footer_top_arrow_desktop.svg');
+
+    }
+}
+
+      
+// //    }
+
+//    @media only screen and (min-width: 600px  /*360px*/) and (max-width: 800px) {
+    
+//     .scroll-to-top{
+//         // bottom: 450px;
+//         // left: 700px;
+//     }
+//     .btn{
+      
+//     opacity:1;
+//     background-size: 24px, 24px;
+//     background-repeat: no-repeat;
+//     width: 24px;
+//     height: 24px;
+//     background-image:  url('../../assets/images/Footer_top_arrow_desktop.svg');
+
+//     }
+// }
+
+// @media only screen and (min-width: 1000px  /*360px*/) {
+    
+//     .scroll-to-top{
+//         bottom: 245px;
+//         left: 1290px;
+//     }
+//     .btn{
+//         width: 48px;
+//     background-size: 48px, 48px;
+//     height: 48px;
+//     opacity:1;
+//     background-image:  url('../../assets/images/Footer_top_arrow_desktop.svg');
+
+//     }
+// }
+      
+      
+//    }
+  
