@@ -21,8 +21,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { HeaderComponent } from '../app/header/header.component';
 import { FooterComponent } from '../app/footer/footer.component';
 import {HamburgerComponent} from '../app/hamburger/hamburger.component';
-import {FormComponent} from '../app/repository/form/form.component';
-import { AddFormComponent } from '../app/repository/Admin/add-form/add-form.component';
+// import {FormComponent} from '../app/repository/form/form.component';
+// import { AddFormComponent } from '../app/repository/Admin/add-form/add-form.component';
 import { FaderDirective } from '../app/header/directives/fader.directive';
 import { HoverDirective } from '../app/header/directives/hover.directive';
 //repository
@@ -31,7 +31,7 @@ import { HoverDirective } from '../app/header/directives/hover.directive';
 // import { ImagedialogComponent } from '../app/repository/imagedialog/imagedialog.component';
 
 import {MaterialModule} from './material.module';
-import {SharedModule} from '../app/shared/shared.module';
+// import {SharedModule} from '../app/shared/shared.module';
 
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { ComponentsService } from './repository/components/components.service';
@@ -58,8 +58,8 @@ export function getAdalConfig() {
     HeaderComponent,
     FooterComponent,
     HamburgerComponent,
-    FormComponent,
-    AddFormComponent,
+    // FormComponent,
+    // AddFormComponent,
     FaderDirective,
     HoverDirective,
     ScrollToTopComponent 
@@ -77,7 +77,7 @@ export function getAdalConfig() {
     MaterialModule,
     ReactiveFormsModule,
     Ng2SearchPipeModule,
-    SharedModule,
+    // SharedModule,
     FlexLayoutModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
