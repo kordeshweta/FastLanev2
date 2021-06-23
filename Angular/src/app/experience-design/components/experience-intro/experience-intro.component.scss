@@ -1,58 +1,62 @@
 @import '../../../../styles/variables';
 .container-main {
 
-	background: url("../../../../assets/home/section-1.png");
+	background: url("../../../../assets/experience_design/intro.png");
 	height: 550px;
     position: relative;
 	background-size:100% 100%;
 
+}
+
+ul.breadcrumb{
+    list-style: none;
+    li{
+        display: inline;
+        font: $section_button_font;
+
+        
+        a{
+            text-decoration: none;
+            color: #2A2E7D;
+        }
+    }
+    .exp{
+        color:#5A5A5A;
+        padding-left: 8px;
+    }
+
+}
+ul.breadcrumb li+li:before{
+    color:black;
+    content:">\00a0";
+    
+}
+.heading{
+    margin-left: 34px;
+    padding: 5px;
+    font: $section_header_bold_text_font;
+    color: #2A2E7D;
 }
 .slide {
     // margin-top: 180px;
     position: absolute;
 	left: 0px;
 	bottom:50px;
-	width: 60%;
+	width: 50%;
 	// height: 50%;
 	//top: 250px;
 	height: auto;
-	background: linear-gradient(rgba(42, 46, 125,.7), rgba(42,46,125,.7)) 0% 0% no-repeat padding-box;
+	background: linear-gradient(rgba(42, 46, 125, 0.75), rgba(42,46,125,.75)) 0% 0% no-repeat padding-box;
 	clip-path:polygon(0 0, 100% 0, 90% 100%, 0 100%);
 	.slide-content{
 		width:93%;
 		padding-top: 20px;
 	}
-	.resp-text{
-		font-family:Bw Modelica LTI;
-		font-size:max(2.3vw,1.4rem);
-		white-space: nowrap;
-	}
 	// .resp-text-1{
 	// 	font-family:Bw Modelica LTI;
 	// 	font-size:max(1.5vw,1rem);
 	// }
-	span {
-		text-align: left;
-		letter-spacing: 0px;
-		color: #FFFFFF;
-		padding-left: 40px;
-		display: inline;
-		padding-top: 20px;
-		
-	}
-	.resp {
-		display: inline;
-        padding-left: 2px;
-		text-align: left;
-		font: $fastlane_logo_font;
-		font-size:max(2.5vw,1.4rem);
-		// font-family: Gotham;
-	    // font-weight: Ultra Italic;
-	    // font-size: 56px;
-	    // line-height: 88px;
-		letter-spacing: 0px;
-		color: #FFFFFF;
-	}
+
 }
 .intro-desktop {
 	text-align: left;
@@ -60,7 +64,7 @@
 	// font: normal normal normal 20px/30px Bw Modelica;
 	font:$section_content_text_font;
 
-	// font-size:max(1.2vw,0.8rem);
+	font-size:max(1.2vw,0.8rem);
 
 	// font-size:max(1.3vw,0.8rem);
 
@@ -76,21 +80,33 @@
 	color: #FFFFFF;
 	padding-left: 40px;
 }
-button {
+.assess-now {
 	text-align: center;
-	// font-family: Bw Modelica-Medium;
-	// font-weight: medium;
-	// font-size: 14px;
-	// line-height: 30px;
 	font: $section_button_font;
 	letter-spacing: 0px;
 	color: #2A2E7D;
 	background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
 	border-radius: 4px;
-	width: 150px;
+	width: 130px;
 	height: 40px;
 	margin-left: 40px;
-	margin-top: 20px;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+.know-more{
+    text-align: center;
+	font: $section_button_font;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+    left: 0px;
+    background: none;
+    border: 1px solid #FFFFFF;
+	border-radius: 4px;
+	width: 130px;
+	height: 40px;
+	margin-left: 15px;
+	margin-top: 15px;
 	margin-bottom: 25px;
 }
 @media (min-width:500px) {
@@ -114,7 +130,7 @@ button {
 // }
 @media (max-width:500px) {
 	.container-main{
-		background: url("../../../../assets/home/section-1-mob.png");
+		background: url("../../../../assets/experience_design/intro-mob.png");
 	}
 	.slide {
 		span {
@@ -124,22 +140,10 @@ button {
 		.slide-content{
 			padding-top: 5px;
 		}
-		.resp {
-			padding-left: 2px;
-			// font-family: Gotham;
-	        // font-weight: Ultra Italic;
-			font: $fastlane_logo_font;
-	        font-size: 24px;
-	        line-height: 88px;
-			// font-size:max(2.0vw,1.4rem);
-		}
-		.resp-text{
-			font-size: 24px;
-		}
 		// width: 90%;
 		// height: 43%;
 		width:340px;
-		height: 40%;
+		height: 30%;
 		background: linear-gradient(rgba(42, 46, 125,.88), rgba(42,46,125,.88)) 0% 0% no-repeat padding-box;
 	}
 	.intro-desktop {
@@ -150,28 +154,27 @@ button {
 		font: $section_content_text_font;
 		font-size: 13px;
 		line-height: 20px;
-		padding-top: 0px;
+		padding-top: 15px;
+        padding-left: 20px;
 		// font-size:max(0.2vw,0.8rem)
 		
 	}
-	button {
-		width: 180px;
+	.assess-now {
+		width: 120px;
         font: $section_button_font;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        
+	}
+    .know-more {
+		width: 120px;
+        font: $section_button_font;
+        margin-bottom: 10px;
 	}
 }
 @media (max-width:350px){
 	
 	.slide{
-		span{
-			font-size: 18px;
-		}
-		.resp{
-			font-size: 22px;
-		}
-		.resp-text{
-			font-size: 22px;
-		}
 		width: 310px;
 		height: 43%;
 
@@ -180,15 +183,6 @@ button {
 @media (max-width:300px){
 	
 	.slide{
-		span{
-			font-size: 11px;
-		}
-		.resp{
-			font-size: 18px;
-		}
-		.resp-text{
-			font-size:18px ;
-		}
 		width: 270px;
 		height: 43%;
 

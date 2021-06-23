@@ -7,6 +7,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from '../material.module';
 import { ExperienceDesignComponent } from './experience-design.component';
 import { ExperienceIntroComponent } from './components/experience-intro/experience-intro.component';
+import { ExperienceFormComponent } from './components/experience-form/experience-form.component';
 
 
 const routes: Routes = [
@@ -25,6 +26,7 @@ const routes: Routes = [
   declarations: [
     ExperienceDesignComponent,
     ExperienceIntroComponent,
+    ExperienceFormComponent,
   ],
   imports: [
     CommonModule,
