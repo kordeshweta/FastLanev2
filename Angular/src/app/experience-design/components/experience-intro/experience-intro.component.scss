@@ -1,0 +1,196 @@
+@import '../../../../styles/variables';
+.container-main {
+
+	background: url("../../../../assets/home/section-1.png");
+	height: 550px;
+    position: relative;
+	background-size:100% 100%;
+
+}
+.slide {
+    // margin-top: 180px;
+    position: absolute;
+	left: 0px;
+	bottom:50px;
+	width: 60%;
+	// height: 50%;
+	//top: 250px;
+	height: auto;
+	background: linear-gradient(rgba(42, 46, 125,.7), rgba(42,46,125,.7)) 0% 0% no-repeat padding-box;
+	clip-path:polygon(0 0, 100% 0, 90% 100%, 0 100%);
+	.slide-content{
+		width:93%;
+		padding-top: 20px;
+	}
+	.resp-text{
+		font-family:Bw Modelica LTI;
+		font-size:max(2.3vw,1.4rem);
+		white-space: nowrap;
+	}
+	// .resp-text-1{
+	// 	font-family:Bw Modelica LTI;
+	// 	font-size:max(1.5vw,1rem);
+	// }
+	span {
+		text-align: left;
+		letter-spacing: 0px;
+		color: #FFFFFF;
+		padding-left: 40px;
+		display: inline;
+		padding-top: 20px;
+		
+	}
+	.resp {
+		display: inline;
+        padding-left: 2px;
+		text-align: left;
+		font: $fastlane_logo_font;
+		font-size:max(2.5vw,1.4rem);
+		// font-family: Gotham;
+	    // font-weight: Ultra Italic;
+	    // font-size: 56px;
+	    // line-height: 88px;
+		letter-spacing: 0px;
+		color: #FFFFFF;
+	}
+}
+.intro-desktop {
+	text-align: left;
+	box-sizing: border-box;
+	// font: normal normal normal 20px/30px Bw Modelica;
+	font:$section_content_text_font;
+
+	// font-size:max(1.2vw,0.8rem);
+
+	// font-size:max(1.3vw,0.8rem);
+
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	padding-left: 40px;
+	
+}
+.intro-mobile {
+	text-align: left;
+	font: $section_content_text_font;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	padding-left: 40px;
+}
+button {
+	text-align: center;
+	// font-family: Bw Modelica-Medium;
+	// font-weight: medium;
+	// font-size: 14px;
+	// line-height: 30px;
+	font: $section_button_font;
+	letter-spacing: 0px;
+	color: #2A2E7D;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border-radius: 4px;
+	width: 150px;
+	height: 40px;
+	margin-left: 40px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+@media (min-width:500px) {
+	.intro-mobile {
+		display: none;
+	}
+	
+
+}
+// @media(width:768px){
+// 	.intro-mobile {
+// 		display: none;
+// 	}
+// 	// .intro-desktop{
+// 	// 	font-size: 18px;
+// 	// }
+// 	.slide{
+// 		width:600px;
+// 		height:60%;
+// 	}
+// }
+@media (max-width:500px) {
+	.container-main{
+		background: url("../../../../assets/home/section-1-mob.png");
+	}
+	.slide {
+		span {
+			// font: normal normal 300 20px/88px Bw Modelica LTI;
+			font: $section_header_text_font;
+		}
+		.slide-content{
+			padding-top: 5px;
+		}
+		.resp {
+			padding-left: 2px;
+			// font-family: Gotham;
+	        // font-weight: Ultra Italic;
+			font: $fastlane_logo_font;
+	        font-size: 24px;
+	        line-height: 88px;
+			// font-size:max(2.0vw,1.4rem);
+		}
+		.resp-text{
+			font-size: 24px;
+		}
+		// width: 90%;
+		// height: 43%;
+		width:340px;
+		height: 40%;
+		background: linear-gradient(rgba(42, 46, 125,.88), rgba(42,46,125,.88)) 0% 0% no-repeat padding-box;
+	}
+	.intro-desktop {
+		display: none;
+	}
+	.intro-mobile {
+		// font: normal normal normal 13px/20px Bw Modelica;
+		font: $section_content_text_font;
+		font-size: 13px;
+		line-height: 20px;
+		padding-top: 0px;
+		// font-size:max(0.2vw,0.8rem)
+		
+	}
+	button {
+		width: 180px;
+        font: $section_button_font;
+        margin-bottom: 15px;
+	}
+}
+@media (max-width:350px){
+	
+	.slide{
+		span{
+			font-size: 18px;
+		}
+		.resp{
+			font-size: 22px;
+		}
+		.resp-text{
+			font-size: 22px;
+		}
+		width: 310px;
+		height: 43%;
+
+	}
+}
+@media (max-width:300px){
+	
+	.slide{
+		span{
+			font-size: 11px;
+		}
+		.resp{
+			font-size: 18px;
+		}
+		.resp-text{
+			font-size:18px ;
+		}
+		width: 270px;
+		height: 43%;
+
+	}
+}

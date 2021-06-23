@@ -6,6 +6,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { MaterialModule } from '../material.module';
 import { ExperienceDesignComponent } from './experience-design.component';
+import { ExperienceIntroComponent } from './components/experience-intro/experience-intro.component';
 
 
 const routes: Routes = [
@@ -22,7 +23,8 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [
-    ExperienceDesignComponent
+    ExperienceDesignComponent,
+    ExperienceIntroComponent,
   ],
   imports: [
     CommonModule,
@@ -32,6 +34,6 @@ const routes: Routes = [
     RouterModule.forChild(routes),
 
   ],
-  exports: [RouterModule],
+  exports: [ExperienceDesignComponent,RouterModule],
 })
 export class ExperienceDesignModule { }

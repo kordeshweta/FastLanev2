@@ -47,7 +47,11 @@ const routes: Routes = [
   },
   {
     path: 'experiencedesign',
-    component: ExperienceDesignComponent
+    loadChildren: () =>
+      import('./experience-design/experience-design.module').then(
+        (m) => m.ExperienceDesignModule
+      ),
+    canActivate: [AuthenticationGuard],
   },
   // {
   //   path: '',
