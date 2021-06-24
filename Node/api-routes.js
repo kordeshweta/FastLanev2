@@ -22,6 +22,7 @@ const UxFavourite   = require('./controllers/uxFavourite.controller');
 const UxBoard       = require('./controllers/uxBoard.controller');
 const Odfd          = require('./controllers/odfd.controller');
 const Renaissance   = require('./controllers/renaissance.controller');
+const Assessment   = require('./controllers/assessment.controller');
 // const Sso = require('./module/sso/sso.controller');
 // const security = require('./module/security/controller');
 
@@ -176,5 +177,7 @@ router.post('/renaisQuestions/delete', [authJwt.verifyToken, authJwt.isAdmin], R
 router.post('/renaisGuidelines/delete', [authJwt.verifyToken, authJwt.isAdmin], Renaissance.deleteGuidelines);
 router.post('/renaisGeneralQuestion/delete', [authJwt.verifyToken, authJwt.isAdmin], Renaissance.deleteGeneralQuestion);
 router.post('/renaisInstruction/delete', [authJwt.verifyToken, authJwt.isAdmin], Renaissance.deleteInstruction);
+
+router.get('/assessmentQuestionList/:id', authJwt.verifyToken, Assessment.getAssessmentQuestions);
 
 module.exports = router;

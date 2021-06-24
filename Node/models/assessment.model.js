@@ -32,6 +32,10 @@ module.exports = function (sequelize, DataTypes) {
         type: DataTypes.STRING(5),
         allowNull: false,
         defaultValue: 'Yes'
+      },
+      reportLink: {
+        type: DataTypes.STRING,
+        allowNull: true,
       }
     },
     {
