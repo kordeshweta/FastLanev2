@@ -54,6 +54,28 @@ db.renaisAnswers     = require('./renaisAnswers.model')(sequelize, Sequelize);
 db.renaisColumns     = require('./renaisColumns.model')(sequelize, Sequelize);
 db.renaisGeneralQuestion  = require('./renaisGeneralQuestion.model')(sequelize, Sequelize);
 
+db.asmtCategory  = require('./asmtCategory.model')(sequelize, Sequelize);
+db.asmtSubCategory  = require('./asmtSubCategory.model')(sequelize, Sequelize);
+db.asmtQuestions  = require('./asmtQuestions.model')(sequelize, Sequelize);
+db.asmtAnswers  = require('./asmtAnswers,model')(sequelize, Sequelize);
+db.assessment  = require('./assessment.model')(sequelize, Sequelize);
+db.asmtQuestionsRecommendations  = require('./asmtQuestionsRecommendations')(sequelize, Sequelize);
+
+
+db.asmtCategory.hasMany(db.asmtSubCategory, {foreignKey: 'catId' });
+db.asmtSubCategory.belongsTo(db.asmtCategory, {foreignKey: 'catId' });
+
+db.asmtSubCategory.hasMany(db.asmtQuestions, {foreignKey: 'subCategoryId' });
+db.asmtQuestions.belongsTo(db.asmtSubCategory, {foreignKey: 'subCategoryId' });
+
+db.asmtQuestions.hasMany(db.asmtQuestionsRecommendations, {foreignKey: 'questionId' });
+db.asmtQuestionsRecommendations.belongsTo(db.asmtQuestions, {foreignKey: 'questionId' });
+
+db.asmtQuestions.hasMany(db.asmtAnswers, {foreignKey: 'questionId' });
+db.asmtAnswers.belongsTo(db.asmtQuestions, {foreignKey: 'questionId' });
+
+db.assessment.hasMany(db.asmtAnswers, {foreignKey: 'assessmentId' });
+db.asmtAnswers.belongsTo(db.assessment, {foreignKey: 'assessmentId' });
 
 db.uxCategory.belongsTo(db.uxPhase, {foreignKey: 'phaseId' });
 db.uxPhase.hasMany(db.uxCategory, {foreignKey: 'phaseId' });
