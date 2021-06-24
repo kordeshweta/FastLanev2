@@ -3,7 +3,7 @@
         {
             "name":"Assessments",
             "menu_item":[
-                {"id":0,"name":"About Assessments"},
+                {"id":0,"name":"About Assessments","link":"/about-assessment"},
                 {"id":1,"name":"Conduct Assessment"},
                 {"id":2,"name":"Experience Design"},
                 {"id":3,"name":"View Archives"}
