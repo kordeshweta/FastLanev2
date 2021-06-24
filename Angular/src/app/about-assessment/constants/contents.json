@@ -1,0 +1,49 @@
+{
+    "buttonList":[
+        {
+          "id":0,
+          "selected_image":"../../../../assets/assessments/selected_desktop.svg",
+          "unselected_image":"../../../../assets/assessments/unselected_vr.svg",
+          "selected":true
+        },
+        {
+          "id":1,
+          "selected_image":"../../../../assets/assessments/selected_mobile.svg",
+          "unselected_image":"../../../../assets/assessments/unselected_mobile.svg",
+          "selected":false
+        },    
+        {
+          "id":2,
+          "selected_image":"../../../../assets/assessments/selected_vr.svg",
+          "unselected_image":"../../../../assets/assessments/unselected_vr.svg",
+          "selected":false
+        }
+    ],
+    "contentList":[
+        {
+            "id":0,
+            "light_heading":"assess your",
+            "bold_heading":"web apps faster",
+            "content":"A cross-functional team of designers, developers and business experts constantly challenge themselves to achieve breakthrough results in the shortest time.",
+            "image":"../../../../assets/assessments/website.png",
+            "visible":true
+          },
+          {
+            "id":1,
+            "light_heading":"get detailed assessments",
+            "bold_heading":"on the go",
+            "content":"A cross-functional team of designers, developers and business experts constantly challenge themselves to achieve breakthrough results in the shortest time.",
+            "image":"../../../../assets/assessments/mobile.png",
+            "visible":false
+          },
+          {
+            "id":2,
+            "light_heading":"Get the",
+            "bold_heading":"Ultimate Experience",
+            "content":"A cross-functional team of designers, developers and business experts constantly challenge themselves to achieve breakthrough results in the shortest time.",
+            "image":"../../../../assets/assessments/google_cardboard.png",
+            "visible":false
+          }
+    ] 
+    
+}

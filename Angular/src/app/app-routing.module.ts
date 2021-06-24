@@ -37,7 +37,7 @@ const routes: Routes = [
   {
     path: 'about-assessment',
     loadChildren: () =>
-      import('../app/about-assessment/about-assessment.module').then(
+      import('./about-assessment/about-assessment.module').then(
         (m) => m.AboutAssessmentModule
       ),
     canActivate: [AuthenticationGuard],

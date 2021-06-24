@@ -1,0 +1,135 @@
+@import '../../../../styles/common.scss';
+
+@keyframes fadeIn{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:100%;
+    }
+}
+
+@mixin animate{
+    animation: fadeIn 0.2s ease-in;
+}
+
+.container-main{
+    // width:100%;
+    clip-path: polygon(0 100px, 100% 0, 100% calc(100% - 100px),0 100%);
+    background-image: linear-gradient($color_light_blue,$color_dark_blue);
+    overflow:hidden;
+    .container-loop{
+        height:max(96vh,700px);
+        width:100%;
+        padding:0px 0px 0px 120px;
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        position: relative;
+        z-index: 2;
+        .container-1,.container-2{
+            margin:3rem 0px;
+        }
+        .container-1{
+            width: 40%;
+            .info-container{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                text-transform: capitalize;
+                color:white;
+                .heading-1{
+                    font:$section_header_text_font_italic;
+                    @include animate;
+                }
+                .heading-2{
+                    font:$section_header_bold_text_font_italic;
+                    @include animate;
+                }
+                .content{
+                    text-transform: none;
+                    width:80%;
+                    margin-top:1rem;
+                    font:$section_content_text_font;
+                    font-size:1rem;
+                    @include animate;
+                }
+                .buttons-container{
+                    margin-top:2.5rem;
+                    cursor:pointer;
+                    .selected{
+                        transition: all 0.2s;
+                        img{
+                            width:4rem;
+                            height:4rem;
+                            &[alt="ubtn-img"]{
+                                width:2.5rem;
+                                height:2.5rem;
+                            }
+                        }
+                        &:not(:nth-of-type(1)){
+                            margin-left:1.5rem;
+                        }
+                        &:hover{
+                            transform: scale(1.2);
+                        }
+                        &:active{
+                            transform: translateY(-1px);
+                        }
+                    }
+                }
+            }
+        }
+        .container-2{
+            width:60%;
+            // background-image: url("../../../../assets/assessments/LTI_bg_transparent_right.svg");
+            // // background-size: 100% 100%;
+            // background-repeat: no-repeat;
+            // background-position: 100% 100%;
+            position: relative;
+            z-index: 2;
+            padding-right:30px;
+            .primary-image{
+                width:85%;
+                position: relative;
+                z-index: 2;
+            }
+            @include animate;
+        }
+        .bg-img{
+            width: 45%;
+            min-width:500px;
+            position: absolute;
+            z-index: 1;
+            bottom: 7%;
+            right: -10%;
+            img{
+                width:100%;
+            }
+        }
+    }
+    &:nth-of-type(2){
+        background-image: linear-gradient(to right,#2C2D8B,#6465D3);
+        // padding-top:15vh;
+        .container-2{
+            position: relative;
+            top:10vh;
+        }
+    }
+    &:last-of-type{
+        background-image: linear-gradient(#FFF3E0,#FFF3E0);
+        .container-1{
+            .info-container{
+                color:$color_black !important; 
+            }                
+        }
+        .container-2{
+            place-content: flex-start flex-end !important;
+            .primary-image{
+                min-width: max(120vh,800px);
+                
+            }
+        }
+    }
+    
+}
+

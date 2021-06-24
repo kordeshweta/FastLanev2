@@ -4,9 +4,10 @@
             "name":"Assessments",
             "menu_item":[
                 {"id":0,"name":"About Assessments","link":"/about-assessment"},
-                {"id":1,"name":"Conduct Assessment"},
-                {"id":2,"name":"Experience Design"},
-                {"id":3,"name":"View Archives"}
+                {"id":1,"name":"Web App Assessment"},
+                {"id":2,"name":"Mobile App Assessment"},
+                {"id":3,"name":"Experience Design"},
+                {"id":4,"name":"View Archives"}
             ]
         },
         {
