@@ -8,7 +8,7 @@ import { MaterialModule } from '../material.module';
 import { ExperienceDesignComponent } from './experience-design.component';
 import { ExperienceIntroComponent } from './components/experience-intro/experience-intro.component';
 import { ExperienceFormComponent } from './components/experience-form/experience-form.component';
-
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 const routes: Routes = [
   {
@@ -33,6 +33,7 @@ const routes: Routes = [
     MaterialModule,
     SharedModule,
     FlexLayoutModule,
+    CarouselModule,
     RouterModule.forChild(routes),
 
   ],

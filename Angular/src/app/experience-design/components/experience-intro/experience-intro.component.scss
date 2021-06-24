@@ -1,13 +1,20 @@
 @import '../../../../styles/variables';
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
 .container-main {
 
-	background: url("../../../../assets/experience_design/intro.png");
+	// background: url("../../../../assets/experience_design/exp-design1.png");
+	margin-top: 0;
 	height: 550px;
     position: relative;
 	background-size:100% 100%;
 
 }
-
+.heading-section{
+	background: transparent linear-gradient( rgba(0,0,0,0.5),rgba(48, 47, 47, 0.5),rgba(65,65,65,0.5)) 0% 0% no-repeat padding-box;
+	clip-path:polygon(0 0, 100% 0, 90% 100%, 0 100%);
+	width: 30%;
+}
 ul.breadcrumb{
     list-style: none;
     li{
@@ -17,25 +24,26 @@ ul.breadcrumb{
         
         a{
             text-decoration: none;
-            color: #2A2E7D;
+            color: #FFFFFF;
         }
     }
     .exp{
-        color:#5A5A5A;
+        color:#FFFFFF;
         padding-left: 8px;
     }
 
 }
 ul.breadcrumb li+li:before{
-    color:black;
+    color:#FFFFFF;
     content:">\00a0";
     
 }
 .heading{
     margin-left: 34px;
-    padding: 5px;
+    padding-left: 5px;
+	padding-bottom: 10px;
     font: $section_header_bold_text_font;
-    color: #2A2E7D;
+    color: #FFFFFF;
 }
 .slide {
     // margin-top: 180px;
@@ -129,9 +137,9 @@ ul.breadcrumb li+li:before{
 // 	}
 // }
 @media (max-width:500px) {
-	.container-main{
-		background: url("../../../../assets/experience_design/intro-mob.png");
-	}
+	// .container-main{
+	// 	// background: url("../../../../assets/experience_design/intro-mob.png");
+	// }
 	.slide {
 		span {
 			// font: normal normal 300 20px/88px Bw Modelica LTI;

@@ -1,33 +1,26 @@
 @import '../../../../styles/variables';
 .exp-form{
-    background-color: #0670ba;
-    background-image: url("../../../../assets/experience_design/left.svg"),url("../../../../assets/experience_design/right.svg");
-    background-position: bottom -120px left -320px,top -70px right -500px;
-    background-repeat: no-repeat;
+    background-color: #ffff;
     height: auto;
-    padding: 3em;
-    display: flex;
+
     
-    .form{
-        background: #ffff;
+    .heading{
         text-align: center;
-        width:auto;
+        
         padding-top: 40px;
-        flex: 1;
         // align-items: center;
-        height: auto;
         h1{
-            display: inline;
+            // display: inline;
             color: #2A2E7D;
            
         }
         .first-heading{
-            font: $section_header_text_font;
+            font: $section_single_line_header_font;
         }
         .second-heading{
             padding-left: 5px;
-            font: $section_header_bold_text_font;
-            font-size: 22px;
+            font:  $section_header_bold_text_font;
+            // font-size: 22px;
         }
         .description{
             font: $section_content_text_font;
@@ -35,9 +28,26 @@
             padding-top: 10px;
             opacity: 0.65;
         }
-        .form-group{
+        
+    }
+    .submit{
+        text-align: center;
+        font: normal normal medium 18px/22px Bw Modelica;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        background: #2A2E7D 0% 0% no-repeat padding-box;
+        border: 1px solid #FFFFFF;
+        border-radius: 4px;
+        width: 130px;
+        height: 40px;
+        margin-left: 200px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+}
+
+        .desktop{
             display: flex;
-            flex: 1;
             flex-flow: row wrap;
             padding-left: 200px;
             margin-top: 20px;
@@ -74,11 +84,43 @@
                 width:90%;
                 border-bottom: 1px solid #707070;
             }
-            // .oname,.oemail{
-            //     display: flex;
-            //     flex-direction: row;
-            // }
+          .check{
+              margin-top: 30px;
+          }
+           
         }
-    
+        .mobile{
+            // display: flex;
+            // flex-flow: column wrap;
+            padding-left: 10px;
+            margin-top: 20px;
+            label{
+                font: $section_content_text_font;
+                color: #2E2E2E;
+            }
+            input[type=text] {
+                display: block;
+                border: none;
+                outline: 0;
+                width:90%;
+                border-bottom: 1px solid #707070;
+            }
+            .nested{
+                margin-top: 10px;
+            }
+           
+        }
+
+@media (min-width:600px){
+   h1{
+       display: inline;
+   }
+}
+@media (max-width:600px){
+    p{
+        display: none;
+    }
+    h1{
+        display: block;
     }
 }
