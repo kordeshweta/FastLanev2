@@ -1,0 +1,333 @@
+.ux-params {
+    top: 972px;
+    left: -6.73828125px;
+    width: 1349px;
+    height: 888px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    background: url('../../../../assets/experience_design/Group 116847.svg') 0% 0% no-repeat padding-box;
+    // opacity: 0.7;
+    background-size: 100%;
+}
+
+.ux-font {
+    text-align: left;
+    opacity: 1;
+    letter-spacing: 0px;
+    color: #2A2E7D;
+    font: normal normal bold 36px/43px 'Bw Modelica LTI';
+}
+
+.ux-params-text {
+text-align: left;
+font: normal normal 300 36px/43px Bw Modelica LTI;
+letter-spacing: 0px;
+color: #2A2E7D;
+}
+
+.evaluate-text {
+    text-align: left;
+font: normal normal 300 20px/43px Bw Modelica LTI;
+letter-spacing: 0px;
+color: #2A2E7D;
+display: inline;
+}
+
+.ux-params-text {
+text-align: left;
+font: normal normal bold 18px/43px Bw Modelica LTI;
+letter-spacing: 0px;
+color: #2A2E7D;
+}
+
+.ux-params-text {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.circle {
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    background: #0670BA;
+    opacity: 1;
+}
+
+.circle1:hover {
+background: url('../../../../assets/experience_design/pexels-karolina-grabowska-4491460.jpg') no-repeat;
+border-radius: 50%;
+background-size: 170px 170px;
+    height: 170px;
+    width: 170px;
+}
+
+.circle2:hover {
+background: url('../../../../assets/experience_design/smiley-woman-with-tablet.jpg') no-repeat;
+border-radius: 50%;
+background-size: 170px 170px;
+    height: 170px;
+    width: 170px;
+}
+
+.circle3:hover {
+background: url('../../../../assets/experience_design/pexels-christina-morillo-1181449.jpg') no-repeat;
+border-radius: 50%;
+background-size: 170px 170px;
+    height: 170px;
+    width: 170px;
+}
+
+.circle4:hover {
+background: url('../../../../assets/experience_design/pexels-karolina-grabowska-4491460.jpg') no-repeat;
+border-radius: 50%;
+background-size: 170px 170px;
+    height: 170px;
+    width: 170px;
+}
+
+.circle5:hover {
+background: url('../../../../assets/experience_design/pexels-karolina-grabowska-4491460.jpg') no-repeat;
+border-radius: 50%;
+background-size: 170px 170px;
+    height: 170px;
+    width: 170px;
+}
+
+.circle6:hover {
+background: url('../../../../assets/experience_design/pexels-karolina-grabowska-4491460.jpg') no-repeat;
+border-radius: 50%;
+background-size: 170px 170px;
+    height: 170px;
+    width: 170px;
+}
+
+.circle1 {
+    position: absolute;
+    left: 7%;
+    top: 20%;
+}
+
+.circle2 {
+    position: fixed;
+    left: 20%;
+    top: 34%;
+    background: #2A2E7D 0% 0% no-repeat padding-box;
+}
+
+.circle3 {
+    position: fixed;
+    left: 34%;
+    bottom: 67%;
+}
+
+.circle4 {
+    position: fixed;
+    left: 53%;
+    bottom: 50%;
+    background: #2A2E7D 0% 0% no-repeat padding-box;
+}
+
+.circle5 {
+   position: fixed;
+    left: 66%;
+    bottom: 66%;
+}
+
+.circle6 {
+    position: fixed;
+    left: 83%;
+    bottom: 51%;
+    background: #2A2E7D 0% 0% no-repeat padding-box;
+}
+
+.circle-text {
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 15px);
+    width: 95% !important;
+    left: 2%;
+    font: normal normal bold 13px/20px Bw Modelica LTI;
+}
+
+
+
+.circle:hover .title {
+    display: none;
+}
+
+.circle:hover .circle-desc {
+    display: block;
+}
+
+.circle-desc {
+    color: #fff !important;
+    background-color: #2A2E7D;
+    opacity: 0.75 !important;
+    width: 105px;
+    display: none;
+    font: normal normal normal 10px/14px Bw Modelica;
+}
+
+.circle-bg {
+    background-color: #2A2E7D;
+    width: 170px;
+    height: 170px;
+    opacity: 0.64;
+    border-radius: 50%;
+    display: none;
+}
+
+
+.circle:hover .circle-bg {
+    display: block;
+}
+
+
+
+
+
+
+// .circle1 {
+//  animation-name: spin;
+//  animation-duration: 20s;
+//  animation-iteration-count: infinite;
+// }
+// @keyframes spin {
+// to {background: url('../../../../assets/experience_design/pexels-karolina-grabowska-4491460.jpg') no-repeat;}
+// to {background-size: 170px 170px;}
+// to {height: 170px;}
+// to {width: 170px;}
+// to {background-color: #2A2E7D;}
+// to {opacity: 0.64;}
+// }
+
+
+// .title:before {
+//   content:"Perception";
+//  animation-name: spin1;
+//  animation-duration: 20s;
+//  animation-iteration-count: infinite;
+// }
+
+// @keyframes spin1 {
+// to {content: "hello";}
+// }
+
+// .circle-desc:before {
+//   content: "hello";
+//  }
+
+
+
+
+// #draggable {
+//   position: relative;
+//   margin: 10px auto;
+//   width: 450px;
+//   height: 281px;
+//   z-index: 1;
+// }
+
+// #dashboard {
+//   -webkit-perspective: 1000;
+//   perspective: 1000;
+// }
+
+// #dashboard {
+//   width: 100%;
+//   height: 100%;
+//   -webkit-transform-style: preserve-3d;
+//   transform-style: preserve-3d;
+//   -webkit-transition: all 1.0s linear;
+//   transition: all 1.0s linear;
+// }
+
+// .loadable {
+//   position: absolute;
+// //   width: 100%;
+// //   height: 100%;
+//   -webkit-backface-visibility: hidden;
+//   backface-visibility: hidden;
+// }
+
+// #a{
+//   -webkit-transform: rotateY(-180deg);
+//   transform: rotateY(-180deg);
+//   -webkit-animation: mymoveback 5s infinite;
+//   animation: mymoveback 5s infinite;
+// }
+// #b {
+//   display: block;
+//   box-sizing: border-box;
+//   padding: 10px;
+//   color: white;
+//   text-align: center;
+// //   background-color: #aaa;
+//   -webkit-animation: mymove 20s infinite;
+//   animation: mymove 20s infinite;
+// }
+// /* Chrome, Safari, Opera */
+// @-webkit-keyframes mymove {
+//   40% {
+//     -webkit-transform: rotateY(0deg);
+//   }
+//   50% {
+//     -webkit-transform: rotateY(180deg);
+//   }
+//   90% {
+//     -webkit-transform: rotateY(180deg);
+//   }
+//   100% {
+//     -webkit-transform: rotateY(0deg);
+//   }
+// }
+// @-webkit-keyframes mymoveback {
+//   40% {
+//     -webkit-transform: rotateY(-180deg);
+//   }
+//   50% {
+//     -webkit-transform: rotateY(0deg);
+//   }
+//   90% {
+//     -webkit-transform: rotateY(0deg);
+//   }
+//   100% {
+//     -webkit-transform: rotateY(-180deg);
+//   }
+// }
+
+// @keyframes mymove {
+//   40% {
+//     transform: rotateY(0deg);
+//   }
+//   50% {
+//     transform: rotateY(180deg);
+//   }
+//   90% {
+//     transform: rotateY(180deg);
+//   }
+//   100% {
+//     transform: rotateY(0deg);
+//   }
+// }
+// @keyframes mymoveback {
+//   40% {
+//     transform: rotateY(-180deg);
+//   }
+//   50% {
+//     transform: rotateY(0deg);
+//   }
+//   90% {
+//     transform: rotateY(0deg);
+//   }
+//   100% {
+//     transform: rotateY(-180deg);
+//   }
+// }
