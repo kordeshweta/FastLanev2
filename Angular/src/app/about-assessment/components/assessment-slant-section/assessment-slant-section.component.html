@@ -9,11 +9,11 @@
                 </article>
                 <div class="buttons-container" fxLayout="row">
                     <div class="button-looper" *ngFor="let btn of buttonList" >
-                        <div class="button" [ngClass]="btn.selected?white_bg:transparent_white_bg" (click)="categorySelected(btn)">
-                            <div *ngIf="btn.selected">
+                        <div class="button" [ngClass]="btn.selected?white_bg:cl_item.id!=2?transparent_white_bg:grey_bg" (click)="categorySelected(btn)">
+                            <div *ngIf="btn.selected" class="selected">
                                 <img src="{{btn.selected_image}}" alt="btn-img">
                             </div>
-                            <div *ngIf="!btn.selected">
+                            <div *ngIf="!btn.selected" class="unselected">
                                 <img src="{{btn.unselected_image}}" alt="ubtn-img">
                             </div>
                         </div>
