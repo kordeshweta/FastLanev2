@@ -1,0 +1,31 @@
+<div class="container-main" *ngFor="let cl_item of contentList">
+    <div class="container-loop" fxLayout="row" *ngIf="cl_item.visible">   
+        <div class="container-1"  fxLayoutAlign="flex-end center">
+            <div class="info-container">
+                <span class="heading-1"> {{cl_item.light_heading}} </span>
+                <span class="heading-2"> {{cl_item.bold_heading}}</span>
+                <article class="content">
+                    {{cl_item.content}}
+                </article>
+                <div class="buttons-container" fxLayout="row">
+                    <div class="button-looper" *ngFor="let btn of buttonList" >
+                        <div class="button" [ngClass]="btn.selected?white_bg:cl_item.id!=2?transparent_white_bg:grey_bg" (click)="categorySelected(btn)">
+                            <div *ngIf="btn.selected" class="selected">
+                                <img src="{{btn.selected_image}}" alt="btn-img">
+                            </div>
+                            <div *ngIf="!btn.selected" class="unselected">
+                                <img src="{{btn.unselected_image}}" alt="ubtn-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-2" fxLayoutAlign="flex-end center">
+            <img src="{{cl_item.image}}" alt="website-image" class="primary-image">
+        </div>
+        <div class="bg-img" *ngIf="cl_item.id!==2">
+            <img src="../../../../assets/assessments/LTI_bg_transparent_right.svg" alt="bg-img">
+        </div> 
+    </div>
+</div>

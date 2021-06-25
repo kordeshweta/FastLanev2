@@ -27,6 +27,9 @@ export class AppComponent {
           // console.log("inside repository");
           this.headerService.setTab("Accelerators");
         }
+        else if(event['url'].includes('/about-assessment') || event['url'].includes('/experiencedesign') ){
+          this.headerService.setTab("Assessments");
+        }
       }
     });
   } 

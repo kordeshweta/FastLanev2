@@ -1,0 +1,51 @@
+{
+    "buttonList":[
+        {
+          "id":0,
+          "selected_image":"../../../../assets/assessments/web/Web_Selected.svg",
+          "unselected_image":"../../../../assets/assessments/web/Web_Deselected.svg",
+          "unselected_image_dark":"",
+          "selected":true
+        },
+        {
+          "id":1,
+          "selected_image":"../../../../assets/assessments/mobile/Mobile_Selected.svg",
+          "unselected_image":"../../../../assets/assessments/mobile/Mobile_Deselected.svg",
+          "unselected_image_dark":"",
+          "selected":false
+        },    
+        {
+          "id":2,
+          "selected_image":"../../../../assets/assessments/headset/Headset_Selected.svg",
+          "unselected_image":"../../../../assets/assessments/headset/Headset_Deselected.svg",
+          "selected":false
+        }
+    ],
+    "contentList":[
+        {
+            "id":0,
+            "light_heading":"assess your",
+            "bold_heading":"web apps faster",
+            "content":"A cross-functional team of designers, developers and business experts constantly challenge themselves to achieve breakthrough results in the shortest time.",
+            "image":"../../../../assets/assessments/website.png",
+            "visible":true
+          },
+          {
+            "id":1,
+            "light_heading":"get detailed assessments",
+            "bold_heading":"on the go",
+            "content":"A cross-functional team of designers, developers and business experts constantly challenge themselves to achieve breakthrough results in the shortest time.",
+            "image":"../../../../assets/assessments/mobile.png",
+            "visible":false
+          },
+          {
+            "id":2,
+            "light_heading":"Get the",
+            "bold_heading":"Ultimate Experience",
+            "content":"A cross-functional team of designers, developers and business experts constantly challenge themselves to achieve breakthrough results in the shortest time.",
+            "image":"../../../../assets/assessments/google_cardboard.png",
+            "visible":false
+          }
+    ] 
+    
+}

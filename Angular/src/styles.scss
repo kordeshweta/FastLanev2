@@ -18,6 +18,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     src: url("../src/assets/FastLane_Fonts/Fonts/Bw_Modelica/BwModelica-Medium.otf") format('truetype');
 }
 
+@font-face {
+    font-family: Bw Modelica-BoldItalic;
+    src: url("../src/assets/FastLane_Fonts/Fonts/Bw_Modelica/BwModelica-BoldItalic.otf") format('truetype');
+}
+
+
 
 
 @font-face {
@@ -49,13 +55,17 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     background: transparent linear-gradient( rgba(46,46,46,.85),rgba(46,46,46,.85));
     border-radius: 27px;
     // opacity: 0.65;
+    //background:  url('../../../assets/images/About Assessment/CarouselRec.svg');
+   // background-image: './assets/images/About Assessment/CarouselRec.svg';
     width: fit-content;
     height: fit-content;
     margin: auto;
+    justify-content: center;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #ffffff;
     opacity: 1;
+    
 }
 .owl-theme .owl-dots .owl-dot span {
     background: none;

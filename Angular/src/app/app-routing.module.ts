@@ -8,15 +8,20 @@ import { AddFormComponent } from './repository/Admin/add-form/add-form.component
 import { DetailsComponent } from './repository/details/details.component';
 import { QuickTourComponent } from './home/components/quick-tour/quick-tour.component';
 import { ExperienceDesignComponent } from './experience-design/experience-design.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
+  // {
+  //   path: 'home',
+  //   loadChildren: () =>
+  //     import('./home/home.module').then(
+  //       (m) => m.HomeModule
+  //     ),
+  //   canActivate: [AuthenticationGuard],
+  // },
   {
-    path: 'home',
-    loadChildren: () =>
-      import('./home/home.module').then(
-        (m) => m.HomeModule
-      ),
-    canActivate: [AuthenticationGuard],
+    path:"home",
+    component:HomeComponent
   },
   // {
   //   path:'repository',
@@ -32,6 +37,14 @@ const routes: Routes = [
     loadChildren: () =>
       import('../app/repository/repository.module').then(
         (m) => m.RepositoryModule
+      ),
+    canActivate: [AuthenticationGuard],
+  },
+  {
+    path: 'about-assessment',
+    loadChildren: () =>
+      import('./about-assessment/about-assessment.module').then(
+        (m) => m.AboutAssessmentModule
       ),
     canActivate: [AuthenticationGuard],
   },

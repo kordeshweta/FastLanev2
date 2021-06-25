@@ -1,0 +1,53 @@
+<svg id="_01_Web_-_Selected" data-name="01 Web - Selected" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <filter id="Rectangle_11142">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#5a5a5a" flood-opacity="0.495" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.524" x2="0.522" y2="1.345" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0670ba"/>
+      <stop offset="1" stop-color="#2a2e7d"/>
+    </linearGradient>
+    <filter id="Path_11839" x="5.901" y="9.591" width="44.197" height="37.303" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_11840" x="3.833" y="31.652" width="48.333" height="20.758" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <rect id="Rectangle_11142-2" data-name="Rectangle 11142" width="56" height="56" rx="8" fill="rgba(255,255,255,0.9)"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_11142)">
+      <rect id="Rectangle_11142-3" data-name="Rectangle 11142" width="56" height="56" rx="8" fill="#fff"/>
+    </g>
+    <g id="Rectangle_11142-4" data-name="Rectangle 11142" fill="none" stroke="#fff" stroke-width="2">
+      <rect width="56" height="56" rx="8" stroke="none"/>
+      <rect x="1" y="1" width="54" height="54" rx="7" fill="none"/>
+    </g>
+  </g>
+  <g id="Layer_2" data-name="Layer 2" transform="translate(11.455 11.455)">
+    <g id="invisible_box" data-name="invisible box">
+      <rect id="Rectangle_11146" data-name="Rectangle 11146" width="33.091" height="33.091" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2" transform="translate(1.379 4.136)">
+      <g transform="matrix(1, 0, 0, 1, -12.83, -15.59)" filter="url(#Path_11839)">
+        <path id="Path_11839-2" data-name="Path 11839" d="M29.818,6H6.379A1.379,1.379,0,0,0,5,7.379V23.924A1.379,1.379,0,0,0,6.379,25.3H29.818A1.379,1.379,0,0,0,31.2,23.924V7.379A1.379,1.379,0,0,0,29.818,6Z" transform="translate(9.9 9.59)" fill="url(#linear-gradient)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -12.83, -15.59)" filter="url(#Path_11840)">
+        <path id="Path_11840-2" data-name="Path 11840" d="M30.955,40.758H3.379a1.379,1.379,0,1,1,0-2.758H30.955a1.379,1.379,0,0,1,0,2.758Z" transform="translate(10.83 -0.35)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

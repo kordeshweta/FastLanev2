@@ -22,7 +22,7 @@
     // box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 
     font: $section_button_font;
-    color:#2A2E7D;
+    color:$color_dark_blue;
 }
 .underline-home{
     // box-shadow:0px -3px 0px 0px orange inset;
@@ -30,6 +30,7 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: 0% 26px;
+    color:$color_black;
 }
 .underline{
     // box-shadow:0px -3px 0px 0px orange inset;
@@ -37,6 +38,10 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: 0% 28px;
+    color:$color_black;
+    div:last-of-type{
+        color:$color_dark_blue;
+    }
 }
 .options:after{
     content: '';
@@ -87,7 +92,6 @@ button[disabled]{
             width: 50px !important;
             padding:0em;
             margin:0em 1vw 0em 5vw;
-            color:#2E2E2E;
         }
         .logo-position{
             margin-top:5px; 
@@ -110,7 +114,8 @@ button[disabled]{
                 top:65%;
                 left:-30%;
                 width:fit-content;
-                min-width:190px;
+                min-width:180px;
+                white-space: nowrap;
                 height:auto;
                 background-color: white;
                 border: 1px solid rgba(102, 102, 102,0.3);

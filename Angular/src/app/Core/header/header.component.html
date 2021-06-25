@@ -6,7 +6,7 @@
             </div>
             <div class="option no-pointer" >
                 <img src="../../../assets/Header/FASTLANE.svg" width="120px">
-                <!-- <em>FASTLANE</em>  -->
+
             </div>
         </div>
         <div>
@@ -21,7 +21,7 @@
             <div class="options" style="margin-top:5px; padding-left:0.3vw">
                 <div class="option no-pointer" >
                     <img src="../../../assets/Header/FASTLANE.svg" width="120px">
-                    <!-- <em>FASTLANE</em>  -->
+
                 </div>
             </div>
             <div id="home" class="options home-option" (click)="navigateToSection('/home')">
@@ -44,7 +44,6 @@
         <div class="container-2">
             <button class="cmn save">Start Assessment</button>
             <div class="profile">
-                <!-- <mat-icon [matMenuTriggerFor]="menu">account_circle</mat-icon> -->
                 <img [matMenuTriggerFor]="menu" src="../../../assets/Header/Profile Icon.svg" alt="" width="20px" style="margin-top:5px">
                 <mat-menu #menu="matMenu" class="menu-Holder">
                   <button mat-menu-item (click)="logout()">Logout</button>
@@ -52,31 +51,4 @@
             </div>
         </div>
     </div>
-
-
-    
-    <!-- <nav class="DesktopOnly">
-        <ul class="navigationItems">
-            <li class="navigationItem">
-                <a routerLink="/repository">Repo</a>
-            </li>
-            <li class="navigationItem">
-                <a routerLink="/repository/Admin">Admin</a>
-            </li>
-            <li class="navigationItem">
-                <a routerLink="/repository/AddForm">AddForm</a>
-            </li>
-            <li class="navigationItem">
-                <a>Link4</a>
-            </li>
-            <li class="navigationItem">
-                <div class="profile">
-                    <mat-icon [matMenuTriggerFor]="menu">account_circle</mat-icon>
-                    <mat-menu #menu="matMenu" class="menu-Holder">
-                      <button mat-menu-item (click)="logout()">Logout</button>
-                    </mat-menu>
-                </div>
-            </li>
-        </ul>
-    </nav> -->
 </header>
