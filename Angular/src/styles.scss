@@ -43,3 +43,22 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     src:url("../src/assets/FastLane_Fonts/Fonts/FontsFree-Net-Gotham-UltraItalic.ttf") format('truetype');
 }
 
+.owl-dots{
+    top:-60px;
+    position: relative;
+    background: transparent linear-gradient( rgba(46,46,46,.85),rgba(46,46,46,.85));
+    border-radius: 27px;
+    // opacity: 0.65;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffffff;
+    opacity: 1;
+}
+.owl-theme .owl-dots .owl-dot span {
+    background: none;
+    border: 2px solid #ffffff;
+    opacity: 1;
+}

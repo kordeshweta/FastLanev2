@@ -1,6 +1,6 @@
 <div class="exp-form">
-   <div class="heading" >
-        <h1 class="first-heading">Let’s transform your</h1> <h1 class="second-heading">Product Experience</h1>
+   <div class="heading">
+        <div class="first-heading">Let’s transform your</div> <div class="second-heading">Product Experience</div>
         <p class="description">Submit your request for an Experience Design Assessment and our agents will get in touch with you shortly</p>
       </div>
          <div class="form-group" [ngClass.gt-xs]="'desktop'" [ngClass.xs]="'mobile'">
@@ -24,9 +24,10 @@
                 <label class="omail">Country</label>
                 <input type="text">
              </div>
-             <div class="check">
-             <input type="checkbox">
-             <label>I agree to receive communication from LTI. Refer to <br> the LTI Privacy Policy to know more about how we <br> maintain privacy of your data.</label>   
+             <div class="check"> 
+             <input type="checkbox" class="large">
+             <label class="check-label">I agree to receive communication from LTI. Refer to the LTI Privacy Policy to know more about how we <br> </label>
+             <label class="check-label-2">maintain privacy of your data.</label>   
              </div>
             
         </div>

@@ -2,48 +2,37 @@
 .exp-form{
     background-color: #ffff;
     height: auto;
-
-    
+    background-image: url("../../../../assets/experience_design/background.svg");
+    background-repeat: no-repeat;
+    background-position: bottom -220px right -500px;
     .heading{
         text-align: center;
         
         padding-top: 40px;
         // align-items: center;
-        h1{
-            // display: inline;
-            color: #2A2E7D;
-           
-        }
-        .first-heading{
-            font: $section_single_line_header_font;
-        }
-        .second-heading{
-            padding-left: 5px;
-            font:  $section_header_bold_text_font;
-            // font-size: 22px;
-        }
+        // .first-heading{
+        //     font: $section_single_line_header_font;
+        //     color: #2E2E2E;
+        // }
+        // .second-heading{
+            
+        //     font:  $section_header_bold_text_font;
+        //     color: #2E2E2E;
+        //     // font-size: 22px;
+        // }
         .description{
             font: $section_content_text_font;
             color: #2E2E2E;
             padding-top: 10px;
             opacity: 0.65;
         }
+        img{
+            right: -450px;
+            bottom: -300px;
+        }
         
     }
-    .submit{
-        text-align: center;
-        font: normal normal medium 18px/22px Bw Modelica;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        background: #2A2E7D 0% 0% no-repeat padding-box;
-        border: 1px solid #FFFFFF;
-        border-radius: 4px;
-        width: 130px;
-        height: 40px;
-        margin-left: 200px;
-        margin-top: 15px;
-        margin-bottom: 25px;
-    }
+    
 }
 
         .desktop{
@@ -66,6 +55,14 @@
             .nested:nth-child(2),.nested:nth-child(3){
                 flex: 50%;
                 padding-top: 2em;
+                
+            }
+            .nested:nth-child(2),.nested:nth-child(4){
+                input[type=text] {
+                    width: 93%;
+                }
+            }
+            .nested:nth-child(3),.nested:nth-child(5){
                 input[type=text] {
                     width: 80%;
                 }
@@ -73,9 +70,6 @@
             .nested:nth-child(4),.nested:nth-child(5){
                 flex: 50%;
                 padding-top: 2em;
-                input[type=text] {
-                    width: 80%;
-                }
             }
             input[type=text] {
                 display: block;
@@ -84,18 +78,47 @@
                 width:90%;
                 border-bottom: 1px solid #707070;
             }
+            // input[type=checkbox] {
+            //     vertical-align: middle;
+            //     position: relative;
+            //     bottom: 1px;
+            // }
+            input.large{
+                height:20px;
+                width:20px;
+                margin-top: 30px;
+            }
+            .check-label{
+                
+                font-size: 16px;
+                padding-left: 10px;
+                padding-top: 0;
+                // margin-top: 10px;
+            }
+            .check-label-2{
+                font-size: 16px;
+                padding-left: 34px;
+            }
           .check{
-              margin-top: 30px;
+            padding-left: 10px;
+            margin-top: 30px;
           }
+          
            
         }
-        .mobile{
+    .mobile{
             // display: flex;
             // flex-flow: column wrap;
-            padding-left: 10px;
-            margin-top: 20px;
+            // align-items: flex-start;
+            padding-left: 20px;
+            margin-top: 40px;
+            .fname{
+                float: left;
+                left: 0;
+            }
             label{
                 font: $section_content_text_font;
+                font-size: 15px;
                 color: #2E2E2E;
             }
             input[type=text] {
@@ -106,21 +129,98 @@
                 border-bottom: 1px solid #707070;
             }
             .nested{
-                margin-top: 10px;
+                margin-top: 25px;
             }
+            .check-label{
+                font-size: 12px;
+                padding-right: 10px;
+            }
+            .check-label-2{
+                font-size: 12px;
+            }
+            .check{
+                margin-top: 20px;
+            }
+            input.large{
+                height:20px;
+                width:20px;
+                
+            }
+            
            
         }
 
 @media (min-width:600px){
-   h1{
+
+   .first-heading{
        display: inline;
+       font: $section_single_line_header_font;
+       color: #2E2E2E;
    }
+   .second-heading{
+    display: inline;
+    padding-left: 5px;
+    font:  $section_header_bold_text_font;
+    color: #2E2E2E;
+   }
+   .submit{
+    text-align: center;
+    font: normal normal medium 22px/24px Bw Modelica;;
+    // font-size: 20px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background: #2A2E7D 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    width: 130px;
+    height: 40px;
+    margin-left:200px;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
 }
 @media (max-width:600px){
     p{
         display: none;
     }
-    h1{
+    .first-heading,.second-heading{
         display: block;
+        // float: left;
+        text-align: initial;
+        padding-left:20px;
     }
+    .first-heading{
+        font: $section_single_line_header_font;
+       color: #2E2E2E;
+        font-size: 15px;
+    }
+    .second-heading{
+      padding-left: 20px;
+      font:  $section_header_bold_text_font;
+      color: #2E2E2E;
+      font-size: 22px;
+      line-height: 0px;
+    }
+    .exp-form{
+        background-position: bottom -250px right -850px;
+
+    }
+        
+        .submit{
+            text-align: center;
+            font: normal normal medium 20px/24px Bw Modelica;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            background: #2A2E7D 0% 0% no-repeat padding-box;
+            border: 1px solid #FFFFFF;
+            border-radius: 4px;
+            width: 280px;
+            height: 40px;
+            margin-left:10px;
+            margin-top: 15px;
+            margin-bottom: 50px;
+        }
+
+    
 }

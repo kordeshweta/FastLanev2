@@ -1,25 +1,34 @@
 @import '../../../../styles/variables';
-@import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
-@import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+// @import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+// @import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
 .container-main {
 
 	// background: url("../../../../assets/experience_design/exp-design1.png");
-	margin-top: 0;
-	height: 550px;
+	margin-top: -20px;
+	height: 650px;
     position: relative;
 	background-size:100% 100%;
 
+}
+.banner{
+	margin: 0;
+	padding: 0;
+	position: relative;
 }
 .heading-section{
 	background: transparent linear-gradient( rgba(0,0,0,0.5),rgba(48, 47, 47, 0.5),rgba(65,65,65,0.5)) 0% 0% no-repeat padding-box;
 	clip-path:polygon(0 0, 100% 0, 90% 100%, 0 100%);
 	width: 30%;
 }
+
 ul.breadcrumb{
     list-style: none;
+	padding-top: 10px;
     li{
         display: inline;
-        font: $section_button_font;
+        font: $section_content_text_font;
+		font-size: 12px;
+		padding-top:10px ;
 
         
         a{
@@ -29,13 +38,14 @@ ul.breadcrumb{
     }
     .exp{
         color:#FFFFFF;
-        padding-left: 8px;
     }
 
 }
 ul.breadcrumb li+li:before{
     color:#FFFFFF;
     content:">\00a0";
+	padding-left: 6px;
+	padding-right: 3px;
     
 }
 .heading{
@@ -117,6 +127,10 @@ ul.breadcrumb li+li:before{
 	margin-top: 15px;
 	margin-bottom: 25px;
 }
+.owl-dots span{
+	border: 2px solid #FFFFFF;
+	top:0;
+}
 @media (min-width:500px) {
 	.intro-mobile {
 		display: none;
@@ -140,6 +154,15 @@ ul.breadcrumb li+li:before{
 	// .container-main{
 	// 	// background: url("../../../../assets/experience_design/intro-mob.png");
 	// }
+	.heading-section{
+		width: 80%;
+		li{
+			font-size: 10px;
+		}
+		.heading{
+			font-size: 22px;
+		}
+	}
 	.slide {
 		span {
 			// font: normal normal 300 20px/88px Bw Modelica LTI;
@@ -151,7 +174,7 @@ ul.breadcrumb li+li:before{
 		// width: 90%;
 		// height: 43%;
 		width:340px;
-		height: 30%;
+		height: 25%;
 		background: linear-gradient(rgba(42, 46, 125,.88), rgba(42,46,125,.88)) 0% 0% no-repeat padding-box;
 	}
 	.intro-desktop {

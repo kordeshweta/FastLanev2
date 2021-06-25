@@ -22,7 +22,7 @@ export class ExperienceIntroComponent implements OnInit {
     },
     {
       id:"3",
-      image: '../../../../assets/experience_design/exp-design1.png',
+      image: '../../../../assets/experience_design/exp-design3.jpg',
       desktop: 'A solution-based approach for fast-tracking web and mobile aplication development,transforming apps by leveraging digital tenets',
       mobile: ' A solution-based approach for fast-tracking web and mobile application development.'
     }
@@ -38,7 +38,7 @@ export class ExperienceIntroComponent implements OnInit {
     mouseDrag: false,
     touchDrag: false,
     pullDrag: false,
-    dots: false,
+    dots: true,
     navSpeed: 700,
     navText: ['', ''],
     responsive: {
@@ -55,6 +55,6 @@ export class ExperienceIntroComponent implements OnInit {
         items: 1
       }
     },
-    nav: true
+    nav: false
   }
 }
