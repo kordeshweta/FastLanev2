@@ -15,7 +15,7 @@ import { TestComponent } from './components/test/test.component';
 // import { ClientFeedbackComponent } from './components/client-feedback/client-feedback.component';
 import { QuickTourComponent } from './components/quick-tour/quick-tour.component';
 import { AcceleratorsComponent } from './components/accelerators/accelerators.component';
-
+//import {ClientFeedbackComponent} from './components/client-feedback/client-feedback.component'
 const routes: Routes = [
   {
     path: '',
@@ -47,6 +47,6 @@ const routes: Routes = [
     RouterModule.forChild(routes),
 
   ],
-  exports: [HomeComponent,RouterModule],
+  exports: [HomeComponent, RouterModule],
 })
 export class HomeModule { }

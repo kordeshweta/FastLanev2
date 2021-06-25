@@ -2,9 +2,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common'
 import { NgModule } from '@angular/core';
 
-import {HeaderService} from '../app/_services/header';
-import {ComponentServicesService} from '../app/repository/component-services.service';
-import {DataServiceService} from '../app/repository/data-service.service';
+import { HeaderService } from '../app/_services/header';
+import { ComponentServicesService } from '../app/repository/component-services.service';
+import { DataServiceService } from '../app/repository/data-service.service';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,8 +20,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { HeaderComponent } from '../app/Core/header/header.component';
 import { FooterComponent } from '../app/Core/footer/footer.component';
-import {HamburgerComponent} from '../app/Core/hamburger/hamburger.component';
-import {FormComponent} from '../app/repository/form/form.component';
+import { HamburgerComponent } from '../app/Core/hamburger/hamburger.component';
+import { FormComponent } from '../app/repository/form/form.component';
 import { AddFormComponent } from '../app/repository/Admin/add-form/add-form.component';
 import { FaderDirective } from '../app/Core/header/directives/fader.directive';
 import { HoverDirective } from '../app/Core/header/directives/hover.directive';
@@ -39,6 +39,8 @@ import { ComponentsService } from './repository/components/components.service';
 import { SolutionService } from './repository/solutions/solution.service';
 import { BestPracticeService } from './repository/bestpractice/best-practice.service';
 import { ScrollToTopComponent } from './Core/scroll-to-top/scroll-to-top.component';
+
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 export function getAdalConfig() {
   return {
@@ -63,7 +65,7 @@ export function getAdalConfig() {
     AddFormComponent,
     FaderDirective,
     HoverDirective,
-    ScrollToTopComponent 
+    ScrollToTopComponent
     // DetailsComponent,
     // DownloadDialog,
     // ImagedialogComponent,
@@ -73,7 +75,7 @@ export function getAdalConfig() {
     CommonModule,
     AppRoutingModule,
     MsAdalAngular6Module,
-    HttpClientModule, 
+    HttpClientModule,
     FormsModule,
     MaterialModule,
     ReactiveFormsModule,
@@ -81,6 +83,7 @@ export function getAdalConfig() {
     SharedModule,
     FlexLayoutModule,
     HomeModule,
+    CarouselModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
       // Register the ServiceWorker as soon as the app is stable

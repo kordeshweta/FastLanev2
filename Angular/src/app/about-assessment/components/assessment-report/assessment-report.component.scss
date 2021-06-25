@@ -1,0 +1,157 @@
+@import '../../../../styles/variables.scss';
+
+
+// .example-container {
+//     display: flex;
+//     flex-direction: column;
+//     max-height: 500px;
+//     min-width: 300px;
+//   }
+  
+//   .mat-table {
+//     overflow: auto;
+//     max-height: 500px;
+//   }
+  
+//   .mobile-label {
+//     display: none;
+//   }
+  
+//   @media(max-width: 600px) {
+//     .mobile-label {
+//       width: 80px;
+//       display: inline-block;
+//           font-weight: bold;
+//     }
+  
+//     .mat-header-row {
+//       display: none;
+//     }
+  
+//     .mat-row { 
+//       flex-direction: column;
+//       align-items: start;
+//       padding: 8px 24px;
+//     }
+//   }
+  
+.mat-elevation-z8 {    
+    overflow-x: auto;
+   }
+
+
+h1 {
+    color: #2A2E7D;
+    top: 0px;
+    left: 0px;
+    //height: 2rem;
+    text-align: center;
+    letter-spacing: 0px;
+    font: $section_single_line_header_font;
+    opacity: 1;
+    span {
+        font: $section_header_bold_text_font;
+    }
+}
+
+.bg-tangram{
+    width: 50%;
+    // min-height: 20%;
+    // min-width:40rem;
+    position: relative;
+    // z-index: 1;
+    // bottom: -55%;
+    // right: -80%;
+    transform: matrix(-0.78, 0.63, -0.63, -0.78, 0, 0);
+    left: 75%;
+    margin-bottom: 0%;
+    margin-top: -20%;
+    // height:25%;
+    img{
+        width:100%;
+        height:25%;
+    }
+}
+
+button {
+    font: $section_button_font;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    letter-spacing: 0px;
+    color: #2A2E7D;
+    box-shadow: 0px 1px 3px #00000033;
+    border: 1px solid #2A2D86;
+    // border-radius: 4px;
+    opacity: 1;
+    width: 110px;
+    height: 40px;
+    margin:100px 10px 40px 10px;
+    cursor:pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    &:hover {
+        background: #00008C 0% 0% no-repeat padding-box;
+        color: #FFFFFF;
+    }
+}
+
+
+table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mat-column-imgbox{
+      margin-left: 0;
+  }
+
+  .mat-column-clientimg
+  {
+      padding-left: 100px;
+      
+  }
+
+  .title{
+      color: #00008C;
+  }
+  .mat-column-name
+  {
+      padding-left: 2px;
+  }
+
+  .mat-column-industry
+  {
+      padding-left: 150px;
+  }
+
+  .mat-column-report
+  {
+      padding-left: 100px;
+  }
+
+  .mat-column-type
+  {
+      padding-left: 100px;
+  }
+
+  .mat-column-datecreated
+  {
+      padding-left: 100px;
+  }
+
+  .mat-column-viewimg
+  {
+      padding-left: 100px;
+  }
+
+  .mat-column-deleteimg
+  {
+      margin-right: 0%;
+  }
+
+  .mat-column-downloadimg
+  {
+      padding-right: 4px;
+  }
