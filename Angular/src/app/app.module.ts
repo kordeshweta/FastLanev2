@@ -32,6 +32,7 @@ import { HoverDirective } from '../app/Core/header/directives/hover.directive';
 
 import {MaterialModule} from './material.module';
 import {SharedModule} from '../app/shared/shared.module';
+import {HomeModule} from '../app/home/home.module';
 
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { ComponentsService } from './repository/components/components.service';
@@ -79,6 +80,7 @@ export function getAdalConfig() {
     Ng2SearchPipeModule,
     SharedModule,
     FlexLayoutModule,
+    HomeModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
       // Register the ServiceWorker as soon as the app is stable

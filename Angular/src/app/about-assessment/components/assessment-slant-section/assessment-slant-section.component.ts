@@ -12,6 +12,8 @@ export class AssessmentSlantSectionComponent implements OnInit {
 
   contentList=[]
 
+  white_bg='white-bg';
+  transparent_white_bg='transparent-white-bg';
   constructor() { }
 
   ngOnInit(): void {

@@ -7,15 +7,20 @@ import {RepohomeComponent} from '../app/repository/repohome/repohome.component';
 import { AddFormComponent } from './repository/Admin/add-form/add-form.component';
 import { DetailsComponent } from './repository/details/details.component';
 import { QuickTourComponent } from './home/components/quick-tour/quick-tour.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
+  // {
+  //   path: 'home',
+  //   loadChildren: () =>
+  //     import('./home/home.module').then(
+  //       (m) => m.HomeModule
+  //     ),
+  //   canActivate: [AuthenticationGuard],
+  // },
   {
-    path: 'home',
-    loadChildren: () =>
-      import('./home/home.module').then(
-        (m) => m.HomeModule
-      ),
-    canActivate: [AuthenticationGuard],
+    path:"home",
+    component:HomeComponent
   },
   // {
   //   path:'repository',

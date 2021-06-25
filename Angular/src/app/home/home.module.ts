@@ -12,7 +12,7 @@ import { IntroductionComponent } from './components/introduction/introduction.co
 // import { SlantSectionComponent } from './components/slant-section/slant-section.component';
 import { DiscoverSectionComponent } from './components/discover-section/discover-section.component';
 import { TestComponent } from './components/test/test.component';
-import { ClientFeedbackComponent } from './components/client-feedback/client-feedback.component';
+// import { ClientFeedbackComponent } from './components/client-feedback/client-feedback.component';
 import { QuickTourComponent } from './components/quick-tour/quick-tour.component';
 import { AcceleratorsComponent } from './components/accelerators/accelerators.component';
 
@@ -35,7 +35,7 @@ const routes: Routes = [
     // SlantSectionComponent,
     DiscoverSectionComponent,
     TestComponent,
-    ClientFeedbackComponent,
+    // ClientFeedbackComponent,
     QuickTourComponent,
     AcceleratorsComponent
   ],

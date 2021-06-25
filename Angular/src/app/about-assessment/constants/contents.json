@@ -2,20 +2,20 @@
     "buttonList":[
         {
           "id":0,
-          "selected_image":"../../../../assets/assessments/selected_desktop.svg",
-          "unselected_image":"../../../../assets/assessments/unselected_vr.svg",
+          "selected_image":"../../../../assets/assessments/web/Web_Selected.svg",
+          "unselected_image":"../../../../assets/assessments/web/Web_Deselected.svg",
           "selected":true
         },
         {
           "id":1,
           "selected_image":"../../../../assets/assessments/selected_mobile.svg",
-          "unselected_image":"../../../../assets/assessments/unselected_mobile.svg",
+          "unselected_image":"../../../../assets/assessments/mobile/Mobile_Deselected.svg",
           "selected":false
         },    
         {
           "id":2,
           "selected_image":"../../../../assets/assessments/selected_vr.svg",
-          "unselected_image":"../../../../assets/assessments/unselected_vr.svg",
+          "unselected_image":"../../../../assets/assessments/headset/Headset_Deselected.svg",
           "selected":false
         }
     ],
