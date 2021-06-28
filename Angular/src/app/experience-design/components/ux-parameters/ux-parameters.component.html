@@ -1,8 +1,17 @@
 <div class="ux-params">
 <div class="ux-params-text">
-<div class="evaluate-text">Evaluate based on  <strong class="ux-params-text">UX parameters</strong></div>
+<div class="evaluate-text">Evaluate based on  <span class="ux-params-text">UX parameters</span></div>
 </div>
-<div class="circle circle1">
+<ng-container *ngFor="let uxParam of uxParametersList; let i=index;">
+  <div class="circle circle{{i+1}}">
+    <span class="circle-text title">{{ uxParam.parameterName }}</span>
+    <div class="circle-bg"></div>
+    <span class="circle-text circle-desc">{{ uxParam.description }}</span>
+  </div>
+</ng-container>
+
+
+<!-- <div class="circle circle1">
     <span class="circle-text title">Perception</span>
     <div class="circle-bg"></div>
     <span class="circle-text circle-desc">Perception allows users of all abilities to understand, use and enjoy the web</span>
@@ -31,7 +40,7 @@
     <span class="circle-text title">Social Shareability</span>
     <div class="circle-bg"></div>
     <span class="circle-text circle-desc">Social Shareability allows users of all abilities to understand, use and enjoy the web</span>
-</div>
+</div> -->
 </div>
 
 
@@ -49,4 +58,11 @@
     </div>
 </div>
 </div>
+</div> -->
+
+
+<!-- <h3>Balloon Effect</h3>
+<div (click)="changeState()"
+  style="width:100px;height:100px; border-radius: 100%; margin: 3rem; background-color: green"
+  [@balloonEffect]=currentState>
 </div> -->

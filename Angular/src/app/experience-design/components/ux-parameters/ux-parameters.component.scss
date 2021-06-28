@@ -2,7 +2,7 @@
     top: 972px;
     left: -6.73828125px;
     width: 1349px;
-    height: 888px;
+    height: 658px;
     transform: matrix(1, 0, 0, 1, 0, 0);
     background: url('../../../../assets/experience_design/Group 116847.svg') 0% 0% no-repeat padding-box;
     // opacity: 0.7;
@@ -56,7 +56,8 @@ color: #2A2E7D;
 }
 
 .circle1:hover {
-background: url('../../../../assets/experience_design/pexels-karolina-grabowska-4491460.jpg') no-repeat;
+background: url('../../../../assets/experience_design/perception.jpg') no-repeat;
+// background: url('../../../../assets/experience_design/pexels-karolina-grabowska-4491460.jpg') no-repeat;
 border-radius: 50%;
 background-size: 170px 170px;
     height: 170px;
@@ -64,7 +65,8 @@ background-size: 170px 170px;
 }
 
 .circle2:hover {
-background: url('../../../../assets/experience_design/smiley-woman-with-tablet.jpg') no-repeat;
+// background: url('../../../../assets/experience_design/smiley-woman-with-tablet.jpg') no-repeat;
+background: url('../../../../assets/experience_design/accessibility.jpg') no-repeat;
 border-radius: 50%;
 background-size: 170px 170px;
     height: 170px;
@@ -72,7 +74,8 @@ background-size: 170px 170px;
 }
 
 .circle3:hover {
-background: url('../../../../assets/experience_design/pexels-christina-morillo-1181449.jpg') no-repeat;
+// background: url('../../../../assets/experience_design/pexels-christina-morillo-1181449.jpg') no-repeat;
+background: url('../../../../assets/experience_design/discoverability.jpg') no-repeat;
 border-radius: 50%;
 background-size: 170px 170px;
     height: 170px;
@@ -80,7 +83,8 @@ background-size: 170px 170px;
 }
 
 .circle4:hover {
-background: url('../../../../assets/experience_design/pexels-karolina-grabowska-4491460.jpg') no-repeat;
+// background: url('../../../../assets/experience_design/pexels-karolina-grabowska-4491460.jpg') no-repeat;
+background: url('../../../../assets/experience_design/omni-channel.jpg') no-repeat;
 border-radius: 50%;
 background-size: 170px 170px;
     height: 170px;
@@ -88,7 +92,8 @@ background-size: 170px 170px;
 }
 
 .circle5:hover {
-background: url('../../../../assets/experience_design/pexels-karolina-grabowska-4491460.jpg') no-repeat;
+// background: url('../../../../assets/experience_design/pexels-karolina-grabowska-4491460.jpg') no-repeat;
+background: url('../../../../assets/experience_design/performance.jpg') no-repeat;
 border-radius: 50%;
 background-size: 170px 170px;
     height: 170px;
@@ -96,7 +101,8 @@ background-size: 170px 170px;
 }
 
 .circle6:hover {
-background: url('../../../../assets/experience_design/pexels-karolina-grabowska-4491460.jpg') no-repeat;
+// background: url('../../../../assets/experience_design/pexels-karolina-grabowska-4491460.jpg') no-repeat;
+background: url('../../../../assets/experience_design/social shareability.jpg') no-repeat;
 border-radius: 50%;
 background-size: 170px 170px;
     height: 170px;
@@ -106,39 +112,39 @@ background-size: 170px 170px;
 .circle1 {
     position: absolute;
     left: 7%;
-    top: 20%;
+    top: 30%;
 }
 
 .circle2 {
     position: fixed;
     left: 20%;
-    top: 34%;
+    top: 48%;
     background: #2A2E7D 0% 0% no-repeat padding-box;
 }
 
 .circle3 {
     position: fixed;
     left: 34%;
-    bottom: 67%;
+    bottom: 58%;
 }
 
 .circle4 {
     position: fixed;
     left: 53%;
-    bottom: 50%;
+    bottom: 31%;
     background: #2A2E7D 0% 0% no-repeat padding-box;
 }
 
 .circle5 {
    position: fixed;
     left: 66%;
-    bottom: 66%;
+    bottom: 56%;
 }
 
 .circle6 {
     position: fixed;
     left: 83%;
-    bottom: 51%;
+    bottom: 33%;
     background: #2A2E7D 0% 0% no-repeat padding-box;
 }
 
@@ -331,3 +337,5 @@ background-size: 170px 170px;
 //     transform: rotateY(-180deg);
 //   }
 // }
+
+

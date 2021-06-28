@@ -1,0 +1,134 @@
+.hiw-section {
+  background: transparent linear-gradient(239deg, #0670BA 0%, #2A2E7D 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 400px;
+}
+
+.hiw-title {
+  text-align: center;
+  font: normal normal 300 20px/43px Bw Modelica LTI;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+.hiw-title-bold {
+  font: normal normal bold 20px/43px Bw Modelica LTI;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.flex-container > div {
+  width: 195px;
+  height: 215px;
+  margin: 50px;
+  text-align: center;
+  // background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 20px #00000029;
+  opacity: 1;
+  position: relative;;
+}
+
+.numb-text {
+  text-align: left;
+    font: normal normal bold 32px/36px Bw Modelica LTI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding: 15px;
+}
+
+.card-heading {
+  width: 229px;
+    height: 31px;
+    text-align: left;
+    font: normal normal bold 13px/2px Bw Modelica;
+    letter-spacing: 0px;
+    color: #575757;
+    text-transform: capitalize;
+    opacity: 1;
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+p.card-desc {
+  text-align: left;
+  font: normal normal normal 11px/15px Bw Modelica;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.card-link {
+  text-align: left;
+  font: normal normal normal 10px/4px Bw Modelica;
+  letter-spacing: 0px;
+  color: #2A2E7D;
+  opacity: 1;
+  padding: 15px;
+}
+
+.arrow {
+  background: url('../../../../assets/experience_design/noun_Arrow_63516.svg');
+}
+
+.card-img {
+  height: 210px;
+  width: 340px;
+  background-size: 340px 210px !important;
+  margin: 80px 0px 0px 10px;
+}
+
+.link-text::after {
+  content: '>';
+  // background: url('../../../../assets/experience_design/noun_Arrow_63516') no-repeat;
+}
+.c1 {
+  background: url('../../../../assets/experience_design/Group 117148.svg') no-repeat;
+}
+
+.c2 {
+  background: url('../../../../assets/experience_design/Group 116911.svg') no-repeat;
+  margin: 64px 0px 0px 10px;
+}
+
+.c3 {
+  background: url('../../../../assets/experience_design/Group 116876.svg') no-repeat;
+  margin: 100px 0px 0px -3px;
+}
+
+.card-box {
+  height: 214px;
+    width: 194px;
+    background-color: white;
+    position: absolute;
+    top: 0%;
+}
+
+
+
+// #div1 {
+//   position: relative;
+//   height: 180px;
+//   width: 1000px;
+//   margin-left: 365px;
+//   border: 0px solid blue;
+//   perspective: 100px;
+//   margin-top: 53px;
+// }
+
+// #div2{
+// padding: 88px;
+//   position: absolute;
+//   border: 0px solid black;
+//   background-color: red;
+// background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+//   transform-style: preserve-3d;
+//   transform: rotateY(18deg);
+// }
