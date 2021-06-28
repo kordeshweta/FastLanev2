@@ -115,9 +115,10 @@
                 margin-top:.5rem;
                 font-weight: 800;
                 position: relative;
+                cursor:pointer;
                 div{
                     position: absolute;
-                    top:10%;
+                    top:-20%;
                     display: inline;
                 }
             }
