@@ -1,4 +1,4 @@
-<section class="banner">
+<!-- <section class="banner">
     <owl-carousel-o [options]="customOptions">
         <ng-template carouselSlide>
             <img src="../../../../assets/images/About Assessment/Img1.png" />
@@ -14,4 +14,66 @@
     </owl-carousel-o>
   
 </section>
+ -->
 
+<section class="banner">
+    <owl-carousel-o [options]="customOptions">
+        <ng-container *ngFor="let item of imageObject ">
+            <ng-template carouselSlide [id]="item.id">
+                <div class="container-main" style="background-image: url({{item.image}});">
+                    <div class="heading-section">
+                        <ul class="breadcrumb">
+                            <li><a href="#">Home</a></li>
+                            <li class="exp">About Assessments</li>
+                        </ul>
+                        <h2 class="heading">About Assessments</h2>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-content">
+
+                            <p *ngIf="item.id !='2'" class="intro-desktop resp-text-1">
+                                {{item.desktop}}
+
+                            </p>
+                            <p *ngIf="item.id != '2'" class="intro-desktop-text-span ">
+                                <strong> {{item.desktop_span}}</strong>
+                            </p>
+
+                            <div *ngIf="item.id==='2'" class="Slide2">
+
+                                <p class="intro-desktop resp-text-1">
+                                    {{item.desktop}}
+
+                                    <span class="intro-desktop-text-span-2">
+                                        <strong> {{item.desktop_span}}</strong>
+                                    </span>
+
+                                </p>
+
+
+
+                            </div>
+
+
+
+
+                            <p class=" intro-mobile">
+                                {{item.mobile}}
+
+                            </p>
+                            <!-- <p class="intro-desktop-text-span">
+                                {{item.mobile_span}}
+                                </p> -->
+                            <button class="assess-now">
+                                Get Started
+                            </button>
+                            <!-- <button class="know-more">
+                                Know More
+                            </button> -->
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+        </ng-container>
+    </owl-carousel-o>
+</section>

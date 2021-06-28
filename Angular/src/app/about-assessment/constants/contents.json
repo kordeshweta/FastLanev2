@@ -5,6 +5,7 @@
           "selected_image":"../../../../assets/assessments/web/Web_Selected.svg",
           "unselected_image":"../../../../assets/assessments/web/Web_Deselected.svg",
           "unselected_image_dark":"",
+          "name":"Website",
           "selected":true
         },
         {
@@ -12,12 +13,14 @@
           "selected_image":"../../../../assets/assessments/mobile/Mobile_Selected.svg",
           "unselected_image":"../../../../assets/assessments/mobile/Mobile_Deselected.svg",
           "unselected_image_dark":"",
+          "name":"Mobile",
           "selected":false
         },    
         {
           "id":2,
           "selected_image":"../../../../assets/assessments/headset/Headset_Selected.svg",
           "unselected_image":"../../../../assets/assessments/headset/Headset_Deselected.svg",
+          "name":"Experience Design",
           "selected":false
         }
     ],
