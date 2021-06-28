@@ -20,6 +20,7 @@ import { ClientFeedbackComponent } from './client-feedback/client-feedback.compo
 import { MostPopularPipe } from './pipes/most-popular.pipe';
 import { FilterArtifactPipe } from './filter-artifact.pipe';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { ParallaxDesignComponent } from './parallax-design/parallax-design.component';
 
 
 
@@ -37,7 +38,8 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     DragDropDirective,
     SelectAllCheckBoxComponent,
     SlantSectionComponent,
-    ClientFeedbackComponent
+    ClientFeedbackComponent,
+    ParallaxDesignComponent
   ],
   imports: [
     CommonModule,
@@ -47,7 +49,7 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     FormsModule,
     ReactiveFormsModule
   ],
-  exports: [SearchComponentComponent,TileComponent,SelectCheckAllComponent,MostPopularPipe,FilterArtifactPipe,SelectAllCheckBoxComponent,SlantSectionComponent,ClientFeedbackComponent],
+  exports: [SearchComponentComponent,TileComponent,SelectCheckAllComponent,MostPopularPipe,FilterArtifactPipe,SelectAllCheckBoxComponent,SlantSectionComponent,ClientFeedbackComponent, ParallaxDesignComponent],
 
 })
 export class SharedModule { }
