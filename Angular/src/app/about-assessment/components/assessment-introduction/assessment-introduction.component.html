@@ -36,7 +36,7 @@
 
                             </p>
                             <p *ngIf="item.id != '2'" class="intro-desktop-text-span ">
-                                {{item.desktop_span}}
+                                <strong> {{item.desktop_span}}</strong>
                             </p>
 
                             <div *ngIf="item.id==='2'" class="Slide2">
@@ -45,8 +45,9 @@
                                     {{item.desktop}}
 
                                     <span class="intro-desktop-text-span-2">
-                                        {{item.desktop_span}}
+                                        <strong> {{item.desktop_span}}</strong>
                                     </span>
+
                                 </p>
 
 
