@@ -1,4 +1,52 @@
-<div class="container-main" *ngFor="let cl_item of contentList">
+<div class="container-main" id="container-main" fxLayout="row">
+    <div class="container-1">
+        <div class="info-container">
+            <span>{{data.light_heading}}</span>
+            <span>{{data.bold_heading}}</span>
+            <article>
+                {{data.content}}
+            </article>
+            <section>
+                Get Started &nbsp;
+                <div *ngIf="data.id==2">
+                    <img src="../../../../assets/assessments/get_started.svg" alt="" height="15px">
+                </div>
+                <div *ngIf="data.id!=2">
+                    <img src="../../../../assets/assessments/get_started_white.svg" alt="" height="15px">
+                </div>
+            </section>
+            <div class="buttons-container" fxLayout="row">
+
+                <div *ngFor="let btn of buttonList" 
+                    class="button" 
+                    [ngClass]="btn.selected?white_bg:data.id!=2?transparent_white_bg:grey_bg" 
+                    (click)="categorySelected(btn)">
+
+                    <div *ngIf="btn.selected" class="selected">
+                        <img src="{{btn.selected_image}}" alt="btn-img">
+                    </div>
+                    <section *ngIf="btn.selected" class="label" [ngClass]="btn.id==2?translate:''">
+                        <div>{{btn.name}}</div>
+                    </section>
+                    <div *ngIf="!btn.selected" class="unselected">
+                        <img src="{{btn.unselected_image}}" alt="ubtn-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-2">
+        <div class="image-container" id="image-container">
+            <img src="{{data.image}}" alt="main-img">
+        </div>
+    </div>
+    <div class="bg-img" *ngIf="data.id!==2">
+        <img src="../../../../assets/assessments/LTI_bg_transparent_right.svg" alt="bg-img">
+    </div> 
+</div>
+
+
+<!-- <div class="container-main" *ngFor="let cl_item of contentList">
     <div class="container-loop" fxLayout="row" *ngIf="cl_item.visible">   
         <div class="container-1"  fxLayoutAlign="flex-end center">
             <div class="info-container">
@@ -28,4 +76,4 @@
             <img src="../../../../assets/assessments/LTI_bg_transparent_right.svg" alt="bg-img">
         </div> 
     </div>
-</div>
+</div> -->
