@@ -3,13 +3,14 @@
 <ng-container *ngFor="let item of imageObject">
 <ng-template carouselSlide [id]="item.id">
 <div class="container-main" style="background-image: url({{item.image}});">
-    <div class="heading-section">
+    <!-- <div class="heading-section">
         <ul class="breadcrumb">
             <li><a href="#">Home</a></li>
             <li class="exp">Experience Design</li>
         </ul>
         <h2 class="heading">Experience Design</h2>
-    </div>
+    </div> -->
+    <app-breadcrumb [page_name]="'Experience Design'" [title]="'Experience Design'"></app-breadcrumb>
     <div class="slide" >
         <div class="slide-content">   
             

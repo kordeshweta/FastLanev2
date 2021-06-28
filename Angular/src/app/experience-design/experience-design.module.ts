@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { FormsModule } from '@angular/forms';
 
 import { MaterialModule } from '../material.module';
 import { ExperienceDesignComponent } from './experience-design.component';
@@ -38,6 +39,7 @@ const routes: Routes = [
     SharedModule,
     FlexLayoutModule,
     CarouselModule,
+    FormsModule,
     RouterModule.forChild(routes)
   ],
   exports: [ExperienceDesignComponent,RouterModule],

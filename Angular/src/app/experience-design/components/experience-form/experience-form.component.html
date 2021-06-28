@@ -3,34 +3,37 @@
         <div class="first-heading">Let’s transform your</div> <div class="second-heading">Product Experience</div>
         <p class="description">Submit your request for an Experience Design Assessment and our agents will get in touch with you shortly</p>
       </div>
+      <form #loginForm="ngForm">
          <div class="form-group" [ngClass.gt-xs]="'desktop'" [ngClass.xs]="'mobile'">
              <div class="nested" >
-                <label class="fname">Full Name</label>
-                <input type="text">
+                <label class="fname" for="full-name">Full Name</label>
+                <input type="text" name="full-name" [(ngModel)]="fullName">
              </div>
              <div class="nested">
-                <label class="oname">Organisation Name</label>
-                <input type="text">
+                <label class="oname" for="org-name">Organisation Name</label>
+                <input type="text" name="org-name" [(ngModel)]="orgName">
              </div>
              <div class="nested">
-                <label class="omail">Organisation Email ID</label>
-                <input type="text">
+                <label class="omail" for="org-email">Organisation Email ID</label>
+                <input type="text" name="org-email" [(ngModel)]="orgEmail">
              </div>
              <div class="nested">
-                <label class="oname">Contact Number</label>
-                <input type="text">
+                <label class="oname" for="contact">Contact Number</label>
+                <input type="text" name="contact" [(ngModel)]="oContact">
              </div>
              <div class="nested">
-                <label class="omail">Country</label>
-                <input type="text">
+                <label class="omail" for="country">Country</label>
+                <input type="text" name="country" [(ngModel)]="oCountry">
              </div>
              <div class="check"> 
-             <input type="checkbox" class="large">
+             <input type="checkbox" class="large" name="check">
              <label class="check-label">I agree to receive communication from LTI. Refer to the LTI Privacy Policy to know more about how we <br> </label>
              <label class="check-label-2">maintain privacy of your data.</label>   
              </div>
             
         </div>
-        <button class="submit">Submit Request</button>  
+        <button class="submit">Submit Request</button>
+        <!-- <p>Form value: {{ loginForm.value | json }}</p>   -->
+      </form>
 
 </div>
